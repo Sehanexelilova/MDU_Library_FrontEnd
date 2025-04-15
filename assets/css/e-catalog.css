@@ -1,0 +1,63 @@
+@import "./e-books-container.css";
+@import "./book-card.css";
+@import "./pagination.css";
+
+.e-catalog__container{
+  margin-bottom: 150px;
+}
+.e-catalog__filter-block {
+  margin: 100px 0;
+}
+
+.e-catalog__filter-form > label {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.e-catalog__filter-item {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.e-catalog__filter-btn {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.e-catalog__books-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.e-catalog__books-btn {
+  width: 150px;
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 992px) {
+  .e-catalog__filter-item{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .e-catalog__filter-form > label{
+    gap: 20px;
+  }
+  .e-catalog__filter-item{
+    width: 100%;
+  }
+}
+

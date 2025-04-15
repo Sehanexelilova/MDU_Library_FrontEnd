@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MDU Library</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/img/mdu-footer-logo3.png"
+    />
+    <link rel="stylesheet" href="./assets/css/collaborator.css" />
+    <link rel="stylesheet" href="./assets/css/full-text-database.css">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/font/icon/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+
+  <body>
+    <!-- ? Loading-window -->
+
+    <section id="loading" class="loading-spinner">
+      <div class="spinner-container">
+        <div class="spinner"></div>
+        <p>Zəhmət olmasa, Gözləyin</p>
+      </div>
+    </section>
+
+    <!-- ? Top-bar -->
+    <section class="page-top__bar">
+      <div class="page-top__bar-container container">
+        <div class="page-top__left-bar">
+          <a class="page-top__left-item" href="#">
+            <i class="icon-location"></i>
+            <h1 class="page-top__left-text">Mingəçevir Dövlət Üniversiteti</h1>
+          </a>
+          <a class="page-top__left-item" href="#">
+            <i class="icon-phone"></i>
+            <span class="page-top__left-text">(+99424) 275-32-72</span>
+          </a>
+          <a class="page-top__left-item" href="#">
+            <i class="icon-email-open-solid"></i>
+            <span class="page-top__left-text">kitabxana@mdu.edu.az</span>
+          </a>
+
+          <div
+            id="button-3"
+            class="page-top__left-item page-top__lang-conatiner"
+          >
+            <div class="page-top__lang-show">
+              <i class="icon-globe"></i>
+              <span>Az</span>
+              <i class="icon-menu-caret-up"></i>
+            </div>
+            <ul id="dropdown-3" class="page-top__lang-list">
+              <li class="page-top__lang-item">Ru</li>
+              <li class="page-top__lang-item">En</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="page-top__right-bar page__social-media">
+          <a href="https://www.facebook.com/mdueduaz" class="icon-facebook"></a>
+          <a
+            href="https://www.instagram.com/mdueduaz/"
+            class="icon-instagram-solid"
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/mdueduaz/"
+            class="icon-linkedin-solid"
+          ></a>
+          <a href="https://x.com/mdueduaz" class="icon-twitter"></a>
+          <a
+            href="https://www.youtube.com/channel/UCE4bBWIj3PyHvXRwDuGFJvQ"
+            class="icon-youtube-solid"
+          ></a>
+          <a
+            href="https://www.tiktok.com/@mdueduaz?"
+            class="icon-tiktok-solid"
+          ></a>
+          <a href="https://t.me/MDUeduaz" class="icon-telegram-solid"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ? Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <a href="./index.html" class="navbar__left-side">
+          <img src="./assets/img/mdu-logo-3.png" alt="" />
+        </a>
+
+        <div class="navbar__right-side">
+          <i class="navbar__close-icon icon-cross"></i>
+
+          <ul class="navbar__right-list">
+            <li class="navbar-item">
+              <a href="./index.html" class="navbar-link">Ana Səhifə</a>
+            </li>
+            <li class="navbar-item" id="button-1">
+              <a href="#" class="navbar-link active">
+                Kitabxana <i class="icon-menu-caret-up"></i>
+              </a>
+
+              <!--? Dropdown List 1 -->
+
+              <ul id="dropdown-1" class="navbar-item__list">
+                <li class="navbar-item__list-item">
+                  <a href="./libraryAbout.html" class="navbar-item__link"
+                    >Kitabxana haqqında</a
+                  >
+                </li>
+                <li class="navbar-item__list-item">
+                  <a href="./collaborator.html" class="navbar-item__link"
+                    >Əməkdaşlar haqqında</a
+                  >
+                </li>
+                <li class="navbar-item__list-item">
+                  <a href="./news.html" class="navbar-item__link"
+                    >Keçirilən tədbirlər</a
+                  >
+                </li>
+                <li class="navbar-item__list-item">
+                  <a href="./libraryRules.html" class="navbar-item__link"
+                    >İstifadə qaydaları</a
+                  >
+                </li>
+                <li class="navbar-item__list-item">
+                  <a href="./services.html" class="navbar-item__link"
+                    >Xidmətlər</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-item">
+              <a href="./e-catalog.html" class="navbar-link"
+                >Elektron kataloq</a
+              >
+            </li>
+
+            <li class="navbar-item" id="button-1">
+              <a href="#" class="navbar-link">
+                Elektron Resurs <i class="icon-menu-caret-up"></i>
+              </a>
+
+              <!--? Dropdown List 1 -->
+
+              <ul id="dropdown-1" class="navbar-item__list">
+                <li class="navbar-item__list-item">
+                  <a href="full-text-database.html"
+                    class="navbar-item__link">Tam mətnli məlumat bazaları</a>
+                </li>
+                <li class="navbar-item__list-item">
+                  <a
+                    href="electronic-database.html"
+                    class="navbar-item__link"
+                    >Açıq e-kitabxanalar</a
+                  >
+                  <li class="navbar-item__list-item">
+                    <a href="new-publications.html"
+                      class="navbar-item__link">Yeni daxil olan nəşrlər</a>
+                  </li>
+              </ul>
+            </li>
+
+            <li id="button-2" class="navbar-item">
+              <a href="#" class="navbar-link">
+                Media <i class="icon-menu-caret-up"></i>
+              </a>
+
+              <!--? Dropdown List 2-->
+
+              <ul id="dropdown-2" class="navbar-item__list">
+                <li class="navbar-item__list-item">
+                  <a href="./audio.html" class="navbar-item__link"
+                    >Audio faylları</a
+                  >
+                </li>
+                <li class="navbar-item__list-item">
+                  <a href="./video.html" class="navbar-item__link">Videolar</a>
+                </li>
+                <li class="navbar-item__list-item">
+                  <a href="./gallery.html" class="navbar-item__link"
+                    >Şəkil qalereyası</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-item">
+              <a href="./contact.html" class="navbar-link">Bizimlə əlaqə</a>
+            </li>
+          </ul>
+          <a href="./login.html" class="btn btn-primary navbar__btn"
+            >İstifadəçi girişi</a
+          >
+        </div>
+        <a href="./login.html" class="icon-user navbar__user-icon"></a>
+        <i class="icon-burger-menu navbar__burger-icon"></i>
+      </div>
+    </nav>
+
+    <!-- ? Header -->
+    <header class="header">
+      <div class="header__background-img">
+        <img src="./assets/img/background.jpg" alt="" />
+      </div>
+      <div class="header-content">
+        <h1 class="header-content__title mdu-library__title">
+          Açar – doğru mənbədədir.
+        </h1>
+        <!-- <div class="header-content__links">
+          <a href="./index.html">Kitabxana</a>
+          <i class="icon-arrow-right"></i>
+          <a href="./full-text-database.html">Tam mətnli məlumat bazaları</a>
+        </div> -->
+      </div>
+    </header>
+
+    <!--  ?Main  -->
+    
+    <section id="events" class="events light_blue tsl">
+      <div class="title dark ">
+        <h2>Məlumat bazaları, online kitablar və jurnallar </h2>
+      </div>
+      <div class="slider block_prog_div flex for_desktop">
+        <div class="block_prog_div">
+         <a class="programmes_block " href="https://opendissertations.org/" aria-label="studies">
+            <img src="/assets/e-resource/ebsco.jpg" alt="data base banners"
+              title="EBSCO Open Dissertations tam-mətnli tezis və dissertasiyalar portalıdır.">
+            <div class="titlebase"></div>
+          </a>
+          <a class="programmes_block "
+            href="https://www.webofscience.com/wos/woscc/basic-search"
+            aria-label="studies">
+            <img src="..\assets\e-resource\WEB of S.jpg" alt="data base banners"
+              title="Web of Science. ">
+            <div class="titlebase"></div>
+          </a>
+          <a class="programmes_block " href="https://www.scopus.com/home.uri" aria-label="studies">
+            <img src="assets\e-resource\SCOPUS.jpg" alt="data base banners"
+              title="SCOPUS bibliometrik bazasından istifadə etmək üçün @wcu.edu.az korporativ e-mail vasitəsilə qeydiyyatdan keçmək lazımdır.">
+            <div class="titlebase"></div>
+          </a>
+          <!-- <a class="programmes_block " href="https://core.ac.uk/" aria-label="studies">
+            <img src="assets\e-resource\core 1.jpg" alt="data base banners"
+              title="CORE - açıq, tam-mətnli tədqiqat materiallarını toplayan ən böyük məlumat bazasıdır.">
+            <div class="titlebase"></div>
+          </a> -->
+          <a class="programmes_block " href="https://www.doabooks.org/" aria-label="studies">
+            <img src="assets\e-resource\doab2.jpg" alt="data base banners"
+              title="DOAB elmi, resenziyalı kitablara açıq giriş imkanı təmin edən və tədqiqatçılara etibarlı kitab nəşriyyatlarını tapmağa kömək edən məlumat bazasıdır.">
+            <div class="titlebase"></div>
+          </a>
+          <a class="programmes_block " href="https://doaj.org/" aria-label="studies">
+            <img src="assets\e-resource\doaj2.jpg" alt="data base banners"
+              title="DOAJ - resenziyalı, tam-mətnli, açıq elmi jurnal və məqalə bazasıdır.">
+            <div class="titlebase"></div>
+          </a>
+      
+          <!-- <a class="programmes_block " href="https://www.fmreview.org/#latest-issue" aria-label="studies">
+            <img src="assets\e-resource\forced.jpg" alt="data base banners"
+              title="Forced Migration Review (FMR) dərgi formatında qısa və açıq məqalələr təqdim edir. Hər buraxılışın öz mövzusu var, lakin hər buraxılışda məcburi miqrasiya ilə bağlı bir sıra ümumi məqalələr mövcuddur. FMR ingilis, fransız, ispan və ərəb dillərində nəşr olunur.">
+            <div class="titlebase"></div>
+          </a> -->
+          <a class="programmes_block " href="https://www.wipo.int/wipo_magazine/en/list.jsp" aria-label="studies">
+            <img src="assets\e-resource\wipo.jpg" alt="data base banners"
+              title="WIPO dərgisi Ümumdünya Əqli Mülkiyyət Təşkilatının əqli mülkiyyət xidmətləri, siyasəti, informasiya və əməkdaşlıq üçün qlobal forum tərəfindən nəşr edilir.">
+            <div class="titlebase"></div>
+          </a>
+          <a class="programmes_block " href="https://paperity.org/" aria-label="studies">
+            <img src="assets\e-resource\paperity.jpg" alt="data base banners"
+              title="Paperity - multidisiplinar, tam-mətnli jurnal və məqalələr bazasıdır. O, tədqiqatçılara vahid nöqtədən yüzlərlə elm sahəsi üzrə minlərlə jurnala asan və məhdudiyyətsiz giriş imkanı verir.">
+            <div class="titlebase"></div>
+          </a>          
+        </div>
+      </div>
+    </section>
+
+    <!--? footer -->
+
+    <footer>
+      <div class="footer-container container">
+        <div class="footer-main">
+          <div class="footer-logo">
+            <div class="footer-logo__img">
+              <img src="./assets/img/mdu-footer-logo3.png" alt="" />
+            </div>
+            <p class="footer-logo__title">MİNGƏÇEVİR DÖVLƏT UNİVERSİTETİ</p>
+          </div>
+          <div class="footer-main__container">
+            <div class="footer-main__block">
+              <h3 class="footer-main__block-title mdu-library__title">
+                BİZİMLƏ ƏLAQƏ
+              </h3>
+              <div class="footer-main__block-list">
+                <p class="footer-main__block-item">
+                  <i class="icon-location"></i> D.Əliyeva küçəsi, 21 Mingəçevir
+                  AZ4500 Azərbaycan
+                </p>
+                <p class="footer-main__block-item">
+                  <i class="icon-email-personal-info"></i> kitabxana@mdu.edu.az
+                </p>
+                <p class="footer-main__block-item">
+                  <i class="icon-phone"></i> (+99424) 275-32-72
+                </p>
+              </div>
+            </div>
+            <div class="footer-main__block">
+              <h3 class="footer-main__block-title mdu-library__title">
+                FAYDALI LİNKLƏR
+              </h3>
+              <div class="footer-main__block-list">
+                <a
+                  href="https://www.preslib.az/"
+                  class="footer-main__block-link"
+                >
+                  <i class="icon-arrow-right"></i> Prezident Kitabxanası
+                </a>
+                <a
+                  href="https://www.millikitabxana.az/"
+                  class="footer-main__block-link"
+                >
+                  <i class="icon-arrow-right"></i> M.F.Axundov adına Azərbaycan
+                  Milli Kitabxanası
+                </a>
+                <a href="https://mek.az/" class="footer-main__block-link">
+                  <i class="icon-arrow-right"></i> AMEA Mərkəzi Elmi Kitabxanası
+                </a>
+                <a
+                  href="https://www.millikutuphane.gov.tr/"
+                  class="footer-main__block-link"
+                >
+                  <i class="icon-arrow-right"></i> Türkiyə Milli Kitabxanası
+                </a>
+                <a href="https://www.loc.gov/" class="footer-main__block-link">
+                  <i class="icon-arrow-right"></i> ABŞ Konqres Kitabxanası
+                </a>
+                <a href="https://www.rsl.ru/" class="footer-main__block-link">
+                  <i class="icon-arrow-right"></i> Rusiya Dövlət Kitabxanası
+                </a>
+              </div>
+            </div>
+            <div class="footer-main__block">
+              <h3 class="footer-main__block-title mdu-library__title">
+                XİDMƏTLƏR
+              </h3>
+              <div class="footer-main__block-list">
+                <a href="https://mdu.edu.az/" class="footer-main__block-link">
+                  <i class="icon-arrow-right"></i> MDU.EDU.AZ
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom__bar">
+          <div class="footer-bottom__left-side">
+            <a href="./libraryAbout.html">Haqqımızda</a>
+            <a href="./contact.html">Təklifim var</a>
+          </div>
+          <div class="footer-bottom__right-side page__social-media">
+            <a
+              href="https://www.facebook.com/mdueduaz"
+              class="icon-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/mdueduaz/"
+              class="icon-instagram-solid"
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/mdueduaz/"
+              class="icon-linkedin-solid"
+            ></a>
+            <a href="https://x.com/mdueduaz" class="icon-twitter"></a>
+            <a
+              href="https://www.youtube.com/channel/UCE4bBWIj3PyHvXRwDuGFJvQ"
+              class="icon-youtube-solid"
+            ></a>
+            <a
+              href="https://www.tiktok.com/@mdueduaz?"
+              class="icon-tiktok-solid"
+            ></a>
+            <a href="https://t.me/MDUeduaz" class="icon-telegram-solid"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/script/main.js"></script>
+    <script src="./assets/script/slider.js"></script>
+  </body>
+</html>

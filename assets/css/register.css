@@ -1,0 +1,61 @@
+@import "./reset.css";
+@import "./color.css";
+
+.form-control {
+  box-shadow: none;
+  border: 1px solid #dadada;
+  padding: 5px 20px;
+  height: 44px;
+  background: none;
+  color: #959595;
+  font-size: 14px;
+  border-radius: 0;
+  width: 100%;
+  outline: none;
+}
+.form-control:focus {
+  border-color: orange;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.registerForm {
+  margin-top: 50px;
+}
+
+.helptext {
+  font-size: 12px;
+  color: var(--slate-gray);
+}
+
+.form-text {
+  margin-top: 5px;
+  color: var(--slate-gray);
+  list-style: disc;
+}
+
+ul.form-text {
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+.form-text li {
+  margin-bottom: 5px;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  color: black;
+}

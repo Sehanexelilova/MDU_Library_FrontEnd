@@ -1,0 +1,45 @@
+@import "./news-container.css";
+@import "./news-sidebar.css";
+@import "./pagination.css";
+.news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.news-container {
+  width: 65%;
+  font-family: "Nunito", sans-serif;
+}
+
+.news-page__card-width {
+  width: 45%;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.news-title {
+  margin: 20px 0;
+  font-size: 32px;
+  font-family: "Nunito", sans-serif;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+/* Media Queris */
+
+@media screen and (max-width: 992px) {
+  /* news */
+  .news{
+    flex-wrap: wrap;
+  }
+
+  .news-container{
+    width: 100%;
+  }
+  .news-page__card-width {
+    width: 100%;
+  }
+}

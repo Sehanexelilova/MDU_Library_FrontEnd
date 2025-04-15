@@ -1,0 +1,14 @@
+.e-books__container {
+  margin-top: 25px;
+}
+
+.e-books__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+
+
+

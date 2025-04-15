@@ -1,0 +1,35 @@
+.library-rules__container-title {
+  color: var(--deep-blue, #091e3e);
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.library-rules__container-info {
+  color: var(--dark-grey, #6b6a75);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 150px;
+}
+
+.library-rules__unordered-list {
+  color: var(--dark-grey, #6b6a75);
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+
+.library-rules__unordered-list > li {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  /* library-rules */
+  .library-rules__container-info {
+    padding: 20px;
+  }
+}
