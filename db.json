@@ -1784,11 +1784,22 @@
     }
   ],
   "news": [
-     {
+    {
       "id": 1,
+      "img": "assets/mdunews/kitabgunu1.jpg",
+      "title": "MDU-da kitabın insan həyatındakı önəmi mövzusunda maraqlı görüş",
+      "date": "2025-04-23",
+      "content": "23 Aprel – Ümumdünya Kitab və Müəlliflik Hüququ Günü münasibətilə universitetimizin akt zalında tələbələrlə dəyərli bir müzakirə baş tutdu. Kitabxana müdiri ilə keçirilən görüşdə kitabın insan həyatında oynadığı əvəzsiz rol, maarifləndirmə gücü və şəxsi inkişafdakı əhəmiyyəti ön plana çəkildi.Görüş zamanı tələbələr öz fikirlərini bölüşdü, sevdikləri kitablar haqqında danışdı və kitab oxuma vərdişlərinin gündəlik həyatlarına necə təsir etdiyini qeyd etdilər.Bu cür tədbirlər tələbələrin oxu mədəniyyətini formalaşdırmaq və zənginləşdirmək üçün əvəzsiz fürsətdir.",
+     "carouselImages": [
+  "./assets/mdunews/kitabgunu1.jpg",
+  "./assets/mdunews/kitabgunu2.jpg"
+     ]
+    },
+     {
+      "id": 2,
       "img": "assets/mdunews/novruz_1.webp",
       "title": "Mingəçevir Dövlət Universitetində (MDU) Novruz Bayramı münasibətilə “Novruzun sədaları” adlı tədbir keçirilib",
-      "date": "2024-10-24",
+      "date": "2025-10-24",
       "content": "18 mart 2025-ci il tarixində Mingəçevir Dövlət Universitetində (MDU) Novruz bayramı münasibətilə “Novruzun sədaları” adlı tədbir keçirilib. Tədbir MDU-nun həyətində təşkil olunub və burada universitetin şəhid məzunlarının ailə üzvləri, İctimai Nəzarət Şurasının üzvləri, əməkdaşlar, tələbə və magistrantlar iştirak ediblər. Tədbir şəhidlərimizin xatirəsinin 1 dəqiqəlik sükutla yad olunması və Dövlət himninin səsləndirilməsi ilə başlanıb. Tədbirin açılışında MDU-nun rektor vəzifəsini müvəqqəti icra edən Üzeyir Zeynalov İlaxır çərşənbəsi və Novruz bayramı münasibətilə universitetin bütün üzvlərini təbrik edərək, onlara ən xoş arzularını çatdırıb. O, qeyd edib ki, 44 günlük Vətən müharibəsində qazandığımız şanlı Zəfərdən sonra, işğaldan azad edilmiş torpaqlarımızda Novruz tonqallarının alovlanması bizə böyük sevinc və qürur verir. Tədbirdə şəhid məzunlarının ailə üzvlərinə dəvət edərək minnətdarlığını bildirən rektor, onların mübarizələri və şəhidlik zirvəsinə ucalan övladlarının xatirəsinə dərin ehtiramını ifadə edib. MDU-nun Humanitar fənlər kafedrasının əməkdaşı, filologiya üzrə elmlər doktoru, dosent Namaz Manafov isə Novruz bayramının tarixi, adətləri və ənənələri barədə ətraflı məlumat verib. Tədbirdə MDU-nun gənc əməkdaşları və tələbələri tərəfindən Novruz bayramına həsr olunmuş musiqilər, rəqslər və səhnəciklər nümayiş etdirilib. Bu çıxışlar iştirakçılar tərəfindən böyük maraqla qarşılanıb. Tədbirin sonunda xatirə şəkilləri çəkdirilib, beləliklə, bu unudulmaz anlar yaddaşlarda əbədi qaldı.",
      "carouselImages": [
   "./assets/mdunews/novruz_1.webp",
@@ -1797,7 +1808,7 @@
      ]
     },
     {
-      "id": 2,
+      "id": 3,
       "img": "./assets/mdunews/elmgunu_1.jpg",
       "title": "MDU Kitabxanasında Elm Günü Münasibətilə Diskussiya Keçirilib",
       "date": "2025-03-17",
@@ -1809,7 +1820,7 @@
       ]
     },
      {
-      "id": 3,
+      "id": 4,
       "img": "assets/mdunews/8mart1.jpg",
       "title": "MDU Kitabxanasında “Bədii Ədəbiyyatda Qadın Obrazları” Mövzusunda Tədbir Keçirilib",
       "date": "2025-03-07",
@@ -1821,7 +1832,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "img": "assets/mdunews/xocali_1.jpg",
       "title": "MDU Kitabxanasında Xocalı Faciəsinə Həsr Olunmuş Anım Tədbiri Keçirilib",
       "date": "2025-02-24",
@@ -1833,7 +1844,7 @@
       ]
     }, 
     {
-      "id": 5,
+      "id": 6,
       "img": "assets/mdunews/kitabxana_1.jpg",
       "title": "Bakı Dövlət Universitetinin (BDU) Elmi Kitabxanası 14 fevral – Beynəlxalq Kitab Bağışlama Günü münasibətilə Mingəçevir Dövlət Universitetinin (MDU) kitabxanasına kitablar hədiyyə edib",
       "date": "2025-02-14",
@@ -1844,7 +1855,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "img": "./assets/mdunews/qiyabi_1.jpg",
       "title": "MDU-da Qiyabi Tələbələrin Kitabxanaya ilə Tanışlıq Tədbiri Keçirilib",
       "date": "2025-01-22",
@@ -1857,32 +1868,7 @@
       ]
     },
     {
-      "id": 7,
-      "img": "./assets/mdunews/news6.webp",
-      "title": "Mingəçevir Dövlət Universitetində ( MDU) “Gender əsaslı peşə ayrı-seçkiliyinin aradan qaldırılması” mövzusunda tədbir keçirilib",
-      "date": "2024-10-24",
-"content": "Avropa İttifaqı tərəfindən maliyyələşdirilən və Dünya Bankı tərəfindən idarə olunan Azərbaycana Çevik Texniki Yardım Aləti (AZTAF) çərçivəsində keçirilən tədbir “Əməyin mühafizəsi, sağlamlığı və zorakılıq və qısnama: gender perspektivi” mövzularında maarifləndirmə hədəfi daşıyıb. Bu təlimdə işçi hüquqlarının qorunması, iş mühitində təhlükəsizlik və sağlamlıq mövzuları gender aspektində müzakirə edilib. Eyni zamanda, qadınların texniki təhsil və karyera sahələrində üzləşdikləri çətinliklərin necə aradan qaldırıla biləcəyi barədə tələbələr və əməkdaşlar məlumatlandırılıb. Bu maarifləndirici tədbirin əsas məqsədlərindən biri Azərbaycanda texniki təhsil sahəsində gender balansını təşviq etmək və peşəkar karyerada qadınların daha aktiv iştirakını dəstəkləmək olub. Tədbirdə çıxış edən Dünya Bankının Xarici Əlaqələr üzrə Müşaviri Zaur Rzayev tərəfindən müvafiq məruzələr təqdim olunub."
-,
-      "carouselImages": [
-        "./assets/mdunews/news6.webp",
-        "./assets/mdunews/news6-2.webp",
-        "./assets/mdunews/news6-3.webp"
-      ]
-    },
-    {
       "id": 8,
-      "img": "./assets/mdunews/news7.webp",
-      "title": "Mingəçevir Dövlət Universitetində “Məişət zorakılığına qarşı hamılıqla mübarizə aparaq” mövzusunda elmi-praktiki seminar keçirilib",
-      "date": "2024-10-25",
-      "content": "Oktyabrın 24-də Mingəçevir Dövlət Universitetində “Məişət zorakılığına qarşı hamılıqla mübarizə aparaq” mövzusunda elmi-praktiki seminar keçirilib. Bu tədbir, Prezident İlham Əliyevin Sərəncamı ilə təsdiq edilmiş “Azərbaycan Respublikasında məişət zorakılığı ilə mübarizəyə dair 2020-2023-cü illər üçün Milli Fəaliyyət Planı”nın icrası çərçivəsində təşkil olunub. Seminarda Mingəçevir şəhər İcra Hakimiyyətinin ictimai-siyasi və humanitar məsələlər şöbəsi müdirinin müavini Elşən Əliyev, həmin şöbənin baş məsləhətçisi Səbirə Yusifli, MDU-nun Elm və İnnovasiyalar şöbəsinin müdiri, dosent Vüqar Mustafayev, universitetin hüquqşünası Polad Atayev, şəhər Polis şöbəsinin İTB-nin rəisi, polis mayoru Rasim Mahmudov və ruhi-əsəb dispanserinin baş həkimi Şəmsinur Hüseynova iştirak edib.Seminarın əsas məqsədi məişət zorakılığı ilə mübarizə yollarını müzakirə etmək, xüsusilə yeniyetmə və gənclərin zorakılığa məruz qalmaması üçün cəmiyyətin birgə səylərini artırmaq və bu istiqamətdə təbliğat işlərini gücləndirmək olub. İştirakçılar yeniyetmə və gənclərin zorakılıqdan qorunması, pis vərdişlərdən uzaq tutulması və onların əxlaqi dəyərlər əsasında tərbiyə olunması ilə bağlı görülən işlər haqqında geniş məlumat veriblər. Onlar eyni zamanda, maarifləndirici tədbirlərin və görüşlərin mütəmadi olaraq keçirilməsinin əhəmiyyətini vurğulayıblar. Şəhərin ümumtəhsil məktəblərində, ali və orta ixtisas məktəblərində bu mövzuda maarifləndirici tədbirlərin keçirilməsi gənclərin və uşaqların məişət zorakılığı ilə üzləşməməsi üçün vacib hesab olunub.Seminarda diqqət mərkəzində olan məsələlərdən biri də, valideyn və müəllimlər arasında məişət zorakılığının qarşısının alınması barədə geniş məlumatlandırma aparılması olub. İştirakçılar məişət zorakılığının təkcə fərdi deyil, ailə və cəmiyyət üçün böyük bir təhlükə olduğunu və bu məsələnin həllində valideynlərin, təhsil müəssisələrinin və digər dövlət qurumlarının birgə işinin önəmli olduğunu bildiriblər. Bu kimi görüşlərin məqsədi yalnız gəncləri və uşaqları zorakılıqdan qorumaq deyil, həm də onların təhsil və fiziki sağlamlığını təmin etmək, gələcəkdə ləyaqətli, vətənpərvər və əxlaqlı bir cəmiyyətin formalaşdırılmasına töhfə vermək olub.Tədbir diskussiya formatında davam etdi və iştirakçılar qarşıda duran vəzifələr və görüləcək işlər barədə fikir mübadiləsi aparıblar. Yeniyetmə oğlan və qızlarla davamlı görüşlərin təşkil olunmasının onların düzgün tərbiyə və inkişafına müsbət təsir göstərəcəyi, onların gələcək həyatında uğur qazanmaları üçün vacib olduğu vurğulanıb. Tədbir zamanı gənclərlə aparılan dialoqlar onların məişət zorakılığına qarşı mübarizə tədbirlərinə münasibətini öyrənmək və bu sahədə gələcək fəaliyyətləri planlaşdırmaq üçün əhəmiyyətli bir addım kimi dəyərləndirilib.Tədbirin sonunda Mingəçevir Dövlət Universitetinin tələbələri tərəfindən hazırlanmış, məişət zorakılığına qarşı mübarizənin vacibliyini əks etdirən videoçarx nümayiş olunub. Bu videoçarx vasitəsilə tələbələr, cəmiyyətdə məişət zorakılığının fəsadlarını və qarşısının alınması üçün nələrin vacib olduğunu ifadə edərək mövzuya dair öz töhfələrini veriblər.",
-      "carouselImages": [
-        "./assets/mdunews/news7.webp",
-        "./assets/mdunews/news7-2.webp",
-        "./assets/mdunews/news7-3.webp"
-      ]
-    },
-    {
-      "id": 9,
       "img": "./assets/mdunews/news8.webp",
       "title": "Mingəçevir Dövlət Universitetində (MDU) “Yaşıl dünya naminə həmrəylik ili” və “COP29” çərçivəsində ağacəkmə aksiyası uğurla davam edir",
       "date": "2024-10-25",
@@ -1891,54 +1877,6 @@
         "./assets/mdunews/news8.webp",
         "./assets/mdunews/news8-2.jpg",
         "./assets/mdunews/news8-3.jpeg"
-      ]
-    },
-    {
-      "id": 10,
-      "img": "./assets/mdunews/news9.webp",
-      "title": "Mingəçevir Dövlət Universitetində (MDU) “Yaşıl dünya naminə həmrəylik ili” çərçivəsində “İqlim dəyişmələrinin Azərbaycan iqtisadiyyatına təsiri” mövzusunda seminar keçirilib",
-      "date": "2024-10-25",
-      "content": "25 oktyabr 2024-cü il tarixində baş tutan seminara universitetin İqtisadiyyat və idarəetmə fakültəsinin dekan əvəzi, dosent Nüşabə Qədimli çıxışında Azərbaycanda iqlim dəyişmələrinin iqtisadiyyata təsirindən bəhs edərək bildirdi ki, bu dəyişikliklər kənd təsərrüfatı, su ehtiyatları və enerji sektorunda ciddi təsirlərə səbəb olur. Həmçinin, iqlim dəyişmələri nəticəsində su çatışmazlığı, məhsuldarlığın azalması və təbii fəlakətlərin artması kimi problemlər iqtisadiyyatın inkişafına mane ola bilər deyə vurğulayan N. Qədimli buna görə də, yaşıl iqtisadiyyatın inkişafı və iqlim dəyişmələrinə uyğunlaşma tədbirlərinin görülməsinin vacibliyini vurğulayıb. Nüşabə Qədimli daha sonra məruzələrin dinlənilməsi üçün çıxışçılara söz verib.Seminarda MDU-nun Sənayenin təşkili və idarəetmə kafedrasının müəllimi Saqib Məmmədov “COP29-a gedən yol: Yaşıl dünya naminə həmrəylik təntənəsi”, 8 saylı Regional Ekologiya və Təbii Sərvətlər İdarəsinin aparıcı məsləhətçisi Fərid Məlikov “Yaşıllıqların statistik məlumatlarına dair maarifləndirmə”, MDU-nun İqtisadiyyat kafedrasının baş müəllimi, i.f.d. Məlahət Rəhimova “Yaşıl iqtisadiyyat: mövcud reallıqlar və perspektivlər” MDU-nun Sənayenin təşkili və idarəetmə kafedrasının baş  müəllimi Təranə Səfərova “Azərbaycanda iqlim dəyişikliyinin ətraf mühitə təsirləri”, 8 saylı Regional Ekologiya və Təbii Sərvətlər İdarəsin aparıcı məsləhətçisi Gültac Rzabəyli-Aliyeva isə “COP29-un ölkəmizin sosial-iqtisadi inkişafına təsiri” ni şərh etdi. MDU-nun Sənayenin təşkili və idarəetmə kafedrasının müəllimi Babək Hüsüyev ” Yaşıl enerjinin Azərbaycan iqtisadiyyatında rolu”, və MDU-nun İqtisadiyyat kafedrasının müəllimi Nərmin Əliyeva “COP 29 –un yaşıl turizm üfüqləri” kimi mövzularda məruzələr dinlənildi.Seminar ərzində iştirakçılar mövzular üzərində fikir mübadiləsi aparıb, iqlim dəyişikliyi və yaşıl iqtisadiyyat sahələrində maarifləndirmənin vacibliyini vurğulanıb.",
-      "carouselImages": [
-        "./assets/mdunews/news9.webp",
-        "./assets/mdunews/news9-2.webp",
-        "./assets/mdunews/news9-3.webp"
-      ]
-    },
-    {
-      "id": 11,
-      "img": "./assets/mdunews/news10.jpeg",
-      "title": "MDU-da “Effektiv ünsiyyət” mövzusunda təlim keçirilib",
-      "date": "2024-09-27",
-      "content": "2024-cü ilin 27 sentyabrında Mingəçevir Dövlət Universitetində (MDU) Təcrübə və Karyera İnkişafı Mərkəzinin təşkilatçılığı ilə “Effektiv Ünsiyyət” mövzusunda təlim keçirilib.Azərbaycan Maarifçilər Assosiasiyasının sədri Tofiq Sadıxovun təqdimatı ilə keçirilən təlimdə MDU-nun gənc əməkdaşları və tələbələri iştirak edib.Təlim 27 sentyabr – Anım Gününə təsadüf etdiyi üçün Azərbaycan Respublikasının ərazi bütövlüyü uğrunda həlak olan şəhidlərin ruhu bir dəqiqəlik sükutla yad edilib. MDU-nun Təcrübə və Karyera İnkişafı Mərkəzinin müdiri Nuran Cəfərov giriş nitqi ilə çıxış edərək təlimin işinə uğurlar arzulayıb.T.Sadıxov mövzu ilə bağlı açıqlama verərək bildirib ki, təlimin əsas məqsədi iştirakçılara müasir dünyada ünsiyyət bacarıqlarının əhəmiyyətini izah etmək və onların şəxsi, eləcə də peşəkar həyatlarında daha uğurlu ünsiyyət qura bilmələri üçün lazımi bilik və bacarıqları qazandırmaqdır.Təlimdə insanlarla aydın və düzgün ünsiyyət qurmaq bacarığı, gündəlik və peşəkar həyatlarında effektiv əlaqələr yaratmaq, təqdimatlar zamanı fikirlərini aydın və inandırıcı şəkildə çatdırmaq, qrup işlərində və komanda layihələrində konstruktiv əməkdaşlıq etmək, müzakirələrdə fəal iştirak etmək və auditoriyanı cəlb edəcək maraqlı və təsirli məzmun hazırlamaq kimi mövzular barədə dərin izahlar verilib.Sonda təlimçi tələbələrin suallarını cavablandıraraq, onlara şəxsi inkişaflarında ünsiyyət bacarıqlarını necə təkmilləşdirmək barədə tövsiyələr verib. Tədbir böyük maraqla qarşılanıb və iştirakçılar tərəfindən çox faydalı hesab olunub.Qeyd edək ki, bu cür təlimlərin müntəzəm keçirilməsi universitet tələbələrinin gələcəkdə əmək bazarına hazır olmaları baxımından mühüm əhəmiyyət kəsb edir. Təlim zamanı əldə olunan bilik və bacarıqlar tələbələrin peşəkar həyatda uğurlu karyera qurmasında böyük rol oynayacaqdır.",
-      "carouselImages": [
-        "./assets/mdunews/news10.jpeg",
-        "./assets/mdunews/news10-2.jpeg",
-        "./assets/mdunews/news10-3.jpeg"
-      ]
-    },
-    {
-      "id": 12,
-      "img": "./assets/mdunews/news11.jpg",
-      "title": "Planetimizin çətiri – Ozon təbəqəsi",
-      "date": "2024-09-30",
-      "content": "Mingəçevir Dövlət Universitetinin Fizika və ekologiya kafedrasının müəlimi Şəbnəm İslamova “Planetimizin çətiri – Ozon təbəqəsi” adlı məruzəsini təqdim edirik.  “Yaşıl dünya naminə həmrəylik ili” çərçivəsində hazırlanmış məruzə aşağıda qeyd olunan mövzuları əhatə edir:Atmosferin təbii və süni çirklənmə mənbələri.Atmosfer çirklənmələrinin nəticələri.Atmosferin radioaktiv çirklənmələri.Atmosfer havasının qorunma tədbirləri.Parnik effektinə qarşı tədbirlər.",
-      "carouselImages": [
-        "./assets/mdunews/news11.jpg",
-        "./assets/mdunews/news11.jpg",
-        "./assets/mdunews/news11.jpg"
-      ]
-    },
-    {
-      "id": 13,
-      "img": "./assets/mdunews/news12.jpg",
-      "title": "MDU-da “CODE:101 – CTF challenge” yarışı keçirilib",
-      "date": "2024-09-30",
-      "content": "2024-cü il mayın 14-də Mingəçevir Dövlət Universitetində (MDU) “Yaşıl dünya naminə həmrəylik ili” çərçivəsində keçirilən “Yaşıl İnformasiya Texnologiyaları Həftəsi”nin ikinci günündə Ümummilli lider Heydər Əliyevin 101 illiyinə həsr edilmiş “CODE:101 – CTF challenge” adlı yarış  keçirilib.MDU-nun “Kibertəhlükəsizlik” klubunun təşkilatçılığı baş tutan yarışda Mühəndislik fakültəsinin tələbələrindən ibarət 4 komanda informasiya təhlükəsliyi sahəsində öz bilik və bacarıqlarını nümayiş etdirməklə mübarizə aparıb.MDU-nun Mühəndislik fakültəsinin dekanı Almaz Əliyeva müsabiqəni açıq elan edərək, tədbirin aktuallığı barədə fikirlərini bölüşüb. O, CTF kibertəhlükəsizlik sahəsində keçirilən tədbirin əsas məqsədi barədə danışıb və bildirib ki, CTF yarışları vasitəsilə burada iştirak edən tələbələr kibertəhlükəsizlik sahəsində bilik qazanır, yeni peşəkar əlaqələr qurur və bu sahə üzrə araşdırma təcrübəsi əldə edirlər. A.Əliyeva yarışma barədə müəyyən tövsiyələrini verərək, tələbələrə bol-bol uğurlar arzu edib.Qeyd edək ki, komandalar müəllim Elvin Muradzadənin rəhbərliyi ilə Adil Əhmədzadə, Rahid Zahirov, İbrahim Məmmədov, Rəsul Əhmədov tərəfindən yarış üçün hazırladıqları CTF platforması üzərindən mübarizə aparıblar.Yarış 2 mərhələdə keçib. Müsabiqədə iştirak edən komandaların üzvləri Kriptoqrafiya, Şəbəkə sərhədləri, Veb təhlükəsizliyi, Reverse Engineering, Steganografiya, Forensika, Binary Exploitation, Mobile Security mövzuları əsasında hazırlanmış suallara cavab tapmağa çalışıblar.5 saat müddətində davam edən CTF yarışmada ən yüksək nəticə göstərən  “Səfa” komandası 1850 balla qalib olub. Qalib komandaya “Kibertəhlükəsizlik” klubu tərəfindən Python proqramlaşdırma dili (Kibertəhlükəsizlik) və  SQL inyeksiya kursları hədiyyə edilib.",
-      "carouselImages": [
-        "./assets/mdunews/news12.jpg",
-        "./assets/mdunews/news12-2.jpg",
-        "./assets/mdunews/news12-3.jpg"
       ]
     }
   ],
@@ -2003,75 +1941,105 @@
   "img": [
     {
       "id": 1,
-      "src": "./assets/img/carousel-1.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-09-16"
+      "src": "./assets/img/photo1.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+       "date": ""
     },
     {
       "id": 2,
-      "src": "./assets/img/carousel-2.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-06-16"
+      "src": "./assets/img/photo2.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+      "date": ""
     },
     {
       "id": 3,
-      "src": "./assets/img/carousel-3.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-07-16"
+      "src": "./assets/img/photo3.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+        "date": ""
     },
     {
       "id": 4,
-      "src": "./assets/img/carousel-1.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-09-16"
+      "src": "./assets/img/photo4.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+       "date": ""
     },
     {
       "id": 5,
-      "src": "./assets/img/carousel-2.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-05-16"
+      "src": "./assets/img/photo5.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+     "date": ""
     },
     {
       "id": 6,
-      "src": "./assets/img/carousel-3.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-04-16"
+  "src": "./assets/img/photo6.jpg",
+  "title": "Mingəçevir Dövlət Universiteti",
+       "date": ""
     },
     {
-      "id": 1,
-      "src": "./assets/img/carousel-1.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-09-16"
+      "id": 7,
+"src": "./assets/img/photo7.jpg",
+"title": "Mingəçevir Dövlət Universiteti",
+       "date": ""
     },
     {
-      "id": 2,
-      "src": "./assets/img/carousel-2.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-06-16"
+      "id": 8,
+"src": "./assets/img/photo8.jpg",
+"title": "Mingəçevir Dövlət Universiteti",
+       "date": ""
     },
     {
-      "id": 3,
-      "src": "./assets/img/carousel-3.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-07-16"
+      "id": 9,
+  "src": "./assets/img/photo9.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
     },
     {
-      "id": 4,
-      "src": "./assets/img/carousel-1.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-09-16"
+      "id": 10,
+     "src": "./assets/img/photo10.jpg",
+     "title": "Mingəçevir Dövlət Universiteti",
+     "date": ""
     },
     {
-      "id": 5,
-      "src": "./assets/img/carousel-2.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-05-16"
+      "id": 11,
+    "src": "./assets/img/photo11.jpg",
+    "title": "Mingəçevir Dövlət Universiteti",
+     "date": ""
     },
     {
-      "id": 6,
-      "src": "./assets/img/carousel-3.jpg",
-      "title": "Mingəçevir Dövlət Universitetində “Bilik Günü” qeyd edilib",
-      "date": "2024-04-16"
+      "id": 12,
+   "src": "./assets/img/photo12.jpg",
+   "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
+    },
+    {
+      "id": 13,
+    "src": "./assets/img/photo13.jpg",
+    "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
+    },
+    {
+      "id": 14,
+     "src": "./assets/img/photo14.jpg",
+     "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
+    },
+    {
+      "id": 15,
+      "src": "./assets/img/photo15.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
+    },
+    {
+      "id": 16,
+"src": "./assets/img/photo16.jpg",
+      "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
+    },
+    {
+      "id": 17,
+  "src": "./assets/img/photo17.jpg",
+  "title": "Mingəçevir Dövlət Universiteti",
+    "date": ""
     }
   ],
   "audio":[

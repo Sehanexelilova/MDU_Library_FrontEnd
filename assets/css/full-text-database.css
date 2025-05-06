@@ -1,6 +1,5 @@
 #events {
     padding: 40px 0;
-    /* background-color: #f6fafd; */
   }
   
   #events .title {
@@ -17,17 +16,19 @@
   }
   
   .block_prog_div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    justify-items: center;
   }
+  
+  
   
   .programmes_block {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 280px;
     height: 100px;
     background-color: #fff;
     border-radius: 8px;

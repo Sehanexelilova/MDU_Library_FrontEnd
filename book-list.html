@@ -1,1743 +1,1708 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MDU Library</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./assets/img/mdu-footer-logo3.png"
-    />
-    <link rel="stylesheet" href="./assets/css/book-list.css" />
-    <link rel="stylesheet" href="./assets/css/libraryAbout.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/font/icon/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MDU Library</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="./assets/img/mdu-footer-logo3.png" />
+  <link rel="stylesheet" href="./assets/css/book-list.css" />
+  <link rel="stylesheet" href="./assets/css/libraryAbout.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/font/icon/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <!-- ? Loading-window -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
 
-    <section id="loading" class="loading-spinner">
-      <div class="spinner-container">
-        <div class="spinner"></div>
-        <p>Zəhmət olmasa, Gözləyin</p>
-      </div>
-    </section>
+<body>
+  <!-- ? Loading-window -->
 
-    <!-- ? Top-bar -->
-    <section class="page-top__bar">
-      <div class="page-top__bar-container container">
-        <div class="page-top__left-bar">
-          <a class="page-top__left-item" href="#">
-            <i class="icon-location"></i>
-            <h1 class="page-top__left-text">Mingəçevir Dövlət Üniversiteti</h1>
-          </a>
-          <a class="page-top__left-item" href="#">
-            <i class="icon-phone"></i>
-            <span class="page-top__left-text">(+99424) 275-32-72</span>
-          </a>
-          <a class="page-top__left-item" href="#">
-            <i class="icon-email-open-solid"></i>
-            <span class="page-top__left-text">kitabxana@mdu.edu.az</span>
-          </a>
+  <section id="loading" class="loading-spinner">
+    <div class="spinner-container">
+      <div class="spinner"></div>
+      <p>Zəhmət olmasa, Gözləyin</p>
+    </div>
+  </section>
 
-          <div
-            id="button-3"
-            class="page-top__left-item page-top__lang-conatiner"
-          >
-            <div class="page-top__lang-show">
-              <i class="icon-globe"></i>
-              <span>Az</span>
-              <i class="icon-menu-caret-up"></i>
-            </div>
-            <ul id="dropdown-3" class="page-top__lang-list">
-              <li class="page-top__lang-item">Ru</li>
-              <li class="page-top__lang-item">En</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="page-top__right-bar page__social-media">
-          <a href="https://www.facebook.com/mdueduaz" class="icon-facebook"></a>
-          <a
-            href="https://www.instagram.com/mdueduaz/"
-            class="icon-instagram-solid"
-          ></a>
-          <a
-            href="https://www.linkedin.com/company/mdueduaz/"
-            class="icon-linkedin-solid"
-          ></a>
-          <a href="https://x.com/mdueduaz" class="icon-twitter"></a>
-          <a
-            href="https://www.youtube.com/channel/UCE4bBWIj3PyHvXRwDuGFJvQ"
-            class="icon-youtube-solid"
-          ></a>
-          <a
-            href="https://www.tiktok.com/@mdueduaz?"
-            class="icon-tiktok-solid"
-          ></a>
-          <a href="https://t.me/MDUeduaz" class="icon-telegram-solid"></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ? Navbar -->
-    <nav class="navbar">
-      <div class="navbar-container container">
-        <a href="./index.html" class="navbar__left-side">
-          <img src="./assets/img/mdu-logo-3.png" alt="" />
+  <!-- ? Top-bar -->
+  <section class="page-top__bar">
+    <div class="page-top__bar-container container">
+      <div class="page-top__left-bar">
+        <a class="page-top__left-item" href="#">
+          <i class="icon-location"></i>
+          <h1 class="page-top__left-text">Mingəçevir Dövlət Üniversiteti</h1>
+        </a>
+        <a class="page-top__left-item" href="#">
+          <i class="icon-phone"></i>
+          <span class="page-top__left-text">(+99424) 275-32-72</span>
+        </a>
+        <a class="page-top__left-item" href="#">
+          <i class="icon-email-open-solid"></i>
+          <span class="page-top__left-text">kitabxana@mdu.edu.az</span>
         </a>
 
-        <div class="navbar__right-side">
-          <i class="navbar__close-icon icon-cross"></i>
-
-          <ul class="navbar__right-list">
-            <li class="navbar-item">
-              <a href="./index.html" class="navbar-link">Ana Səhifə</a>
-            </li>
-            <li class="navbar-item" id="button-1">
-              <a href="#" class="navbar-link active">
-                Kitabxana <i class="icon-menu-caret-up"></i>
-              </a>
-
-              <!--? Dropdown List 1 -->
-
-              <ul id="dropdown-1" class="navbar-item__list">
-                <li class="navbar-item__list-item">
-                  <a href="./libraryAbout.html" class="navbar-item__link"
-                    >Kitabxana haqqında</a
-                  >
-                </li>
-                <li class="navbar-item__list-item">
-                  <a href="./collaborator.html" class="navbar-item__link"
-                    >Əməkdaşlar haqqında</a
-                  >
-                </li>
-                <li class="navbar-item__list-item">
-                  <a href="./news.html" class="navbar-item__link"
-                    >Keçirilən tədbirlər</a
-                  >
-                </li>
-                <li class="navbar-item__list-item">
-                  <a href="./libraryRules.html" class="navbar-item__link"
-                    >İstifadə qaydaları</a
-                  >
-                </li>
-                <li class="navbar-item__list-item">
-                  <a href="./services.html" class="navbar-item__link"
-                    >Xidmətlər</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="navbar-item">
-              <a href="./e-catalog.html" class="navbar-link"
-                >Elektron kataloq</a
-              >
-            </li>
-
-            <li class="navbar-item" id="button-1">
-              <a href="#" class="navbar-link">
-                Elektron Resurs <i class="icon-menu-caret-up"></i>
-              </a>
-
-              <!--? Dropdown List 1 -->
-
-              <ul id="dropdown-1" class="navbar-item__list">
-                <li class="navbar-item__list-item">
-                  <a href="full-text-database.html"
-                    class="navbar-item__link">Tam mətnli məlumat bazaları</a>
-                </li>
-                <li class="navbar-item__list-item">
-                  <a
-                    href="electronic-database.html"
-                    class="navbar-item__link"
-                    >Açıq e-kitabxanalar</a
-                  >
-                  <li class="navbar-item__list-item">
-                    <a href="new-publications.html"
-                      class="navbar-item__link">Yeni daxil olan nəşrlər</a>
-                  </li>
-              </ul>
-            </li>
-
-            <li id="button-2" class="navbar-item">
-              <a href="#" class="navbar-link">
-                Media <i class="icon-menu-caret-up"></i>
-              </a>
-
-              <!--? Dropdown List 2-->
-
-              <ul id="dropdown-2" class="navbar-item__list">
-                <li class="navbar-item__list-item">
-                  <a href="./audio.html" class="navbar-item__link"
-                    >Audio faylları</a
-                  >
-                </li>
-                <li class="navbar-item__list-item">
-                  <a href="./video.html" class="navbar-item__link">Videolar</a>
-                </li>
-                <li class="navbar-item__list-item">
-                  <a href="./gallery.html" class="navbar-item__link"
-                    >Şəkil qalereyası</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="navbar-item">
-              <a href="./contact.html" class="navbar-link">Bizimlə əlaqə</a>
-            </li>
-          </ul>
-          <a href="./login.html" class="btn btn-primary navbar__btn"
-            >İstifadəçi girişi</a
-          >
-        </div>
-        <a href="./login.html" class="icon-user navbar__user-icon"></a>
-        <i class="icon-burger-menu navbar__burger-icon"></i>
-      </div>
-    </nav>
-
-    <!-- ? Header -->
-    <header class="header">
-      <div class="header__background-img">
-        <img src="./assets/img/inner-page-background3.jpg" alt="" />
-      </div>
-      <div class="header-content">
-        <h1 class="header-content__title mdu-library__title">Kitablar</h1>
-        <div class="header-content__links">
-          <a href="./index.html">Ana Səhifə</a>
-          <i class="icon-arrow-right"></i>
-          <a href="./e-catalog.html">Kitablar</a>
-        </div>
-      </div>
-    </header>
-    <!--  ?Main  -->
-    <main>
-      <div class="about__container container" data-aos="fade-up">
-        <h3 class="about__title-text mdu-library__title">KİTABLAR</h3>
-        <ol>
-          <li>Ali Cəbr</li>
-          <li>Ali Cəbr Kursu</li>
-          <li>Ali Riyaziyyat</li>
-          <li>Ali Riyaziyyat I hissə</li>
-          <li>Ali Riyaziyyat II hissə</li>
-          <li>Ali Riyaziyyata aid çalışmalar</li>
-          <li>Azərbaycan riyaziyyatçıları</li>
-          <li>Birdəyişənli funksiyaların inteqral hesabı</li>
-          <li>Cəbr və Ədədləri Nəzəriyyəsi</li>
-          <li>Diferensiyal Tənlik</li>
-          <li>Ehtimal nəzəriyyəsi və riyazi statistika</li>
-          <li>Ehtimal nəzəriyyəsi və riyazi statistikanın elementləri</li>
-          <li>Funksional Analiz</li>
-          <li>Xətti Cəbr analitik həndəsə Riyazi Analiz</li>
-          <li>Xətti Cəbr elementləri və analitik həndəsə</li>
-          <li>Xətti Proqramlaşdırma</li>
-          <li>İnteqral Hesabı</li>
-          <li>Kompleyks Dəyişənləri Funksiyalar Nəzərində</li>
-          <li>Optimallaşdırma üsullarının iqtisadi məsələləri tətbiqi</li>
-          <li>Rəqəmsal ödənişlər və Elektron Bankçılıq xidmətləri</li>
-          <li>Riyazi Analiz</li>
-          <li>Riyazi Analizdən Məsələlər</li>
-          <li>Riyazi Fizika Tənlikləri</li>
-          <li>Riyazi Analizdən Məsələ və Misallar</li>
-          <li>Sıralar</li>
-          <li>Analitik Funksiyalar</li>
-          <li>Analitik Həndəsə</li>
-          <li>Ehtimal Nəzəriyyəsi və Riyazı Statistika'nın Elementləri</li>
-          <li>Ehtimal Nəzəriyyəsi və Riyazi Statistika</li>
-          <li>Azərbaycanın Regionları</li>
-          <li>Azərbaycanın Statistik Göstəriciləri</li>
-          <li>Azərbaycanın Regionları</li>
-          <li>Azərbaycanın Regionları</li>
-          <li>Azərbaycanın Statistik Göstəriciləri</li>
-          <li>Müstəqil Azərbaycan</li>
-          <li>Amerika Birləşmiş Ştatlarının yeni və müasir tarixi</li>
-          <li>İrəvan Xanlığı</li>
-          <li>Azərbaycan tarixi</li>
-          <li>Tarixin qan yaddaşı</li>
-          <li>Azərbaycan tarixi</li>
-          <li>Azərbaycan tarixi I</li>
-          <li>XX əsr Azərbaycan tarixi II</li>
-          <li>Azərbaycan tarixi I</li>
-          <li>Qədim Şərq tarixi</li>
-          <li>Qədim dünya tarixi I</li>
-          <li>İnnovasiya Sual-Cavabda VII</li>
-          <li>İqtisadi Kibernetika</li>
-          <li>Qeyri-Dövlət Sektorunda Məşğulluğun</li>
-          <li>Səmərəliyinin Sosial İqtisadi Problemləri</li>
-          <li>Vergi Siyasəti və İnvestisiyaların</li>
-          <li>Dövlət Tənzimlənməsi</li>
-          <li>İqtisadi Yazılar</li>
-          <li>Milli İqtisadiyyatın İnkişafının Əsasları</li>
-          <li>Azərbaycan Respublikasının Kadr Hazırlığının</li>
-          <li>Təşəkkürlü Prosesi</li>
-          <li>İnvestisiya Layihələrinin Təşkili və</li>
-          <li>İdarə olunması</li>
-          <li>Mikroiqtisadiyyatın əsasları</li>
-          <li>İqtisadiyyata Giriş</li>
-          <li>Lüğət</li>
-          <li>Makroiqtisadiyyat 26-cı proqram</li>
-          <li>Korporativ İdarəetmə</li>
-          <li>Xüsusi İqtisadi Zonaların Tətbiqi problemləri</li>
-          <li>Makroiqtisadiyyata giriş</li>
-          <li>Mikroiqtisadiyyatın 26-cı proqram</li>
-          <li>Mikroiqtisadiyyatın 26-cı proqram</li>
-          <li>Mikro və Makroiqtisadiyyat</li>
-          <li>Dövlət və Bələdiyyə idarəçiliyinin müasir problemləri</li>
-          <li>İnsan İnkişafının əsasları</li>
-          <li>
-            Azərbaycan Respublikasının Vergi Xidməti: İslahatlar və nəticələr
-          </li>
-          <li>
-            Davamlı İnkişaf və Ekoloji Sivilizasiyanın İdarə Edilməsinin
-            Əsasları
-          </li>
-          <li>
-            Azərbaycanda Regional Turizmin İnkişafı: Problemlər, Perspektivlər
-          </li>
-          <li>İslam Maliyyə Sistemi və Alətləri</li>
-          <li>Maliyyə Hesabatları</li>
-          <li>Yerli Özünüidarəetmə Orqanlarının Vergi Sistemi</li>
-          <li>İqtisad Elminin Müasir Problemləri</li>
-          <li>İqtisadi İnformatika</li>
-          <li>İqtisadiyyatın Tənzimlənməsi</li>
-          <li>İşgüzar Yazışmalar</li>
-          <li>Əməliyyatların idarə edilməsi</li>
-          <li>Xidmət sahələrində mühasibat (Maliyyə) Uçotu</li>
-          <li>Audit</li>
-          <li>İnhisarizm</li>
-          <li>Sosial tədqiqat praktikası</li>
-          <li>Sıfırdan başlayan mühasibat (Maliyyə) Uçotu</li>
-          <li>Pul, bank və maliyyə bazarlarının iqtisadiyyatı</li>
-          <li>Maliyyə Nəzəriyyəsi</li>
-          <li>Maliyyənin əsasları</li>
-          <li>Mühasibat Uçotu</li>
-          <li>Vergi Məcəlləsinin Xüsusi Hissəsinin Praktiki İzahı</li>
-          <li>Kütləvi Kommunikasiya mediası</li>
-          <li>Büdcə təşkilatları üçün Milli Mühasibat Uçotu Standartları</li>
-          <li>Dövlət Maliyyəsi Terminləri Lüğəti</li>
-          <li>Heyətin İdarə Edilməsi</li>
-          <li>İqtisadi Diplomatiya</li>
-          <li>Statistika Nəzəriyyəsi</li>
-          <li>Regional İdarəetmə</li>
-          <li>Statistika: Sosial-İqtisadi Məsələlər</li>
-          <li>Statistikanın Ümumi Nəzəriyyəsi</li>
-          <li>Kommersiya Fəaliyyətinin Əsasları</li>
-          <li>Azərbaycan Respublikasının Gömrük Məcəlləsi</li>
-          <li>Gömrük Qaydaları (Prosedurları) və Məsuliyyət</li>
-          <li>Gömrük Fəaliyyətinin İqtisadiyyatı</li>
-          <li>Gömrük İşinin Təşkili</li>
-          <li>Biznesin Əsasları</li>
-          <li>Biznesin Təşkili və İdarə Edilməsi</li>
-          <li>Bazar İqtisadiyyatının Dövlət Tərəfindən Tənzimlənməsi</li>
-          <li>Milli İqtisadiyyatın Tənzimlənməsi</li>
-          <li>İqtisadiyyatın Dövlət Tənzimlənməsi</li>
-          <li>Milli İqtisadiyyatın Tənzimlənməsi</li>
-          <li>Milli İqtisadiyyatın Dövlət Tənzimlənməsi</li>
-          <li>Milli İqtisadiyyatın Dövlət Tənzimlənməsi</li>
-          <li>Milli İqtisadiyyatın Dövlət Tənzimlənməsi</li>
-          <li>Əməliyyatların idarə edilməsi</li>
-          <li>Xidmət sahələrində mühasibat (Maliyyə) Uçotu</li>
-          <li>Audit</li>
-          <li>İnhisarizm</li>
-          <li>Sosial tədqiqat praktikası</li>
-          <li>Sıfırdan başlayan mühasibat (Maliyyə) Uçotu</li>
-          <li>İqtisadi nəzəriyyə</li>
-          <li>İqtisadi nəzəriyyə</li>
-          <li>İqtisadi təhlil</li>
-          <li>Beynəlxalq iqtisadi hüquq</li>
-          <li>İqtisadi nəzəri kursu</li>
-          <li>
-            Neft-kimya müəssisələrinin idarə edilməsinin təşkilati iqtisadi
-            səmtləri
-          </li>
-          <li>İdarəetmə təhlili</li>
-          <li>Karyera Planlaması</li>
-          <li>Sosial işdə etik prinsiplər və dəyərlər</li>
-          <li>Sosial elmlərdə keyfiyyət tədqiqat metodları</li>
-          <li>Vergi mədəniyyəti</li>
-          <li>Vergi siyasətinin iqtisadi problemləri</li>
-          <li>İqtisad elminin nəzəri əsaslarının tarixi təkamülü</li>
-          <li>
-            Naxçıvan Muxtar Respublikası iqtisadiyyatının ərazi təşkili və
-            inkişafının coğrafiyası
-          </li>
-          <li>Strategic management Competitiveness Globalization</li>
-          <li>Macroeconomics</li>
-          <li>Modern Industrial organization</li>
-          <li>Azərbaycan-ABŞ Dostluq və</li>
-          <li>Qardaşlıq Yollarında</li>
-          <li>Sülh və Təhlükəsizlik Naminə</li>
-          <li>Birlikdə Yeni Əsrə Doğru</li>
-          <li>Azərbaycan Qəzeti I cild</li>
-          <li>Azərbaycan Qəzeti II cild</li>
-          <li>Azərbaycan Qəzeti III cild</li>
-          <li>Azərbaycan kurort təsərrüfatı</li>
-          <li>Otel</li>
-          <li>Hotel</li>
-          <li>Azərbaycan turizmi və onun inkişaf problemləri</li>
-          <li>Turizm destinasiyalarının idarəedilməsi</li>
-          <li>Dövlət və dördüncü hakimiyyət</li>
-          <li>Yüksəkliyə doğru</li>
-          <li>Politologiya</li>
-          <li>Goris - 2010 season of theatre of the absurd</li>
-          <li>Demokratiya: Dövlət və cəmiyyət</li>
-          <li>Multikulturalizmə giriş</li>
-          <li>Psixologiya</li>
-          <li>Sosial işdə etik prinsiplər və dəyərlər</li>
-          <li>Sosiologiya</li>
-          <li>Politologiya</li>
-          <li>Azərbaycan Respublikasının Qanunu</li>
-          <li>
-            Gənclər Arasında Narkotizmin Qarşısının Alınması Sahəsində Daxili
-            İşlər Orqanlarının Fəaliyyəti
-          </li>
-          <li>Azərbaycan Beynəlxalq Münasibətlər Sistemində</li>
-          <li>Yaxın Şərq Böhranı: Neft və Siyasət</li>
-          <li>Hər Dövrün Bir Kitabı Var</li>
-          <li>Hakimiyyət və Liderlik İnstitutu</li>
-          <li>Zəfər</li>
-          <li>Banklar Haqqında</li>
-          <li>Cəzaçəkmə Müəssisələrinin Daxili İntizam Qaydaları</li>
-          <li>İnzibati İcraat Haqqında Qanun</li>
-          <li>Prokurorluq: təşkili, vəzifələri və səlahiyyətləri</li>
-          <li>Azərbaycan Respublikasının Konstitusiyası</li>
-          <li>İnformatika və geoinformatika</li>
-          <li>Avtomatik idarəetmə nəzəriyyəsi fənnindən laboratoriya işləri</li>
-          <li>Kompüterlə üz-üzə</li>
-          <li>Soft Kompüting</li>
-          <li>Office 2010</li>
-          <li>Avtomatik İdarəetmə</li>
-          <li>Avtomatik Tənzimləmə Texnikasının Əsasları</li>
-          <li>Azərbaycan dilinin izahlı lüğəti (I cild)</li>
-          <li>Müdriklik zirvəsi</li>
-          <li>Şəxsiyyətin qüdrəti</li>
-          <li>Azərbaycan dili və nitq mədəniyyəti</li>
-          <li>Azərbaycan dili və nitq mədəniyyəti</li>
-          <li>Azərbaycan ədəbi dili tarixi I</li>
-          <li>Azərbaycan ədəbi dili tarixi II</li>
-          <li>Azərbaycan ədəbi dili tarixi III</li>
-          <li>Azərbaycan ədəbi dili tarixi IV</li>
-          <li>English for all II</li>
-          <li>English for beginners</li>
-          <li>Azərbaycan dilində nitqin formaları</li>
-          <li>Azərbaycan Toponimlərinin ensiklopedik lüğəti I</li>
-          <li>Azərbaycan dilinin dialektoloji lüğəti</li>
-          <li>Fransızca-Azərbaycanca lüğəti</li>
-          <li>Farsca-Azərbaycanca lüğət</li>
-          <li>Ərəbcə - Azərbaycanxa lüğət I</li>
-          <li>Cerum Devid Selincer seçilmiş əsərləri</li>
-          <li>Xorxe Luis Xorxers seçilmiş əsərləri</li>
-          <li>Luis Sinkler seçilmiş əsərləri</li>
-          <li>Robert Stivenson seçilmiş əsərləri</li>
-          <li>Jül Vern seçilmiş əsərləri</li>
-          <li>Con Milton seçilmiş əsərləri</li>
-          <li>Jan-Pol Sartr seçilmiş əsərləri</li>
-          <li>Vladimir Nabakov seçilmiş əsərləri</li>
-          <li>Redyard Kiplinq seçilmiş əsərləri</li>
-          <li>Con Steynbek seçilmiş əsərləri</li>
-          <li>Aleksandr Soljenitsın seçilmiş əsərləri</li>
-          <li>Moris Meterlink seçilmiş əsərləri</li>
-          <li>Məmməd Aslan seçilmiş əsərləri</li>
-          <li>Balaş Azəroğlu seçilmiş əsərləri</li>
-          <li>Nəriman Həsənzadə seçilmiş əsərləri</li>
-          <li>Hüseyn Abbaszadə seçilmiş əsərləri</li>
-          <li>Süleyman Sani Axundzadə seçilmiş əsərləri</li>
-          <li>Seçilmiş Əsərlər (50 müxtəlif müəllif)</li>
-          <li>Azərbaycan kulinarsiyası ensiklopediyası</li>
-          <li>Azərbaycan incəsənəti</li>
-          <li>Təbrizin sehrli nağılları</li>
-          <li>Azərbaycan Memarlığı inkişaf yollarında</li>
-          <li>Erkən Kapitalizm Dövrünün Memarlığı XIX-XX əsrin əvvəli</li>
-          <li>Azərbaycan Memarlığı XV-XIX əsrin əvvələrində</li>
-          <li>Qədim Və Erkən Orta Əsrlər Dövründə Azərbaycan Memarlığı</li>
-          <li>Azərbaycan Respublikasının Müasir Dövr Memarlıq Tarixi</li>
-          <li>Dövlət və Cəmiyyət</li>
-          <li>İnsan Təyinatı Məhəbbət Və Mənəviyyatın Vəhdəti</li>
-          <li>Azərbaycan 21 Əsrin Və Üçüncü Minilliyin Ayrıcında</li>
-          <li>Fəlsəfə</li>
-          <li>Azərbaycan fəlsəfəsi tarixi</li>
-          <li>Fəlsəfə Tarixi</li>
-          <li>Abşeronun ağac və kolları</li>
-          <li>Afrikanın bioloji müxtəlifliyi</li>
-          <li>Aqrorkologiya</li>
-          <li>Antropologiya</li>
-          <li>Azərbaycan heyvanlar aləmi I hissə</li>
-          <li>
-            Azərbaycanda torpaq islahatı: hüquqi və elmi - ekoloji məsələlər
-          </li>
-          <li>Azərbaycanda təbiətdən istifadə və ekoloji problemlər</li>
-          <li>Azərbaycanda torpaq islahatı</li>
-          <li>Bio ekologiya: areologiyası, dayanıqlı modeli</li>
-          <li>Biosferin mühafizəsi</li>
-          <li>Bitumlar</li>
-          <li>Ekologiya</li>
-          <li>Ekologiya</li>
-          <li>Ekologiya</li>
-          <li>Ekologiya hüququ</li>
-          <li>Ekologiya və fövqaladə hallar</li>
-          <li>Ekologiya, ətraf mühit və insan</li>
-          <li>Ekologiya: Sosial-iqtisadi əsasları</li>
-          <li>Ekologiyadan əvvəlki ekologiya</li>
-          <li>Ekologiyadan konspekt</li>
-          <li>Ekoloji toksikologiyanın əsasları</li>
-          <li>Ekoloji məsələlərin həllində MatLab sisteminin tətbiqi</li>
-          <li>Ensiklopedik ekoloji lüğət</li>
-          <li>Ətraf mühiti Mühafizə</li>
-          <li>Ətraf mühitin kimyası</li>
-          <li>Heyvanların ekologiyası</li>
-          <li>Hidrogeoloji tədqiqat üsulları</li>
-          <li>İnsan təbiətlə nəfəs alır</li>
-          <li>İntelektual ekologiya</li>
-          <li>Karbon emissiyaları azalmalarının potensialı - Sərvətimizdir</li>
-          <li>Kənd təsərrüfatı və ekologiya</li>
-          <li>Qlobal ekoloji problemlər</li>
-          <li>Metrologiya standartlaşdırma və sertifikatıaşdırma</li>
-          <li>Mühəndislik geologiyası və hidrogeologiya</li>
-          <li>Mühəndisi petrologiya</li>
-          <li>Mühəndislik ekologiyası</li>
-          <li>Radiokologiya</li>
-          <li>Su ehtiyatlarının inteqrasiyaları idarə olunması</li>
-          <li>
-            Su təsərrüfatı və mühəndis kommunikasiya sistemləri fakültəsinin
-            elmi əsərlər toplusu №7
-          </li>
-          <li>Su və hava hövzələrinin cirklənmələrdən qorunması</li>
-          <li>Təbiətdən istifadənin hüquqi əsasları</li>
-          <li>Təbiətşünaslığın əsaları</li>
-          <li>Təbii mühit və insan</li>
-          <li>Torpaqların ekoloji monitorinqi</li>
-          <li>Ümumi ekologiya</li>
-          <li>Ümumi ekologiya</li>
-          <li>Ümumi və regional geotektonika</li>
-          <li>Yeyinti məhsullarının laboratoriya müayinələri</li>
-          <li>Zoologiya</li>
-          <li>Adi differensiyal tənliklər (kiril)</li>
-          <li>Ali cəbr kursu</li>
-          <li>Ali riyaziyyat</li>
-          <li>Ali riyaziyyat (1-ci hissə)</li>
-          <li>Ali riyaziyyat. Xətti cəbrin elementləri və analitik həndəsə</li>
-          <li>Ali riyaziyyatdan çalışmalar</li>
-          <li>Ali riyaziyyatdan çalışmalar</li>
-          <li>Ali riyaziyyatdan məsələlər (1-ci hissə)</li>
-          <li>Ali riyaziyyatdan məsələlər (2-ci hissə)</li>
-          <li>Ali riyaziyyatdan məsələlər (3-cü hissə)</li>
-          <li>Ali riyaziyyatdan testlər (1-ci hissə)</li>
-          <li>Ali riyaziyyatdan testlər (2-ci hissə)</li>
-          <li>Ali riyaziyyatdan testlər (3-cü hissə)</li>
-          <li>Analitik həndəsədən mühazirələr</li>
-          <li>Analitik həndəsədən mühazirələr</li>
-          <li>Azərbaycan tanınmış riyaziyyatçıları (1-ci hissə)</li>
-          <li>Azərbaycan tanınmış riyaziyyatçıları (1-ci hissə)</li>
-          <li>Birdəyişənli funksiyaların inteqral hesabı</li>
-          <li>Birdəyişənli funksiyaların inteqral hesabı</li>
-          <li>Cəbr kursu</li>
-          <li>Cəbr kursu</li>
-          <li>Cəbr və ədədlər nəzəriyyəsi</li>
-          <li>Cəbr və ədədlər nəzəriyyəsindən məsələlər (1-ci hissə)</li>
-          <li>Differensial tənliklər</li>
-          <li>Differensial tənliklər</li>
-          <li>Diskret riyaziyyat və riyazi məntiq</li>
-          <li>Diskret riyaziyyat və riyazi məntiq</li>
-          <li>Diskret riyaziyyat və riyazi məntiq (2-ci hissə)</li>
-          <li>Ehtimal nəzəriyyəsi və riyazi statistika</li>
-          <li>Ehtimal nəzəriyyəsi və riyazi statistikanın elementləri</li>
-          <li>Elementar riyaziyyat</li>
-          <li>Funksional analiz</li>
-          <li>Hesablama riyaziyyatı</li>
-          <li>Hesablama riyaziyyatı</li>
-          <li>Həndəsə Əsasları</li>
-          <li>Həndəsi qurmalar</li>
-          <li>Xətti Cəbr (məsələ və misallar həlli ilə)</li>
-          <li>Xətti cəbr analitik həndəsə riyazi analiz</li>
-          <li>Xətti cəbr və iqtisadi modellər</li>
-          <li>Xətti proqramlaşdırma</li>
-          <li>
-            Kombinatorikanın, ehtimal nəzəriyyəsinin və riyazi statistikanın
-            əsasları
-          </li>
-          <li>Kompleks dəyişənli funksiyalar nəzəriyyəsi</li>
-          <li>Qurmalar həndəsəsinin əsasları</li>
-          <li>Qurmalar həndəsəsinin əsasları</li>
-          <li>Metrik və normalı fəzalar, xətti operatorlar</li>
-          <li>
-            Məktəbəqədər yaşlı uşaqlarda sadə riyazi təsəvvürlərin
-            formalaşdırılması nəzəriyyəsi və metodikası
-          </li>
-          <li>
-            Məktəbəqədər yaşlı uşaqlarda sadə riyazi təsəvvürlərin
-            formalaşdırılması nəzəriyyəsi və metodikası
-          </li>
-          <li>
-            Məktəbəqədər yaşlı uşaqlarda sadə riyazi təsəvvürlərin
-            formalaşdırılması nəzəriyyəsi və metodikası
-          </li>
-          <li>Məktəbin ibtidai siniflərində riyaziyyatın tədrisi metodikası</li>
-          <li>Orta məktəbdə riyaziyyatın tədrisi metodikası</li>
-          <li>Riyazi analiz</li>
-          <li>
-            Riyazi analiz -3. Həqiqi və kompleks dəyişənli funksiyalar
-            nəzəriyyəsi. Mühazirələr və çalışmalar
-          </li>
-          <li>Riyazi analiz kursundan məsələlər və misallar</li>
-          <li>Riyazi analizdən çalışma və məsələlər</li>
-          <li>Riyazi analizdən məsələ və misallar</li>
-          <li>Riyazi analizdən məsələlər</li>
-          <li>Riyazi analizdən məsələlər</li>
-          <li>Riyazi fizika tənlikləri</li>
-          <li>Riyaziyyat (Abituriyentlər üçün dərs vəsaiti)</li>
-          <li>Riyaziyyat məsələ və misallar</li>
-          <li>Riyaziyyat məsələ və misallar (I hissə)</li>
-          <li>Riyaziyyat tarixindən oçerklər (II hissə)</li>
-          <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
-          <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
-          <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
-          <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
-          <li>Sıralar</li>
-          <li>
-            Ümumtəhsil məktəblərində riyaziyyatın kurikulum modelinə əsaslanan
-            tədrisi metodikası
-          </li>
-          <li>Алгебра и начала анализа (часть 1)</li>
-          <li>Аналитические функции</li>
-          <li>Елементы кобинаторики</li>
-          <li>Сборник задач по высшей алгебре</li>
-          <li>Функции нескольких вещественных переменных</li>
-          <li>
-            Avtomatik tənzinləmə nəzəriyyəsinin əsasları və istehsal
-            proseslərinin avtomatlaşdırılması
-          </li>
-          <li>Avtomatik idarəetmə</li>
-          <li>Avtomatlaşdırılmış layihələndirmə sistemlərinin əsasları</li>
-          <li>Avtomatlaşdırmanın əsasları</li>
-          <li>Hidravlik</li>
-          <li>Hidravlika və Hidraflik maşınlar</li>
-          <li>İstilik texnikası və hidravlika</li>
-          <li>Konstruksiya materiyallarını texnologiyası</li>
-          <li>Mexaniki yığma sexlərinin layihələndirilməsi</li>
-          <li>Metalkəsən dəzgahlar və sənaye robotları</li>
-          <li>Məntiqi idarəetmə sistemləri</li>
-          <li>Mühəndis Qrafikası</li>
-          <li>Plastik Kütlələrin texnologiyası</li>
-          <li>Texniki termodinamika</li>
-          <li>Texnoloji maşınlar və avadanlıqlar</li>
-          <li>Tərtibatların Layihələndirilməsi</li>
-          <li>Yol hərəkəti haqqında qanun</li>
-          <li>Aerokosmik Monitorinq</li>
-          <li>Atmosfer Fizikası</li>
-          <li>Bərk cisim fizikası</li>
-          <li>Dielektriklər Fizikası</li>
-          <li>Dinamikanın Məsələ həlli</li>
-          <li>Elektron Cihazları və Emissiya Elektronikasının əsasları</li>
-          <li>Fizika Bugünkü Həyatımızda</li>
-          <li>Fizika II hissə</li>
-          <li>Fizika məsələlərinin komputerlə həlli metodikası</li>
-          <li>
-            Fizika, Elektrik və maqnetizm bölməsi üzrə laboratoriya işlərinə
-            dair metodik göstərişlər
-          </li>
-          <li>Fizikadan Çətinliyi Artırılmış Məsələlər və onların həlli</li>
-          <li>Fizikadan Nümayiş Ekspermenti</li>
-          <li>Fizikanın Əsasları</li>
-          <li>Fiziki Ölçmələr</li>
-          <li>Xətti Elektrik Dövrləri Nəzəriyyəsi</li>
-          <li>Kinetika və Kataliz</li>
-          <li>Kvant Mexanikası</li>
-          <li>Qarşılıqlı əvəzolunmayan əsasları</li>
-          <li>Magistrlər üçün Fizikadan Laboratoriya işləri I, II hissə</li>
-          <li>Nəzəri Mexanika</li>
-          <li>Nəzəri Mexanikadan məsələ həlli statika, kinematika</li>
-          <li>Nəzəri mexanikadan mühazirələr</li>
-          <li>Ölçmə və nəzəriyyə üsul və vasitələri</li>
-          <li>Ölçmələr və Cihaz Mühəndisliyi</li>
-          <li>Polimerlər Fotokimyası və Üzvi Elektronika</li>
-          <li>Tətbiqi Fizika</li>
-          <li>Ümumi Fizika Kursu</li>
-          <li>Ümumi Fizika Kursu I, II hissə</li>
-          <li>Ümumi Fizika kursundan test bankı</li>
-          <li>Ümumi Fizika Praktikumu</li>
-          <li>Analitik Kimya Əsasları</li>
-          <li>
-            Neft emalı və neft kimyasının əsas proseslərinin və aparatlarının
-            hesablanması
-          </li>
-          <li>Ümumi Kimya</li>
-          <li>Ümumi Kimya əsasları</li>
-          <li>Antarktida İqlimi. Qlobal Təsirlər</li>
-          <li>Bioetika, tibbi hüquq və yeni texnologiyalar</li>
-          <li>Biologiyadan iqtisadi biliklərə dair (metodik vəsait)</li>
-          <li>Cənubi Amerikanın Geologiyası</li>
-          <li>Çöl geofizikasının ümumi kursu</li>
-          <li>Entomologiyanın tədqiqat metodları</li>
-          <li>Geofizika Yer Təkinin Güzgüsüdür</li>
-          <li>Hondvanın Donmuş Parçası</li>
-          <li>İnsan Ekologiyası (Antropoekologiya)</li>
-          <li>Metrologiya, Standartlaşdırma və Sertifikatlaşdırma</li>
-          <li>Məşhur Biologiya Alimləri</li>
-          <li>Neft və neft məhsullarının ardıcıl nəqli</li>
-          <li>Neft yataqlarının işlənməsi və istismarı</li>
-          <li>Plastik Kütlələrin texnologiyası</li>
-          <li>Təbiət və qanun</li>
-          <li>İngibatorla Korroziyadan Mühafizə</li>
-          <li>Konstruksiya Materiallarının Texnologiyası</li>
-          <li>Korroziya</li>
-          <li>Korroziya Prosesləri Nəzəriyyəsi və Tədqiqat Üsulları</li>
-          <li>Metrologiya</li>
-          <li>Metrologiya Standartlaşdırma Sertifikatlaşdırma</li>
-          <li>Nanotexnoloji Materialşünaslığın Əsasları</li>
-          <li>Elektrik Enerjisin Ötürülməsi və Paylanması</li>
-          <li>Elektrik Sistemləridə Keçid Prosesləri</li>
-          <li>Elektrik Sistemlərinin Etibarlığı</li>
-          <li>Elektrik Veriliş Xəttinin Mexaniki Hissəsi</li>
-          <li>Elektrotexnikanın və Elektronikanın Əsasları</li>
-          <li>Kabel Texnikası</li>
-          <li>Rele Mühafizəsi</li>
-          <li>Yüksək Gərcinliklər və Elektrik İzolyasiya Texnikası</li>
-          <li>
-            Yüksək Gərcinliklər və Elektrik İzolyasiyası Texnikasından
-            Laboratoriya işlərinə dair Metodik Vəsait
-          </li>
-          <li>
-            Bərpa olunan enerji qurğuları nəzəriyyəsindən laboratoriya
-            praktikumu
-          </li>
-          <li>Bərpa olunan enerji mənbələri və qurğuları</li>
-          <li>Buxar və qaz turbinli istilik elektrik stansiyaları I hissə</li>
-          <li>Ekoloji məsələlərin həllində MatLab sisteminin tətbiqi</li>
-          <li>Elekrotexnikadan məsələ və misallar</li>
-          <li>Elektonika II hissə</li>
-          <li>Elektrik sistemlərinin etibarlığı</li>
-          <li>Elektrik sistemlərinin inkişafının optimal modeli</li>
-          <li>Elektrik sistemlərində keçid prosesləri</li>
-          <li>
-            Elektrik stansiyalarının elektrik avadanlıqlarının istismar və
-            rejimləri
-          </li>
-          <li>Elektrik şəbəkə və sistemləri</li>
-          <li>Elektrik veriliş xəttinin mexaniki hissəsi</li>
-          <li>Elektroenergetika islahatlar və intellektual bazar</li>
-          <li>
-            Elektroenergetika sistemi elementlərinin riyazi modelləşdirilməsi
-          </li>
-          <li>Elektronika dünyasına səyahət</li>
-          <li>Elektronika I hissə</li>
-          <li>Elektronikanın əsasları</li>
-          <li>
-            Elektrotexnikanın əsasları: dövrələr, metodlar və tətbiqlər I hissə
-          </li>
-          <li>
-            Elektrotexnikanın əsasları: dövrələr, metodlar və tətbiqlər II hissə
-          </li>
-          <li>Elektrotexniki materiallar</li>
-          <li>Energetik yanacaqlar</li>
-          <li>Energetika</li>
-          <li>Energetika və Enerji Resursları</li>
-          <li>Enerji: Keçmiş və gələcək vektorların kəsişməsində</li>
-          <li>İstilik elektrik stansiyaları</li>
-          <li>İstilik elektrik stansiyalarının qazan qurğuları</li>
-          <li>
-            İstilik energetikasında su hazırlığı texnologiyaları və su təchizatı
-          </li>
-          <li>İstilik energetikasının suyu kimyəvi və fiziki üsulu və emalı</li>
-          <li>İstilik texnikası</li>
-          <li>İstilik texnikası və hidravlika</li>
-          <li>İstilik texnikasının əsasları</li>
-          <li>
-            İstilik texnikasının nəzəri əsaslarından laboratoriya işlərinə
-            rəhbərlik
-          </li>
-          <li>İstilik texnikasının nəzəri əsaslarından suallar və cavablar</li>
-          <li>İstilik texnikası və hidravlika</li>
-          <li>İstilikötürmə</li>
-          <li>Kabel texnikası</li>
-          <li>
-            Konvektiv istilik mübadiləsi və aqreqat halı dəyişdikdə istilikvermə
-          </li>
-          <li>Materiallar müqaviməti 1</li>
-          <li>Materiallar müqaviməti 2</li>
-          <li>Ölçmə texnikasının əsasları</li>
-          <li>Populyar Mexanika</li>
-          <li>Radioelektrotexikanın əsasları</li>
-          <li>Rele mühafizəsi</li>
-          <li>Sərbəst iş üçün praktiki materiallar müqaviməti kursu</li>
-          <li>Sərbəst iş üçün praktiki materiallar müqaviməti kursu</li>
-          <li>Ümumi Elektrotexnika ilə elektrotexnikanın əsasları</li>
-          <li>Yanacaqlar və yanma nəzəriyyəsi</li>
-          <li>Yüksək gərginlik texnikası</li>
-          <li>Avtomobil İstismar xüsusiyyətləri nəzəriyyəsi</li>
-          <li>Avtomobillərin texniki istismarı</li>
-          <li>Maşın istehsalı texnologiyası</li>
-          <li>Maşın detalları</li>
-          <li>Maşın detalları</li>
-          <li>Maşın detalları və konstruksiyaetmənin əsasları</li>
-          <li>Maşınqayırma texnologiyası</li>
-          <li>Maşınqayırmada texnoloji proseslərin layihələndirilməsi</li>
-          <li>Maşınqayırmanın texnologiyası</li>
-          <li>Maşınqayırmanın tarixinə dair</li>
-          <li>Устройство автомобиля</li>
-          <li>Avtomobil Məlumat Kitabı</li>
-          <li>Avtomobil Nəqliyyatı Müəssisələrinin Layihələndirilməsi</li>
-          <li>Avtomobil Yük Daşımaları</li>
-          <li>Avtomobilin Hərəkət Nəzəriyyəsi və Hesabı</li>
-          <li>Avtomobilin Konstruksiya Xüsusiyyətləri</li>
-          <li>Avtomobillərin İstehsalı və Təmiri</li>
-          <li>Avtomobillərin Nəzəriyyəsi və Hesabı</li>
-          <li>Avtotraktor Mühərriklərinin Qidalanma Sistemləri</li>
-          <li>Beynəlxalq Avtomobil Daşımaları</li>
-          <li>Hidravlika</li>
-          <li>Hidravlika və Hidravlik Maşınlar</li>
-          <li>İnşaat Maşınları və Quraşdırma Avadanlıqları</li>
-          <li>Nəqliyyat Mühərrikləri Avtomobillər və Traktorlar I Hissə</li>
-          <li>Nəzəri Mexanika</li>
-          <li>Traktor və Avtomobil Mühərrikləri</li>
-          <li>Turizmdə nəqliyyat xidmətlərinin təşkili</li>
-          <li>Vahid Nəqliyyat Sistemi</li>
-          <li>Yarımnizamlı Məlumatların Texnologiyası və Hesablanması</li>
-          <li>Yol Hərəkət Qaydaları</li>
-          <li>Yol Hərəkətinin Nizamlanma Üsulları və Alqoritmləri</li>
-          <li>Yol Hərəkətinin Təşkili və Təhlükəsizliyi</li>
-          <li>Yol Hərəkətinin Üsulları və Alqoritmləri</li>
-          <li>Avtomobilin konstruksiya xüsusiyyətləri</li>
-          <li>Avtomobillərin quruluşu, texniki xidməti və təmiri</li>
-          <li>Avtomobillərin nəzəriyyəsi</li>
-          <li>Fiziki tərbiyənin tədrisi metodikası</li>
-          <li>
-            Nəqliyyat vasitələrinin texniki istismarı və istismar materialları
-          </li>
-          <li>Yükqaldıran Maşınlar</li>
-          <li>Автозаправочные станции</li>
-          <li>Аитомобили ваз</li>
-          <li>Аитомобиль и дорога</li>
-          <li>Атлас схем</li>
-          <li>Безопасность автотранспорта</li>
-          <li>Единая транспортная система и автомобильные перевозки</li>
-          <li>Етехническая экссплувтация автомобилей</li>
-          <li>За рулем легкового автомобиля</li>
-          <li>Междугодный и Международный автомобильные перевозки</li>
-          <li>Организация технического обслуживания и ремонта автомобилей</li>
-          <li>
-            Организация транспортно-експедиционного обслуживания населения
-          </li>
-          <li>
-            Предупреждене дорожно-транспортных происшествие на автомобильном
-            транспорте
-          </li>
-          <li>Ремонт автомобил</li>
-          <li>
-            Специвлизированный подвижной состав для перевозли скоропортящихся
-            грузов автомобильным транспортом
-          </li>
-          <li>Техническая эксплуатация автомобилей</li>
-          <li>Технические средства щбучения водителей автомилей</li>
-          <li>Техническое обслуживание автомобилей лабораторный практикум</li>
-          <li>Технология техницеского обслужевания и ремонта автомобилей</li>
-          <li>
-            Управлений технической эксплуатацией автомобилей по нормативным
-            показателям
-          </li>
-          <li>Həyat Fəaliyyətinin Təhlükəsizliyi</li>
-          <li>İnsanın Anatomiyası və Fiziologiyası</li>
-          <li>Tarixə Salınmaz Tibbi Yardım</li>
-          <li>Tibb Bacısının Məlumat Kitabı</li>
-          <li>Tibbi Biliklərin Əsasları</li>
-          <li>Uşaq Anatomiyası, Fiziologiyası və gigiyenası</li>
-          <li>Uşaq Anatomiyası, Fiziologiyası və Tibbi Biliklər</li>
-          <li>Sosiologiya</li>
-          <li>XX əsr Azərbaycan Tarixi Cild I</li>
-          <li>XX əsr Azərbaycan Tarixi Cild II</li>
-          <li>Şirvanşahlar Dövləti</li>
-          <li>Albaniya Tarixi</li>
-          <li>Antropologiya</li>
-          <li>Azərbacan Tarixi Cild I</li>
-          <li>Azərbacan Tarixi II tarix</li>
-          <li>Azərbaycan arxeologiyası I cild</li>
-          <li>Azərbaycan Atabəylər dövləti</li>
-          <li>Azərbaycan Ədəbiyyatı Tarixi</li>
-          <li>Azərbaycan Fəlsəfəsi Tarixi</li>
-          <li>Azərbaycan Səfəvilər Dövləti</li>
-          <li>Azərbaycan Tarixi 4 cü cild</li>
-          <li>Azərbaycan Tarixi 4 cü cild</li>
-          <li>Azərbaycan Tarixi Cild 1</li>
-          <li>Azərbaycan Tarixi Cild 2</li>
-          <li>Azərbaycan VII - IX əsrlərdə</li>
-          <li>Azərbaycan VII - IX əsrlərdə</li>
-          <li>Bakı şəhərinin tarixi</li>
-          <li>Dinlər Təriqətlər Məsəblər</li>
-          <li>Dünya Azərbycanlilari XX əsrdə</li>
-          <li>Dünya Ədəbiyyat Tarixi II hissə</li>
-          <li>Dünya Ədəbiyyat Tarixi III hissə</li>
-          <li>İrəvan xanlığı</li>
-          <li>Qarabağnamələr</li>
-          <li>Qədim Dünya Tarixi</li>
-          <li>Qədim Dünya Tarixi</li>
-          <li>Qədim Şərq tarixi</li>
-          <li>Multikulturalizmə giriş</li>
-          <li>Multikulturalizmə giriş</li>
-          <li>Naxçıvan Xanlıqı</li>
-          <li>Orta əsirlər Şərq İntibah Ədəbiyyatı Tarixi</li>
-          <li>Osmanlı İmperiyasında "Erməni məsələsi" problemi</li>
-          <li>Osmanlı İmperiyasının tarixi</li>
-          <li>Səlcuqilərdən osmanlılara</li>
-          <li>Şirvanşahlar Dövləti</li>
-          <li>Tariximiz</li>
-          <li>Türk xalqlarının tarixi</li>
-          <li>Türk Xanlıqları tarixi</li>
-          <li>Türk Xanlıqları tarixi</li>
-          <li>Türk Xanliqlarinin tarixi</li>
-          <li>Türk Xanliqlarinin tarixi</li>
-          <li>Azərbaycanlıların II dünya müharibəsində iştirakı</li>
-          <li>Ailəyə dəstək üçün təlimat</li>
-          <li>Arif Paşayev 80 (2 hissə)</li>
-          <li>Azərbaycan XXI əsrin və üçüncü minilliyin ayrıcında</li>
-          <li>Azərbaycanda XIX əsr ictimai və fəlsəfi fikir tarixindən</li>
-          <li>Azərbaycanın dövlət və hüquq tarixi</li>
-          <li>Bəşərin faciyəsi</li>
-          <li>Dolaylardan gələn səda</li>
-          <li>Dövlət və dördüncü hakimiyyət</li>
-          <li>Əbədiləşən şəxsiyyət</li>
-          <li>Ərənlər</li>
-          <li>
-            Gənclərin vətənpərvərlik tərbiyəsində ictimai-siyasi şe'rlərin rolu
-          </li>
-          <li>Heydər Əliyev azərbaycan ədəbiyyatı</li>
-          <li>Heydər Əliyev mənəviyyat mənəvi dəyərlər mənəvi tərbiyə</li>
-          <li>Heydər Əliyev müdrik fikirlər (1 cild)</li>
-          <li>Heydər Əliyev müdrik fikirlər (2 cild)</li>
-          <li>Xalqa bağışlanan ömür</li>
-          <li>İkinci şans</li>
-          <li>İslam islamzadə</li>
-          <li>Qarabağ düyünü</li>
-          <li>Liderlik fəlsəfəsi</li>
-          <li>Maarif fədailəri</li>
-          <li>Məhkəmə etikası</li>
-          <li>Mingəçevir arxeoloji ekspedisiyası</li>
-          <li>Mingəçevir səhidləri</li>
-          <li>Mingəçevir su anbarı vətəgə balıqlarının</li>
-          <li>Mingəçevir: hidroqovşar və şəhər necə yarandı</li>
-          <li>Müdriklik zirvəsi</li>
-          <li>Onlar Mingəçeviri qurmuşlar</li>
-          <li>Özümüzü və dünyanı dərketmə yolunda</li>
-          <li>Populyar iqtisadi məlumatlar</li>
-          <li>Siyasət elminə giriş</li>
-          <li>Türk dünyası</li>
-          <li>Zəfər yolu</li>
-          <li>Zərifə Əliyeva ziyarətə çevrilmiş ünvanlar (1 hissə)</li>
-          <li>Azərbaycan Respublikasının nəqliyyat hüququ</li>
-          <li>Beynəlxalq nəqliyyat hüququ</li>
-          <li>Dövlət qulluğu</li>
-          <li>Haqları necə qorumalı</li>
-          <li>Məktəbəqədər Təhsilin Müasir Problemləri</li>
-          <li>Təhsil Sistemində Monitorinq və Qiymətləndirmə</li>
-          <li>Təhsilin İdarə Edilməsinin Bəzi problemləri</li>
-          <li>Təhsilin İdarə Olunmasının əsasları</li>
-          <li>Təhsilin Modernləşdirilməsinin Elmi-Nəzəri Problemləri</li>
-          <li>Analoq və Rəqəmsal Sistemlər</li>
-          <li>Avtomatik İdarəetmə Nəzəriyyəsi və Modelləşdirmə</li>
-          <li>Avtomatik Tənzimləmə Nəzəriyyəsi 2</li>
-          <li>Avtomatlaşdırılmış layihələndirmə sistemlərinin əsasları</li>
-          <li>Avtomatlaşdırmanın əsasları</li>
-          <li>Avtomatlaşdırmanın əsasları</li>
-          <li>Biometrik Texnologiyalar</li>
-          <li>Bunları Öyrənməyə nə var ki?</li>
-          <li>C++ proqramlaşdırma dili-I</li>
-          <li>C++ proqramlaşdırma dili-II</li>
-          <li>Corel draw</li>
-          <li>Delphi7</li>
-          <li>
-            Excel və MathCAD vasitəsi ilə tənliklər və tənliklər sisteminin
-            həlli
-          </li>
-          <li>
-            Ədəbiyyat Dərslərində informasiya və kommunikasiya
-            texnologiyalarından istifadə
-          </li>
-          <li>Ədədi Üsullar Üzrə Praktiki İş</li>
-          <li>İqtisadi informatika</li>
-          <li>İqtisadi İnformatika</li>
-          <li>İnformasiya sistemləri</li>
-          <li>İnformasiya texnologiyaları və sistemləri</li>
-          <li>İnformasiya Təhlükəsizliyi və Kompyuter Şəbəkələri</li>
-          <li>İnformasiya təhlükəsizlliyinin prinsipləri</li>
-          <li>İnformatika (12 fərqli müəllif)</li>
-          <li>İnformatika və Kompüterləşmənin əsasları</li>
-          <li>İnformatika fənnindən praktikum</li>
-          <li>İnformatika və Geoinformatika</li>
-          <li>İnformatika və hesablama texnikasının əsasları</li>
-          <li>İnformatika və komputerləşmənin əsasları</li>
-          <li>İnformatikanın praktik əsasları</li>
-          <li>
-            İnsan kompüter qarşılıqlı əlaqəsi və istifadəyə yararlılıq
-            mühəndisliyi
-          </li>
-          <li>İntellektual Robotlar</li>
-          <li>
-            İntellektual sistemlərin qurulma prinsipləri və layihələndirilməsi
-          </li>
-          <li>İnternet</li>
-          <li>İnternet Texnologiyaları</li>
-          <li>Klasterləşmə və Süni Neyron Şəbəkələri</li>
-          <li>Komputer elminin nəzəri əsasları</li>
-          <li>Komputer informasiya texnologiyalarının əsasları</li>
-          <li>Komputer Qrafikası</li>
-          <li>Kompüter</li>
-          <li>Kompüter şəbəkələri</li>
-          <li>Kompüter şəbəkələrinin əsasları və proqram təminatı</li>
-          <li>
-            Kompüter Texnikası, Sistemləri və Şəbəkələri Laboratoriya Praktikumu
-          </li>
-          <li>Kompüter texnikasının layihələndirilməsi və texnologiyası</li>
-          <li>Kompüter və hesablama sistemləri</li>
-          <li>Kompüterin Arxitekturası</li>
-          <li>Kompüterin Arxitekturası və Əməliyyat Sistemləri</li>
-          <li>Korporativ İnformasiya Sistemləri</li>
-          <li>Qeyri-müəyyənlik şəraitində qərarların qəbulu və idarəetmə</li>
-          <li>Qərar qəbuletmənin əsasları</li>
-          <li>Qərar Qəbulunu Dəstəkləyən Sistemlər</li>
-          <li>Microsoft excel xp-də iqtisadi məsələlərin həlli</li>
-          <li>Microsoft office 2007 paketi</li>
-          <li>Microsoft Word 2007</li>
-          <li>Microsoft Word 2010 mətn redaktoru</li>
-          <li>Mikrokontroller texnikası</li>
-          <li>Office 2010</li>
-          <li>Optimal və adaptiv idarəetmə</li>
-          <li>Pascaldan Delphıyə 3 Nəşr</li>
-          <li>Photoshop-da praktiki İşlərinin yerinə yetirilməsi</li>
-          <li>Proqram Mühəndisliyi</li>
-          <li>Proqramlaşdırma Dilləri</li>
-          <li>Prototiplərin hazırlanmasında additiv texnologiyanın tətbiqi</li>
-          <li>Python</li>
-          <li>Riyazi Proqramlaşdırma</li>
-          <li>Sistemlərin İdentifikasiyası</li>
-          <li>Sistemli təhlil və əməliyyatların tədqiqi</li>
-          <li>Soft Kompütinq</li>
-          <li>Şəbəkələr sistemi</li>
-          <li>Turbo Pascal 7.0</li>
-          <li>UX/UI dizayn</li>
-          <li>Verilənlər Bazası</li>
-          <li>Visual basic və microsoft excel xp-də məsələlər həlli</li>
-          <li>Word 2000</li>
-          <li>Теория интеллектуальных систем</li>
-          <li>Python</li>
-          <li>HTML, CSS</li>
-          <li>JAVA SCRİPT</li>
-          <li>UX/UI dizayn</li>
-          <li>İnformasiya təhlükəsizliyinin əsasları</li>
-          <li>Rəqəmsal idarəetmə sistemləri</li>
-          <li>Müasir idarəetmə nəzəriyyəsi</li>
-          <li>Əməliyyatların idarəedilməsi prinsipləri</li>
-          <li>Verilənlərin emalının paylanmış sistemləri</li>
-          <li>Сборник задач и упражнений по геоинформатике</li>
-          <li>Şəbəkələrin PT</li>
-          <li>Avtomatik idarəetmə Nəzəriyyəsi</li>
-          <li>MS Excel 2007-vista versiyası</li>
-          <li>Kompüter və hesablama sistemlərinin arxitekturası</li>
-          <li>
-            Sistemli analiz və kompüterdə modelləşdirmə fənni üzrə laboratoriya
-            işlərinin yerinə yetirilməsinə dair metodik vəsait
-          </li>
-          <li>İnformasiya təhlükəsizliyinin hüquqi və təşkilati təminatı</li>
-          <li>İnformatika</li>
-          <li>Rəqəmsal ödənişlər və elektron bankçılıq xidmətləri</li>
-          <li>İnformasiya texnologiyaları fənni üzrə laboratoriya işləri</li>
-          <li>Elektronika</li>
-          <li>Elektronika və elektrotexnika</li>
-          <li>Elektron cihazları və emissiya elektronikanın əsasları</li>
-          <li>Matlab tətbiqi, proqramlar paketi və simvollu riyaziyyat.</li>
-          <li>Геоинформатика</li>
-          <li>Ali Məktəb Pedaqogikası</li>
-          <li>Makarankonun pedaqoji irsi</li>
-          <li>Məktəb Pedoqagikası</li>
-          <li>Məktəbəqədər yaşlı uşaqların fiziki tərbiyəsi</li>
-          <li>Pedaqogika</li>
-          <li>Pedaqogika</li>
-          <li>Seçilmiş Pedaqoji Əsərlər</li>
-          <li>Yeni Təlim Texnologiyaları Müasir Dərs</li>
-          <li>A Course in Modern English Lexicology</li>
-          <li>A Grammar of the English Language</li>
-          <li>A Guide To English Grammar</li>
-          <li>A Practical Grammar Of Contemporary English</li>
-          <li>Acourse theoretical english grammar</li>
-          <li>Akademik Writing Style</li>
-          <li>Almanca Azərbaycanca Lüğət II nəşr</li>
-          <li>Ana Dili Tədris Metodikası</li>
-          <li>Ana Dilinin Tədris Metodikası</li>
-          <li>Azerbaycan Türkçesi Sözlüyü II</li>
-          <li>Azərbaycan Dilçiliyi Müntəxəbatı</li>
-          <li>Azərbaycan Dili və Nitq Mədəniyyəti</li>
-          <li>Azərbaycan Dilinin dialoktoloji lüğəti</li>
-          <li>Azərbaycan dilinin izahlı ayəti</li>
-          <li>Azərbaycan dilinin Orfaqrafya lüğəti</li>
-          <li>Azərbaycan Dilinin sinonimlər lüğəti</li>
-          <li>Azərbaycan Dilinin Tədrisi Metodikası</li>
-          <li>Azərbaycan ədəbi dili tarixi</li>
-          <li>Azərbaycanca Rusca lüğət</li>
-          <li>Cutting Edge</li>
-          <li>Cutting Edge (intermediate)</li>
-          <li>Exercises in English Syntax</li>
-          <li>
-            Elektronika və radiotexnika fənni üzrə laboratoriya işlərinə dair
-            metodik vəsait
-          </li>
-          <li>Engilis dilinin praktik fonetikası kitabına əlavə</li>
-          <li>Engilish</li>
-          <li>Engilish</li>
-          <li>Engilish Course</li>
-          <li>Engilish Course</li>
-          <li>Engilish for All I Hissə</li>
-          <li>Engilish for All II Hissə</li>
-          <li>Engilish for All II Hissə</li>
-          <li>Engilish for beginners</li>
-          <li>English</li>
-          <li>English</li>
-          <li>English Fonetics</li>
-          <li>English for All</li>
-          <li>English for All</li>
-          <li>English Grammar exercises</li>
-          <li>English Vacabulary in Use (Second Edition)</li>
-          <li>Essential Grammar in Use</li>
-          <li>Essential grammar in Use</li>
-          <li>Farsca Azərbaycana lüğət</li>
-          <li>Fransızca Azərbaycanca lüğət</li>
-          <li>Fundamentals of language and linguistics</li>
-          <li>Xarici Dildə Tələffüz Vərdişlərinin Formalaşdırılması</li>
-          <li>İbtidai siniflərdə Azərbaycan dilinin Tədrisi Metodikası</li>
-          <li>İngilis dilinin fonetikası</li>
-          <li>İngilis Dilinin Qrammatikası</li>
-          <li>İngilis Dilinin Praktik Kursu II Hissə</li>
-          <li>
-            İngilis dilinin tədrisində yazılı və şifahi nitqin inkişaf
-            etdirilməsi yolları
-          </li>
-          <li>
-            Klasik Azərbaycan Ədəbiyyatında işlənən Ərəb və Fars sözləri lüğəti
-          </li>
-          <li>Loqopediyanın nəzəri əsasları</li>
-          <li>Manuel de français</li>
-          <li>Müasir Azərbaycan Dili</li>
-          <li>Müasir Azərbaycan Dili</li>
-          <li>Mürəkkəb Sintaktik Vahidlərdə Konstantlıq və Variativlik</li>
-          <li>Practical course of english</li>
-          <li>Rusca Azərbaycan Lüğəti I Cild</li>
-          <li>Supplement to the Book "Pratical English Phonetics"</li>
-          <li>Teaching english as a foreign language</li>
-          <li>Texnelogiya Terminlərinin İzahlı lüğəti</li>
-          <li>The İntermediate Modern</li>
-          <li>Theatre Fifth Edition</li>
-          <li>Деловой Англиский</li>
-          <li>Практический Курс Ангилиского Языка</li>
-          <li>Практический Курс Ангилиского Языка</li>
-          <li>Практический курс английского языка</li>
-          <li>Русский Язык</li>
-          <li>Сборник Упражнений По Грамматике Англиского Яазыка</li>
-          <li>Zəlimxan Yaqub seçilmiş əsərləri II cild</li>
-          <li>Zeynal Xəlil Seçilmiş əsərlər</li>
-          <li>Vladimir Nabokov seçilmiş əsərləri</li>
-          <li>Vladimir Nabokov Seçilmiş əsərləri</li>
-          <li>Vərqa və Gülşa</li>
-          <li>Ümumi dilçilik</li>
-          <li>Ümumdünya tarixinə nəzər</li>
-          <li>Uzaq yaşıl ada</li>
-          <li>Uzaq yaşıl ada</li>
-          <li>Ucalığa gedən yollar</li>
-          <li>Türkiyə ədəbiyyatı tarixi</li>
-          <li>Türk xalqları ədəbiyyatı</li>
-          <li>Turan</li>
-          <li>Tomas Mann Seçilmiş əsərləri</li>
-          <li>Tənzimat poeziyası</li>
-          <li>Təlim Metodları</li>
-          <li>Təhsilimizin uca insanları</li>
-          <li>Təhsildə keyfiyyət aparıcı istiqamətlərdən biri kimi</li>
-          <li>Təcrübəçi tələbələrin yaddaş kitabçası</li>
-          <li>Tapmacalar</li>
-          <li>Tağı Şahbazi Simürğ seçilmiş əsərləri</li>
-          <li>Şərq xalqları ədəbiyyatı</li>
-          <li>Şeirlər</li>
-          <li>Şahzadə və dilənçi</li>
-          <li>Sirli ada</li>
-          <li>Sirli ada</li>
-          <li>Səməd Vurğun seçilmiş əsərləri</li>
-          <li>Səhənd seçilmiş əsərləri</li>
-          <li>Səcdəgahım Allahdır</li>
-          <li>Seyid Hüseyn seçilmiş əsərləri</li>
-          <li>Seçilmiş əsərləri (40 fərqli müəllifin kitabları)</li>
-          <li>Sarı sim</li>
-          <li>Sakit Don</li>
-          <li>Sabahın sorağında</li>
-          <li>Ruhum Əbədiyyətim</li>
-          <li>Rəsul Rza seçilmiş əsərləri IV cild</li>
-          <li>Rəsul Rza seçilmiş əsərləri III cild</li>
-          <li>Rəsul Rza seçilmiş əsərləri I cild</li>
-          <li>Rabindranat Taqor seçilmiş əsərləri</li>
-          <li>Prosper Merime</li>
-          <li>Pozitiv Psixologiya</li>
-          <li>Per Lagerkvist seçilmiş əsərləri</li>
-          <li>
-            Pedaqoji kadrların əlavə təhsilinin nəzəri və praktik problemləri
-          </li>
-          <li>Payız leysanı</li>
-          <li>Paris Nort-Dam kilisəsi</li>
-          <li>Ömürdən yarpaqlar</li>
-          <li>Ömrümün payız günəşi</li>
-          <li>Osman Sarıvəlli seçilmiş əsərləri</li>
-          <li>Orta məktəbdə Azərbaycan dilinin tədrisinin metodikası</li>
-          <li>Orta məktəbdə Azərbaycan dilinin tədrisi metodikası</li>
-          <li>Orta məktəbdə Azərbaycan dilinin tədrisi</li>
-          <li>Orta əsrlər şərq Ədəbiyyatı</li>
-          <li>Nikolay Qoqol seçilmiş əsərləri</li>
-          <li>Nəriman Nərimanov seçilmiş əsərləri</li>
-          <li>Nəcib Fazil Qısakürək seçilmiş əsərləri</li>
-          <li>Neft və Milyonlar Səltənətində</li>
-          <li>Nağıllar</li>
-          <li>N.Nərimanov əsərləri</li>
-          <li>Müəllimin pedaqoji ustalığı</li>
-          <li>
-            Müasir təlim metodları təlim keyfiyyətinin yüksəldilməsinin əsas
-            şərtidir
-          </li>
-          <li>Müasir Azərbaycan ədəbiyyatı</li>
-          <li>Müasir Azərbaycan dilinin leksikologiyası</li>
-          <li>Müasir Azərbaycan dilində qoşulma cümlələr</li>
-          <li>Müasir Azərbaycan dili (5 müxtəlif müəllifin kitabları)</li>
-          <li>Mövlud Süleymanlı Seçilmiş əsərləri</li>
-          <li>Molla Nəsrəddinin lətifələri</li>
-          <li>Molla Cümə Əsərləri</li>
-          <li>Mirzə Fətəli Axundzadə əsərləri</li>
-          <li>Mir Möhsün Nəvvab əsərləri</li>
-          <li>Mir Mehdi Seyidzadə seçilmiş əsərləri</li>
-          <li>Mikayıl Müsviq seçilmiş əsərləri</li>
-          <li>Mikayıl Azaquluzadə seçilmiş əsərləri</li>
-          <li>Mən tanrı yolçusuyam</li>
-          <li>Məmməd Araz seçilmiş əsərləri II cild</li>
-          <li>Məmməd Araz seçilmiş əsərləri I cild</li>
-          <li>Məhəmməd Füzuli əsərləri VI cild</li>
-          <li>Məhəbbət ölüncə var</li>
-          <li>Mehdi Hüseyin seçilmiş əsərləri</li>
-          <li>Luis Sinkler seçilmiş əsərləri</li>
-          <li>Lirika</li>
-          <li>Lamançlı Don Kixot</li>
-          <li>Qutadgu Bilgi</li>
-          <li>Qılınc və Qələm</li>
-          <li>Qəriblikdə qalan dünya</li>
-          <li>Qədim və orta əsrlər İran, Əfqanıstan, Tacikistan ədəbiyyatı</li>
-          <li>Qaradağlı Qəlbi Dağlı</li>
-          <li>Qabriel Qarsia Markes Seçilmiş əsərləri</li>
-          <li>Köhnə Bakı</li>
-          <li>Köçündən ayrılan durna</li>
-          <li>Koroğlu (Paris nüsxəsi)</li>
-          <li>Kitavi dədə qorqud Arxaik ritual semantikası</li>
-          <li>Kimə inanasan</li>
-          <li>Jorji Amadu</li>
-          <li>İsgəndərnamə</li>
-          <li>İsalam Səfərli Seçilmiş əsərləri</li>
-          <li>İnteqrativ kurrikulum mahiyyəti və nümunələr</li>
-          <li>İfadəli oxunun əsasları</li>
-          <li>İfadəli oxunun əsasları</li>
-          <li>İfadəli oxu</li>
-          <li>İbtidai siniflərdə Azərbaycan dilinin tədrisi metodikası</li>
-          <li>İbtidai siniflərdə Azərbaycan dilinin tədrisi metodikası</li>
-          <li>Xurşidbanu Natəvan seçilmiş əsərləri</li>
-          <li>XX əsr dünya ədəbiyyatı antologiyası II</li>
-          <li>XX əsr Azərbaycan ədəbiyyatı</li>
-          <li>Xaqani</li>
-          <li>Hüsnxət təliminin metodikası</li>
-          <li>Hüseyin Mehdi Seçilmiş əsərləri</li>
-          <li>Hərb və Sülh</li>
-          <li>Həbib Sahir seçilmiş əsərləri</li>
-          <li>Hardan başlanır vətən</li>
-          <li>Göyəçin lələyi</li>
-          <li>Gi de Mopassan hekayələr və novellalar</li>
-          <li>Fridrix Şiller Seçilmiş əsərləri</li>
-          <li>Fransua Moriak Seçilmiş əsərləri</li>
-          <li>Əziz Nesin seçilmiş əsərləri</li>
-          <li>Əziz Cəfərzadə Seçilmiş əsərləri 12-ci cild</li>
-          <li>Əsərləri III</li>
-          <li>Əsərləri III</li>
-          <li>Əsərləri 3cü Cild</li>
-          <li>Əsərləri 1Cİ Cild</li>
-          <li>Əsərləri 1ci Cild</li>
-          <li>Əsatirlə, rəfsanə və rəvayətlər</li>
-          <li>Ərəbcə yazılmış Azərbaycanı şair və ədiblər</li>
-          <li>Əlişir Nəvai seçilmiş əsərləri</li>
-          <li>Əxlaqi-n-Nasiri</li>
-          <li>Əxlaqi-nasiri</li>
-          <li>Ədəbiyyatın tədrisi metodikası</li>
-          <li>Ədəbiyyatın tədrisi metodikası</li>
-          <li>Eşitdiklərim oxuduqlarım gördüklərim</li>
-          <li>Eldən-elə</li>
-          <li>Dünyada təhsil sistemləri</li>
-          <li>Dodaqdan qəlbə</li>
-          <li>Divan</li>
-          <li>Dilçiliyə giriş</li>
-          <li>Dərd</li>
-          <li>Dəfinələr adası</li>
-          <li>Çingiz Aytmatov Seçilmiş əsərləri II cild</li>
-          <li>Çingiz Aytmatov Seçilmiş əsərləri</li>
-          <li>Con Milton Seçilmiş əsərləri</li>
-          <li>Cəsarətim</li>
-          <li>Cənubi Azərbaycan ədəbiyyatı tarixi</li>
-          <li>Cəlil Məmmədquluzadə əsərləri I cild</li>
-          <li>Cəlil Məmmədquluzadə Əsərləri 4-cü cild</li>
-          <li>Bualo poeziya sənəti</li>
-          <li>Böyük Demokrat</li>
-          <li>Boyundur</li>
-          <li>Bolonya Prosesi və Azərbaycan</li>
-          <li>Bolonya Prosesi</li>
-          <li>Bizim qəribə talehimiz</li>
-          <li>Bir zaman can deyib can eşiderdik</li>
-          <li>Bir bulaq çağlay</li>
-          <li>Antik Ədəbiyyat Antologiyası I Cild</li>
-          <li>Antik Ədəbiyyat Antologiyası II Cild</li>
-          <li>A.L.Barto seçilmiş əsərləri</li>
-          <li>Abdulla Şaiq seçilmiş əsərləri</li>
-          <li>Adam Mitskeviç seçilmiş əsərləri</li>
-          <li>Adi əhvalat</li>
-          <li>Aləmdə səsim var mənim</li>
-          <li>Alman Ədəbiyyatı Antologiyası</li>
-          <li>Antik Ədəbiyyat Antologiyası</li>
-          <li>Antik Ədəbiyyat Antologiyası 1ci cild</li>
-          <li>Anton Pavloviç Çexov Seçilmiş əsərləri</li>
-          <li>Arı və demokratiya</li>
-          <li>Azərbaycan dastanları</li>
-          <li>Azərbaycan dramaturgiyası antologiyası I cild</li>
-          <li>Azərbaycan dramaturgiyası antologiyası II cild</li>
-          <li>Azərbaycan dramaturgiyası antologiyası III cild</li>
-          <li>Azərbaycan dramaturgiyası antologiyası IV cild</li>
-          <li>Azərbaycan klassik ədəbiyyatından seçmələr</li>
-          <li>Azərbaycan publistikası Antologiyası</li>
-          <li>Azərbaycan şifahi xalq ədəbiyyatı</li>
-          <li>Azərbaycan usaq ədəbiyyatı</li>
-          <li>Azərbaycan usaq ədəbiyyatı</li>
-          <li>Balaş Azəroğlu seçilmiş əsərləri</li>
-          <li>Cahan Şahın həqiqi seçilmiş əsərləri</li>
-          <li>Cahan Şahın həqiqi seçilmiş əsərləri</li>
-          <li>Cəlil Məmmədquluzdənin seçilmiş əsərləri</li>
-          <li>Cəlil Məmmədquluzdənin seçilmiş əsərləri</li>
-          <li>Con Qolsuorsi seçilmiş əsərləri</li>
-          <li>Con Milton seçilmiş əsərləri</li>
-          <li>Con Milton seçilmiş əsərləri</li>
-          <li>Corc Bernard Şou seçilmiş əsərləri</li>
-          <li>Corc Qordon Bayron seçilmiş əsərləri</li>
-          <li>Dastani-Əhməd Hərami</li>
-          <li>Dəfinələr adası</li>
-          <li>Divan</li>
-          <li>Don xuanla söhbətlər</li>
-          <li>Dünya fantastika antologiyası</li>
-          <li>Əcəl Zəngi</li>
-          <li>Əhməd bəy Ağaoğlu seçilmiş əsərləri</li>
-          <li>Əli və Nino</li>
-          <li>Əli Vəliyev seçilmiş əsərləri</li>
-          <li>Ərəbcə yazılmış Azərbaycanlı şair və ədiblər</li>
-          <li>Ərəbcə yazılmış Azərbaycanlı şair və ədiblər</li>
-          <li>Əsərlər</li>
-          <li>Əsərlər</li>
-          <li>Əsərlər</li>
-          <li>Əsərlər IV cild</li>
-          <li>Frans Kafka seçilmiş əsərləri</li>
-          <li>Frans Kafka seçilmiş əsərləri</li>
-          <li>Fyodor Dostoyevski</li>
-          <li>Gedirəm üzü payıza</li>
-          <li>Heyakələr və Novellalar</li>
-          <li>Heyakələr və Novellalar</li>
-          <li>Həbibi şeirlər</li>
-          <li>Həbibi şeirlər</li>
-          <li>Həkimə Billuri seçilmiş əsərləri</li>
-          <li>Həsən Seyidbəylinin bədii nəsri</li>
-          <li>Hüseyn Arif seçilmiş əsərləri</li>
-          <li>XX Əsr Azərbaycan Antologiyası</li>
-          <li>XX Əsr Azərbaycan Antologiyası I Cild</li>
-          <li>XX Əsr Azərbaycan Antologiyası II Cild</li>
-          <li>İbrahim bəyin səyahətnaməsi</li>
-          <li>İdeal</li>
-          <li>İmadəddin Nəsimi seçilmiş əsərlər</li>
-          <li>İmadəddin Nəsimi seçilmiş əsərlər</li>
-          <li>İngilis Ədəbiyyatı Anatologiyası</li>
-          <li>İspan Ədəbiyyatı Antologiyası</li>
-          <li>Küləklə Sovrulanlar</li>
-          <li>Küləklə sovrulanlar I cild</li>
-          <li>Küləklə sovrulanlar I cild</li>
-          <li>Qabusnamə</li>
-          <li>Qanadlı günlərin gileyi</li>
-          <li>Qarqantua və pantaqruel</li>
-          <li>Qasım bəy Zakir seçilmiş əsərləri</li>
-          <li>Qasım bəy Zakir seçilmiş əsərləri</li>
-          <li>Qəribə dünya</li>
-          <li>Qılınc və qələm II hissə</li>
-          <li>Qılınc və qələm II hissə</li>
-          <li>Qisseyi-Yusif</li>
-          <li>Qulliverin Səyahəti</li>
-          <li>Qulliverin səyahəti</li>
-          <li>Latın Amerikası Ədəbiyatı Antologiyası</li>
-          <li>Lev Nikolayeviç Tolstoy seçilmiş əsərləri</li>
-          <li>Lev Nikolayeviç Tolstoy seçilmiş əsərləri</li>
-          <li>Maksim Qorki seçilmiş əsərləri II cild</li>
-          <li>Mark Tven seçilmiş əsərləri</li>
-          <li>Mark Tven seçilmiş əsərləri</li>
-          <li>Mehdi Hüseyin seçilmiş əsərləri</li>
-          <li>Mehdi Hüseyin seçilmiş əsərləri III cild</li>
-          <li>Mehdi Hüseyin seçilmiş əsərləri III cild</li>
-          <li>Mehr və Müştəri</li>
-          <li>Mixail Bulqakov seçilmiş əsərləri</li>
-          <li>Mixail Yuryeviç Lermontov seçilmiş əsərləri</li>
-          <li>Mikayıl Müsviq seçilmiş əsərləri</li>
-          <li>Min bir gecə</li>
-          <li>Mirvarid Dilbazi seçilmiş əsərləri</li>
-          <li>Müasir Azərbaycan dili</li>
-          <li>Müasir Azərbaycan dili</li>
-          <li>Müqəddəs Məşhəd yollarında</li>
-          <li>Mümkünlüyün xaricində I cild</li>
-          <li>N.V.Qoqol seçilmiş əsərləri</li>
-          <li>Nikolay Qarin-Mixayılovski seçilmiş əsərləri</li>
-          <li>Nikolay Qarin-Mixayılovski seçilmiş əsərləri</li>
-          <li>Nurlu simalar</li>
-          <li>Odisseya</li>
-          <li>Peterburqdan moskvaya səyahət</li>
-          <li>Poemalar</li>
-          <li>Poetika</li>
-          <li>Prosper Merime seçilmiş əsərləri</li>
-          <li>Prosper Merime seçilmiş əsərləri</li>
-          <li>Robinzon Kruzo</li>
-          <li>Rus Şeiri Antologiyası</li>
-          <li>Seçilmiç əsərlər, I cild (4 fərqli müəllif)</li>
-          <li>Seçilmiş əsərlər (37 fərqli müəllif)</li>
-          <li>Seçilmiş əsərlər I cild</li>
-          <li>Seçilmiş əsərlər I cild</li>
-          <li>Seçilmiş əsərlər I cild</li>
-          <li>Seçilmiş əsərləri</li>
-          <li>Seçilmiş Əsərləri</li>
-          <li>Seçilmiş pedaqoji əsərlər XXX cild, XXIX</li>
-          <li>Sergey Vladimiroviç Mixalkov seçilmiş əsərlər</li>
-          <li>Səfillər</li>
-          <li>Sirli ada</li>
-          <li>Spartak</li>
-          <li>Stanislav Len seçilmiş əsərləri</li>
-          <li>Şahzadə və Dilənçi, Xoşbəxt Şahzadə</li>
-          <li>Şeirlər</li>
-          <li>Şekspirin seçilmiş əsrərləri</li>
-          <li>Şəhriyar</li>
-          <li>Şəhzadə və Dilənçi</li>
-          <li>Tofiq Bayram seçilmiş əsərləri</li>
-          <li>Tomas Eliot seçilmiş əsərləri</li>
-          <li>Toni Morison seçilmiş əsərləri</li>
-          <li>Türk Xalqları Ədəbiyyatı Antologiaysı Cild I</li>
-          <li>Türk Xalqları Ədəbiyyatı Antologiaysı Cild II</li>
-          <li>Türk Xalqları Ədəbiyyatı Antologiaysı Cild III</li>
-          <li>Viktor Hüqo Paris Notr-Dam Kilsəsi</li>
-          <li>Viktor Hüqo Paris Notr-Dam Kilsəsi</li>
-          <li>Viktor Hüqo seçilmiş əsərləri</li>
-          <li>Y.K.Oleşa seçilmiş əsərləri</li>
-          <li>41 Stories</li>
-          <li>A Christmas Carol</li>
-          <li>A State of Blood</li>
-          <li>Acting One Fourth Edition</li>
-          <li>Agnes Grey</li>
-          <li>Airport/Facility Directory</li>
-          <li>Alien Heat</li>
-          <li>Along The Path of The People's Happiness</li>
-          <li>Amelia Bedelia Helps Out</li>
-          <li>American Political Science December 1987 Volume 81 Number 3</li>
-          <li>American Political Science December 1988 Volume 82 Number 4</li>
-          <li>And Then There Were None</li>
-          <li>Animal Farm</li>
-          <li>Aristoi</li>
-          <li>Aristoi</li>
-          <li>As You Like It</li>
-          <li>Barnaby Rudge</li>
-          <li>Barnaby Rudge</li>
-          <li>Barnaby Rudge</li>
-          <li>Beverly Cleary</li>
-          <li>Beverly Cleary</li>
-          <li>Beyond The Western Sea</li>
-          <li>Bleak House</li>
-          <li>Bleak House</li>
-          <li>Bleak House</li>
-          <li>Candide and Other Works</li>
-          <li>Cavett Manor</li>
-          <li>Century</li>
-          <li>Charlie and the Great Glass Elevator</li>
-          <li>Cleopatra Gold</li>
-          <li>Compelling Evidence</li>
-          <li>Compelling Evidence</li>
-          <li>Connections. A Multicultural Reader for Writers</li>
-          <li>Crime Story Collection</li>
-          <li>Crossing Cultures</li>
-          <li>Crossing Cultures</li>
-          <li>Crossing Cultures</li>
-          <li>Crossing Delancey</li>
-          <li>Crossing Delancey</li>
-          <li>Cultures of the World</li>
-          <li>Current Index to Journals in Education</li>
-          <li>De Profundis The Ballad of Reading Gaol & Other Writings</li>
-          <li>Dead Man's Island</li>
-          <li>DECarray Installation Guide</li>
-          <li>Design It Build It</li>
-          <li>Design It Build It</li>
-          <li>Designs in Poetry</li>
-          <li>Designs in Poetry</li>
-          <li>Dibs in search of self</li>
-          <li>Disgrace</li>
-          <li>Disgrace</li>
-          <li>Disgrace</li>
-          <li>Down and Out in Paris and London</li>
-          <li>Down and Out in Paris and London</li>
-          <li>Dubliners</li>
-          <li>English</li>
-          <li>Environmental Impact Assessment</li>
-          <li>Feeling sorry for celia</li>
-          <li>Feeling sorry for celia</li>
-          <li>Finnegans Wake</li>
-          <li>Foreign Devils On The Silk Road</li>
-          <li>From the Earth to the Moon & Around the Moon</li>
-          <li>Gestures of Healing</li>
-          <li>Gestures of Healing</li>
-          <li>Get Shorty</li>
-          <li>Get Shorty</li>
-          <li>Girl in Hyacinth Blue</li>
-          <li>Girl in Hyacinth Blue</li>
-          <li>Girl in Hyacinth Blue</li>
-          <li>Goodnight Mister Tom</li>
-          <li>Goodnight Mister Tom</li>
-          <li>Great Expectations</li>
-          <li>Great Crimes</li>
-          <li>Great Crimes</li>
-          <li>Great Crimes</li>
-          <li>Gulliver's Travels</li>
-          <li>Hedda Gabler</li>
-          <li>Henry V</li>
-          <li>House of Heroes and other stories</li>
-          <li>House of Stone</li>
-          <li>House of Stone</li>
-          <li>In A New Land</li>
-          <li>In My Mother's House</li>
-          <li>Interpreter of Maladies</li>
-          <li>Irish Fairy Tales</li>
-          <li>Is There Life In Outer Space</li>
-          <li>Is There Life In Outer Space</li>
-          <li>Ivanhoe</li>
-          <li>Ivanhoe</li>
-          <li>Journey to the Centre of the Earth</li>
-          <li>Julie of the Wolves</li>
-          <li>Kim</li>
-          <li>Lady Boss</li>
-          <li>Learn to read papers</li>
-          <li>Macbeth</li>
-          <li>Mama Makes Up Her Mind and Other Dangers of Southern Living</li>
-          <li>Mrs Dalloway</li>
-          <li>Myth America 2001</li>
-          <li>North Point North</li>
-          <li>Oliver Twist</li>
-          <li>Once Upon a Time</li>
-          <li>Orlando</li>
-          <li>Orlando</li>
-          <li>Oscar Wilde Complete Short Fiction</li>
-          <li>Outline of U.S. Government</li>
-          <li>Outline of U.S. Government</li>
-          <li>Pippi Longstocking</li>
-          <li>Political Science & Politics Volume XXI Number 4 Fall 1988</li>
-          <li>Political Science & Politics Volume XXII Number 1 March 1989</li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. X, No.1, Fall 1977
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XXX, Number 1, Fall 1997
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XXX, Number 2, Winter 1997
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XXXI, Number 3, Spring 1999
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XXIX, Number 2, Winter 1996
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XXIX, Number 4, Summer 1997
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XIII, No.2, Winter 1980
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. XIV, No. 4, Summer 1982
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. IX, No.4, Summer 1977
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. V, No.2, Winter 1972
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. VI, No.1, Fall 1973
-          </li>
-          <li>
-            Polity. The journal of the northeastern political science
-            association. Vol. VII, No. 3, Spring 1975
-          </li>
-          <li>Public Affairs. Private Relations</li>
-          <li>Reader's Digest Condensed Books</li>
-          <li>Reader's Digest Select Editions</li>
-          <li>Redwall</li>
-          <li>Robin Hood</li>
-          <li>Robinson Crusoe</li>
-          <li>Robinson Crusoe</li>
-          <li>Romeo and Juliet</li>
-          <li>Rules of the Road</li>
-          <li>Sammy Keyes and the Hollywood Mummy</li>
-          <li>Sarab, Plain and Tall</li>
-          <li>School and Beyond</li>
-          <li>School and Beyond</li>
-          <li>Search for the Flaming Chalice</li>
-          <li>Selected Poems of Lord Byron</li>
-          <li>Selected Poems of Lord Byron</li>
-          <li>She's Come Undone</li>
-          <li>Smoking, Tobacco, and Cancer Program</li>
-          <li>Social Research. Strategy and Tactics</li>
-          <li>Social Studies</li>
-          <li>Stonecutter</li>
-          <li>Storm Warning</li>
-          <li>Switzerland</li>
-          <li>Tender is the Night & The Last Tycoon</li>
-          <li>Tess of the D'Urbervilles</li>
-          <li>The Adventure of Huckleberry Finn</li>
-          <li>The Boxcar Children</li>
-          <li>The Choice</li>
-          <li>The Coldest Place on Earth</li>
-          <li>The Corn King and The Spring Queen</li>
-          <li>The Democratic Way of Life</li>
-          <li>The Dungeon</li>
-          <li>The Egypt Game</li>
-          <li>The Fifth French Republic</li>
-          <li>The Golden Ball and Other Stories</li>
-          <li>The Golden Ball and Other Stories</li>
-          <li>The Governance of Curriculum</li>
-          <li>The Green-Eyed Hurricane</li>
-          <li>The House of Dies Drear</li>
-          <li>The House of Dies Drear</li>
-          <li>The Invisible Man & The Food of the Gods</li>
-          <li>The Jungle Book</li>
-          <li>The Last of the Mohicans</li>
-          <li>The Late Great Planet Earth</li>
-          <li>The Lottery</li>
-          <li>The Lottery</li>
-          <li>The Mark of Zorro</li>
-          <li>The Medal of Brigadier Gerard</li>
-          <li>The Mendozas of Mexico</li>
-          <li>The Mendozas of Mexico</li>
-          <li>The Merchant of Venice</li>
-          <li>The Mysterious Island</li>
-          <li>The New Science of Economics</li>
-          <li>The New Science of Economics</li>
-          <li>The Outcasts of Poker Flat</li>
-          <li>The Pediatric Clinics of North America</li>
-          <li>The Perils of Poirot by Agatha Christie</li>
-          <li>The Perils of Poirot by Agatha Christie</li>
-          <li>The Perils of Poirot by Agatha Christie</li>
-          <li>The Phantom</li>
-          <li>Azərbaycan Xalq Cümhuriyyəti Ensiklopediyası</li>
-          <li>Biblioqrafik göstərici</li>
-          <li>Böyük İktisadi Ensiklopediysi</li>
-          <li>
-            Klassik Azərbaycan ədəbiyyatında işlənən ərəb və fars sözləri lüğəti
-          </li>
-          <li>Məhəmməd Füzulinin poetik əsərlərinin izahlı lüğəti</li>
-          <li>Neft Dünyamızın Şah Damarı</li>
-          <li>Novruz Bayramı Ensiklopediysi</li>
-          <li>Texnologiya terminlərinin izahlı lüğəti</li>
-          <li>Ulduzlar Elm və Əfsanələri</li>
-        </ol>
-      </div>
-    </main>
-    <!--? footer -->
-
-    <footer>
-      <div class="footer-container container">
-        <div class="footer-main">
-          <div class="footer-logo">
-            <div class="footer-logo__img">
-              <img src="./assets/img/mdu-footer-logo3.png" alt="" />
-            </div>
-            <p class="footer-logo__title">MİNGƏÇEVİR DÖVLƏT UNİVERSİTETİ</p>
+        <div id="button-3" class="page-top__left-item page-top__lang-conatiner">
+          <div class="page-top__lang-show">
+            <i class="icon-globe"></i>
+            <span>Az</span>
+            <i class="icon-menu-caret-up"></i>
           </div>
-          <div class="footer-main__container">
-            <div class="footer-main__block">
-              <h3 class="footer-main__block-title mdu-library__title">
-                BİZİMLƏ ƏLAQƏ
-              </h3>
-              <div class="footer-main__block-list">
-                <p class="footer-main__block-item">
-                  <i class="icon-location"></i> D.Əliyeva küçəsi, 21 Mingəçevir
-                  AZ4500 Azərbaycan
-                </p>
-                <p class="footer-main__block-item">
-                  <i class="icon-email-personal-info"></i> kitabxana@mdu.edu.az
-                </p>
-                <p class="footer-main__block-item">
-                  <i class="icon-phone"></i> (+99424) 275-32-72
-                </p>
-              </div>
+          <ul id="dropdown-3" class="page-top__lang-list">
+            <li class="page-top__lang-item">Ru</li>
+            <li class="page-top__lang-item">En</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page-top__right-bar page__social-media">
+        <a href="https://www.facebook.com/mdueduaz" class="icon-facebook"></a>
+        <a href="https://www.instagram.com/mdueduaz/" class="icon-instagram-solid"></a>
+        <a href="https://www.linkedin.com/company/mdueduaz/" class="icon-linkedin-solid"></a>
+        <a href="https://x.com/mdueduaz" class="icon-twitter"></a>
+        <a href="https://www.youtube.com/channel/UCE4bBWIj3PyHvXRwDuGFJvQ" class="icon-youtube-solid"></a>
+        <a href="https://www.tiktok.com/@mdueduaz?" class="icon-tiktok-solid"></a>
+        <a href="https://t.me/MDUeduaz" class="icon-telegram-solid"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ? Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <a href="./index.html" class="navbar__left-side">
+        <img src="./assets/img/mdu-logo-3.png" alt="" />
+      </a>
+
+      <div class="navbar__right-side">
+        <i class="navbar__close-icon icon-cross"></i>
+
+        <ul class="navbar__right-list">
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link active">Ana Səhifə</a>
+          </li>
+          <li class="navbar-item" id="button-1">
+            <a href="#" class="navbar-link">
+              Kitabxana <i class="icon-menu-caret-up"></i>
+            </a>
+
+            <!--? Dropdown List 1 -->
+
+            <ul id="dropdown-1" class="navbar-item__list">
+              <li class="navbar-item__list-item">
+                <a href="./libraryAbout.html" class="navbar-item__link">Kitabxana haqqında</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="./collaborator.html" class="navbar-item__link">Əməkdaşlar haqqında</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="./news.html" class="navbar-item__link">Keçirilən tədbirlər</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="./libraryRules.html" class="navbar-item__link">İstifadə qaydaları</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="./services.html" class="navbar-item__link">Xidmətlər</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar-item">
+            <a href="./e-catalog.html" class="navbar-link">E-kataloq</a>
+          </li>
+          <li class="navbar-item" id="button-1">
+            <a href="#" class="navbar-link">
+              E-kitab <i class="icon-menu-caret-up"></i>
+            </a>
+
+            <!--? Dropdown List 1 -->
+
+            <ul id="dropdown-1" class="navbar-item__list">
+              <li class="navbar-item__list-item">
+                <a href="https://mduaz-my.sharepoint.com/personal/pedaqoji_videoders_mdu_edu_az/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fpedaqoji%5Fvideoders%5Fmdu%5Fedu%5Faz%2FDocuments%2FT%C9%99hsil%20fak%C3%BClt%C9%99si&amp;ga=1"
+                  class="navbar-item__link">Təhsil fakültəsi</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="https://mduaz-my.sharepoint.com/personal/muhendis_videoders_mdu_edu_az/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmuhendis%5Fvideoders%5Fmdu%5Fedu%5Faz%2FDocuments%2FM%C3%BCh%C9%99ndislik%20fak%C3%BClt%C9%99si&amp;ga=1"
+                  class="navbar-item__link">Mühəndislik fakültəsi</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="https://mduaz-my.sharepoint.com/personal/videodersler_mdu_edu_az/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvideodersler%5Fmdu%5Fedu%5Faz%2FDocuments%2F%C4%B0qtisadiyyat%20v%C9%99%20idar%C9%99etm%C9%99%20fak%C3%BClt%C9%99si&amp;ga=1"
+                  class="navbar-item__link">İqtisadiyyat və idarəetmə fakültəsi</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="navbar-item" id="button-1">
+            <a href="#" class="navbar-link">
+              E-resurs <i class="icon-menu-caret-up"></i>
+            </a>
+
+            <!--? Dropdown List 1 -->
+
+            <ul id="dropdown-1" class="navbar-item__list">
+              <li class="navbar-item__list-item">
+                <a href="full-text-database.html" class="navbar-item__link">Tam mətnli məlumat bazaları</a>
+              </li>
+
+              <li class="navbar-item__list-item">
+                <a href="electronic-database.html" class="navbar-item__link">Açıq e-kitabxanalar</a>
+              <li class="navbar-item__list-item">
+                <a href="new-publications.html" class="navbar-item__link">Dövri nəşrlər</a>
+              </li>
+            </ul>
+          </li>
+
+          <li id="button-2" class="navbar-item">
+            <a href="#" class="navbar-link">
+              Media <i class="icon-menu-caret-up"></i>
+            </a>
+
+            <!--? Dropdown List 2-->
+
+            <ul id="dropdown-2" class="navbar-item__list">
+              <!-- <li class="navbar-item__list-item">
+                  <a href="./audio.html" class="navbar-item__link"
+                    >Audio faylları</a>
+                </li> -->
+              <li class="navbar-item__list-item">
+                <a href="./video.html" class="navbar-item__link">Videolar</a>
+              </li>
+              <li class="navbar-item__list-item">
+                <a href="./gallery.html" class="navbar-item__link">Şəkil qalereyası</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar-item">
+            <a href="./contact.html" class="navbar-link">Bizimlə əlaqə</a>
+          </li>
+        </ul>
+        <a href="./login.html" class="btn btn-primary navbar__btn">İstifadəçi girişi</a>
+      </div>
+      <a href="./login.html" class="icon-user navbar__user-icon"></a>
+      <i class="icon-burger-menu navbar__burger-icon"></i>
+    </div>
+  </nav>
+
+  <!-- ? Header -->
+  <header class="header">
+    <div class="header__background-img">
+      <img src="./assets/img/inner-page-background3.jpg" alt="" />
+    </div>
+    <div class="header-content">
+      <h1 class="header-content__title mdu-library__title">Kitablar</h1>
+      <div class="header-content__links">
+        <a href="./index.html">Ana Səhifə</a>
+        <i class="icon-arrow-right"></i>
+        <a href="./e-catalog.html">Kitablar</a>
+      </div>
+    </div>
+  </header>
+  <!--  ?Main  -->
+  <main>
+    <div class="about__container container" data-aos="fade-up">
+      <h3 class="about__title-text mdu-library__title">KİTABLAR</h3>
+      <ol>
+        <li>Ali Cəbr</li>
+        <li>Ali Cəbr Kursu</li>
+        <li>Ali Riyaziyyat</li>
+        <li>Ali Riyaziyyat I hissə</li>
+        <li>Ali Riyaziyyat II hissə</li>
+        <li>Ali Riyaziyyata aid çalışmalar</li>
+        <li>Azərbaycan riyaziyyatçıları</li>
+        <li>Birdəyişənli funksiyaların inteqral hesabı</li>
+        <li>Cəbr və Ədədləri Nəzəriyyəsi</li>
+        <li>Diferensiyal Tənlik</li>
+        <li>Ehtimal nəzəriyyəsi və riyazi statistika</li>
+        <li>Ehtimal nəzəriyyəsi və riyazi statistikanın elementləri</li>
+        <li>Funksional Analiz</li>
+        <li>Xətti Cəbr analitik həndəsə Riyazi Analiz</li>
+        <li>Xətti Cəbr elementləri və analitik həndəsə</li>
+        <li>Xətti Proqramlaşdırma</li>
+        <li>İnteqral Hesabı</li>
+        <li>Kompleyks Dəyişənləri Funksiyalar Nəzərində</li>
+        <li>Optimallaşdırma üsullarının iqtisadi məsələləri tətbiqi</li>
+        <li>Rəqəmsal ödənişlər və Elektron Bankçılıq xidmətləri</li>
+        <li>Riyazi Analiz</li>
+        <li>Riyazi Analizdən Məsələlər</li>
+        <li>Riyazi Fizika Tənlikləri</li>
+        <li>Riyazi Analizdən Məsələ və Misallar</li>
+        <li>Sıralar</li>
+        <li>Analitik Funksiyalar</li>
+        <li>Analitik Həndəsə</li>
+        <li>Ehtimal Nəzəriyyəsi və Riyazı Statistika'nın Elementləri</li>
+        <li>Ehtimal Nəzəriyyəsi və Riyazi Statistika</li>
+        <li>Azərbaycanın Regionları</li>
+        <li>Azərbaycanın Statistik Göstəriciləri</li>
+        <li>Azərbaycanın Regionları</li>
+        <li>Azərbaycanın Regionları</li>
+        <li>Azərbaycanın Statistik Göstəriciləri</li>
+        <li>Müstəqil Azərbaycan</li>
+        <li>Amerika Birləşmiş Ştatlarının yeni və müasir tarixi</li>
+        <li>İrəvan Xanlığı</li>
+        <li>Azərbaycan tarixi</li>
+        <li>Tarixin qan yaddaşı</li>
+        <li>Azərbaycan tarixi</li>
+        <li>Azərbaycan tarixi I</li>
+        <li>XX əsr Azərbaycan tarixi II</li>
+        <li>Azərbaycan tarixi I</li>
+        <li>Qədim Şərq tarixi</li>
+        <li>Qədim dünya tarixi I</li>
+        <li>İnnovasiya Sual-Cavabda VII</li>
+        <li>İqtisadi Kibernetika</li>
+        <li>Qeyri-Dövlət Sektorunda Məşğulluğun</li>
+        <li>Səmərəliyinin Sosial İqtisadi Problemləri</li>
+        <li>Vergi Siyasəti və İnvestisiyaların</li>
+        <li>Dövlət Tənzimlənməsi</li>
+        <li>İqtisadi Yazılar</li>
+        <li>Milli İqtisadiyyatın İnkişafının Əsasları</li>
+        <li>Azərbaycan Respublikasının Kadr Hazırlığının</li>
+        <li>Təşəkkürlü Prosesi</li>
+        <li>İnvestisiya Layihələrinin Təşkili və</li>
+        <li>İdarə olunması</li>
+        <li>Mikroiqtisadiyyatın əsasları</li>
+        <li>İqtisadiyyata Giriş</li>
+        <li>Lüğət</li>
+        <li>Makroiqtisadiyyat 26-cı proqram</li>
+        <li>Korporativ İdarəetmə</li>
+        <li>Xüsusi İqtisadi Zonaların Tətbiqi problemləri</li>
+        <li>Makroiqtisadiyyata giriş</li>
+        <li>Mikroiqtisadiyyatın 26-cı proqram</li>
+        <li>Mikroiqtisadiyyatın 26-cı proqram</li>
+        <li>Mikro və Makroiqtisadiyyat</li>
+        <li>Dövlət və Bələdiyyə idarəçiliyinin müasir problemləri</li>
+        <li>İnsan İnkişafının əsasları</li>
+        <li>
+          Azərbaycan Respublikasının Vergi Xidməti: İslahatlar və nəticələr
+        </li>
+        <li>
+          Davamlı İnkişaf və Ekoloji Sivilizasiyanın İdarə Edilməsinin
+          Əsasları
+        </li>
+        <li>
+          Azərbaycanda Regional Turizmin İnkişafı: Problemlər, Perspektivlər
+        </li>
+        <li>İslam Maliyyə Sistemi və Alətləri</li>
+        <li>Maliyyə Hesabatları</li>
+        <li>Yerli Özünüidarəetmə Orqanlarının Vergi Sistemi</li>
+        <li>İqtisad Elminin Müasir Problemləri</li>
+        <li>İqtisadi İnformatika</li>
+        <li>İqtisadiyyatın Tənzimlənməsi</li>
+        <li>İşgüzar Yazışmalar</li>
+        <li>Əməliyyatların idarə edilməsi</li>
+        <li>Xidmət sahələrində mühasibat (Maliyyə) Uçotu</li>
+        <li>Audit</li>
+        <li>İnhisarizm</li>
+        <li>Sosial tədqiqat praktikası</li>
+        <li>Sıfırdan başlayan mühasibat (Maliyyə) Uçotu</li>
+        <li>Pul, bank və maliyyə bazarlarının iqtisadiyyatı</li>
+        <li>Maliyyə Nəzəriyyəsi</li>
+        <li>Maliyyənin əsasları</li>
+        <li>Mühasibat Uçotu</li>
+        <li>Vergi Məcəlləsinin Xüsusi Hissəsinin Praktiki İzahı</li>
+        <li>Kütləvi Kommunikasiya mediası</li>
+        <li>Büdcə təşkilatları üçün Milli Mühasibat Uçotu Standartları</li>
+        <li>Dövlət Maliyyəsi Terminləri Lüğəti</li>
+        <li>Heyətin İdarə Edilməsi</li>
+        <li>İqtisadi Diplomatiya</li>
+        <li>Statistika Nəzəriyyəsi</li>
+        <li>Regional İdarəetmə</li>
+        <li>Statistika: Sosial-İqtisadi Məsələlər</li>
+        <li>Statistikanın Ümumi Nəzəriyyəsi</li>
+        <li>Kommersiya Fəaliyyətinin Əsasları</li>
+        <li>Azərbaycan Respublikasının Gömrük Məcəlləsi</li>
+        <li>Gömrük Qaydaları (Prosedurları) və Məsuliyyət</li>
+        <li>Gömrük Fəaliyyətinin İqtisadiyyatı</li>
+        <li>Gömrük İşinin Təşkili</li>
+        <li>Biznesin Əsasları</li>
+        <li>Biznesin Təşkili və İdarə Edilməsi</li>
+        <li>Bazar İqtisadiyyatının Dövlət Tərəfindən Tənzimlənməsi</li>
+        <li>Milli İqtisadiyyatın Tənzimlənməsi</li>
+        <li>İqtisadiyyatın Dövlət Tənzimlənməsi</li>
+        <li>Milli İqtisadiyyatın Tənzimlənməsi</li>
+        <li>Milli İqtisadiyyatın Dövlət Tənzimlənməsi</li>
+        <li>Milli İqtisadiyyatın Dövlət Tənzimlənməsi</li>
+        <li>Milli İqtisadiyyatın Dövlət Tənzimlənməsi</li>
+        <li>Əməliyyatların idarə edilməsi</li>
+        <li>Xidmət sahələrində mühasibat (Maliyyə) Uçotu</li>
+        <li>Audit</li>
+        <li>İnhisarizm</li>
+        <li>Sosial tədqiqat praktikası</li>
+        <li>Sıfırdan başlayan mühasibat (Maliyyə) Uçotu</li>
+        <li>İqtisadi nəzəriyyə</li>
+        <li>İqtisadi nəzəriyyə</li>
+        <li>İqtisadi təhlil</li>
+        <li>Beynəlxalq iqtisadi hüquq</li>
+        <li>İqtisadi nəzəri kursu</li>
+        <li>
+          Neft-kimya müəssisələrinin idarə edilməsinin təşkilati iqtisadi
+          səmtləri
+        </li>
+        <li>İdarəetmə təhlili</li>
+        <li>Karyera Planlaması</li>
+        <li>Sosial işdə etik prinsiplər və dəyərlər</li>
+        <li>Sosial elmlərdə keyfiyyət tədqiqat metodları</li>
+        <li>Vergi mədəniyyəti</li>
+        <li>Vergi siyasətinin iqtisadi problemləri</li>
+        <li>İqtisad elminin nəzəri əsaslarının tarixi təkamülü</li>
+        <li>
+          Naxçıvan Muxtar Respublikası iqtisadiyyatının ərazi təşkili və
+          inkişafının coğrafiyası
+        </li>
+        <li>Strategic management Competitiveness Globalization</li>
+        <li>Macroeconomics</li>
+        <li>Modern Industrial organization</li>
+        <li>Azərbaycan-ABŞ Dostluq və</li>
+        <li>Qardaşlıq Yollarında</li>
+        <li>Sülh və Təhlükəsizlik Naminə</li>
+        <li>Birlikdə Yeni Əsrə Doğru</li>
+        <li>Azərbaycan Qəzeti I cild</li>
+        <li>Azərbaycan Qəzeti II cild</li>
+        <li>Azərbaycan Qəzeti III cild</li>
+        <li>Azərbaycan kurort təsərrüfatı</li>
+        <li>Otel</li>
+        <li>Hotel</li>
+        <li>Azərbaycan turizmi və onun inkişaf problemləri</li>
+        <li>Turizm destinasiyalarının idarəedilməsi</li>
+        <li>Dövlət və dördüncü hakimiyyət</li>
+        <li>Yüksəkliyə doğru</li>
+        <li>Politologiya</li>
+        <li>Goris - 2010 season of theatre of the absurd</li>
+        <li>Demokratiya: Dövlət və cəmiyyət</li>
+        <li>Multikulturalizmə giriş</li>
+        <li>Psixologiya</li>
+        <li>Sosial işdə etik prinsiplər və dəyərlər</li>
+        <li>Sosiologiya</li>
+        <li>Politologiya</li>
+        <li>Azərbaycan Respublikasının Qanunu</li>
+        <li>
+          Gənclər Arasında Narkotizmin Qarşısının Alınması Sahəsində Daxili
+          İşlər Orqanlarının Fəaliyyəti
+        </li>
+        <li>Azərbaycan Beynəlxalq Münasibətlər Sistemində</li>
+        <li>Yaxın Şərq Böhranı: Neft və Siyasət</li>
+        <li>Hər Dövrün Bir Kitabı Var</li>
+        <li>Hakimiyyət və Liderlik İnstitutu</li>
+        <li>Zəfər</li>
+        <li>Banklar Haqqında</li>
+        <li>Cəzaçəkmə Müəssisələrinin Daxili İntizam Qaydaları</li>
+        <li>İnzibati İcraat Haqqında Qanun</li>
+        <li>Prokurorluq: təşkili, vəzifələri və səlahiyyətləri</li>
+        <li>Azərbaycan Respublikasının Konstitusiyası</li>
+        <li>İnformatika və geoinformatika</li>
+        <li>Avtomatik idarəetmə nəzəriyyəsi fənnindən laboratoriya işləri</li>
+        <li>Kompüterlə üz-üzə</li>
+        <li>Soft Kompüting</li>
+        <li>Office 2010</li>
+        <li>Avtomatik İdarəetmə</li>
+        <li>Avtomatik Tənzimləmə Texnikasının Əsasları</li>
+        <li>Azərbaycan dilinin izahlı lüğəti (I cild)</li>
+        <li>Müdriklik zirvəsi</li>
+        <li>Şəxsiyyətin qüdrəti</li>
+        <li>Azərbaycan dili və nitq mədəniyyəti</li>
+        <li>Azərbaycan dili və nitq mədəniyyəti</li>
+        <li>Azərbaycan ədəbi dili tarixi I</li>
+        <li>Azərbaycan ədəbi dili tarixi II</li>
+        <li>Azərbaycan ədəbi dili tarixi III</li>
+        <li>Azərbaycan ədəbi dili tarixi IV</li>
+        <li>English for all II</li>
+        <li>English for beginners</li>
+        <li>Azərbaycan dilində nitqin formaları</li>
+        <li>Azərbaycan Toponimlərinin ensiklopedik lüğəti I</li>
+        <li>Azərbaycan dilinin dialektoloji lüğəti</li>
+        <li>Fransızca-Azərbaycanca lüğəti</li>
+        <li>Farsca-Azərbaycanca lüğət</li>
+        <li>Ərəbcə - Azərbaycanxa lüğət I</li>
+        <li>Cerum Devid Selincer seçilmiş əsərləri</li>
+        <li>Xorxe Luis Xorxers seçilmiş əsərləri</li>
+        <li>Luis Sinkler seçilmiş əsərləri</li>
+        <li>Robert Stivenson seçilmiş əsərləri</li>
+        <li>Jül Vern seçilmiş əsərləri</li>
+        <li>Con Milton seçilmiş əsərləri</li>
+        <li>Jan-Pol Sartr seçilmiş əsərləri</li>
+        <li>Vladimir Nabakov seçilmiş əsərləri</li>
+        <li>Redyard Kiplinq seçilmiş əsərləri</li>
+        <li>Con Steynbek seçilmiş əsərləri</li>
+        <li>Aleksandr Soljenitsın seçilmiş əsərləri</li>
+        <li>Moris Meterlink seçilmiş əsərləri</li>
+        <li>Məmməd Aslan seçilmiş əsərləri</li>
+        <li>Balaş Azəroğlu seçilmiş əsərləri</li>
+        <li>Nəriman Həsənzadə seçilmiş əsərləri</li>
+        <li>Hüseyn Abbaszadə seçilmiş əsərləri</li>
+        <li>Süleyman Sani Axundzadə seçilmiş əsərləri</li>
+        <li>Seçilmiş Əsərlər (50 müxtəlif müəllif)</li>
+        <li>Azərbaycan kulinarsiyası ensiklopediyası</li>
+        <li>Azərbaycan incəsənəti</li>
+        <li>Təbrizin sehrli nağılları</li>
+        <li>Azərbaycan Memarlığı inkişaf yollarında</li>
+        <li>Erkən Kapitalizm Dövrünün Memarlığı XIX-XX əsrin əvvəli</li>
+        <li>Azərbaycan Memarlığı XV-XIX əsrin əvvələrində</li>
+        <li>Qədim Və Erkən Orta Əsrlər Dövründə Azərbaycan Memarlığı</li>
+        <li>Azərbaycan Respublikasının Müasir Dövr Memarlıq Tarixi</li>
+        <li>Dövlət və Cəmiyyət</li>
+        <li>İnsan Təyinatı Məhəbbət Və Mənəviyyatın Vəhdəti</li>
+        <li>Azərbaycan 21 Əsrin Və Üçüncü Minilliyin Ayrıcında</li>
+        <li>Fəlsəfə</li>
+        <li>Azərbaycan fəlsəfəsi tarixi</li>
+        <li>Fəlsəfə Tarixi</li>
+        <li>Abşeronun ağac və kolları</li>
+        <li>Afrikanın bioloji müxtəlifliyi</li>
+        <li>Aqrorkologiya</li>
+        <li>Antropologiya</li>
+        <li>Azərbaycan heyvanlar aləmi I hissə</li>
+        <li>
+          Azərbaycanda torpaq islahatı: hüquqi və elmi - ekoloji məsələlər
+        </li>
+        <li>Azərbaycanda təbiətdən istifadə və ekoloji problemlər</li>
+        <li>Azərbaycanda torpaq islahatı</li>
+        <li>Bio ekologiya: areologiyası, dayanıqlı modeli</li>
+        <li>Biosferin mühafizəsi</li>
+        <li>Bitumlar</li>
+        <li>Ekologiya</li>
+        <li>Ekologiya</li>
+        <li>Ekologiya</li>
+        <li>Ekologiya hüququ</li>
+        <li>Ekologiya və fövqaladə hallar</li>
+        <li>Ekologiya, ətraf mühit və insan</li>
+        <li>Ekologiya: Sosial-iqtisadi əsasları</li>
+        <li>Ekologiyadan əvvəlki ekologiya</li>
+        <li>Ekologiyadan konspekt</li>
+        <li>Ekoloji toksikologiyanın əsasları</li>
+        <li>Ekoloji məsələlərin həllində MatLab sisteminin tətbiqi</li>
+        <li>Ensiklopedik ekoloji lüğət</li>
+        <li>Ətraf mühiti Mühafizə</li>
+        <li>Ətraf mühitin kimyası</li>
+        <li>Heyvanların ekologiyası</li>
+        <li>Hidrogeoloji tədqiqat üsulları</li>
+        <li>İnsan təbiətlə nəfəs alır</li>
+        <li>İntelektual ekologiya</li>
+        <li>Karbon emissiyaları azalmalarının potensialı - Sərvətimizdir</li>
+        <li>Kənd təsərrüfatı və ekologiya</li>
+        <li>Qlobal ekoloji problemlər</li>
+        <li>Metrologiya standartlaşdırma və sertifikatıaşdırma</li>
+        <li>Mühəndislik geologiyası və hidrogeologiya</li>
+        <li>Mühəndisi petrologiya</li>
+        <li>Mühəndislik ekologiyası</li>
+        <li>Radiokologiya</li>
+        <li>Su ehtiyatlarının inteqrasiyaları idarə olunması</li>
+        <li>
+          Su təsərrüfatı və mühəndis kommunikasiya sistemləri fakültəsinin
+          elmi əsərlər toplusu №7
+        </li>
+        <li>Su və hava hövzələrinin cirklənmələrdən qorunması</li>
+        <li>Təbiətdən istifadənin hüquqi əsasları</li>
+        <li>Təbiətşünaslığın əsaları</li>
+        <li>Təbii mühit və insan</li>
+        <li>Torpaqların ekoloji monitorinqi</li>
+        <li>Ümumi ekologiya</li>
+        <li>Ümumi ekologiya</li>
+        <li>Ümumi və regional geotektonika</li>
+        <li>Yeyinti məhsullarının laboratoriya müayinələri</li>
+        <li>Zoologiya</li>
+        <li>Adi differensiyal tənliklər (kiril)</li>
+        <li>Ali cəbr kursu</li>
+        <li>Ali riyaziyyat</li>
+        <li>Ali riyaziyyat (1-ci hissə)</li>
+        <li>Ali riyaziyyat. Xətti cəbrin elementləri və analitik həndəsə</li>
+        <li>Ali riyaziyyatdan çalışmalar</li>
+        <li>Ali riyaziyyatdan çalışmalar</li>
+        <li>Ali riyaziyyatdan məsələlər (1-ci hissə)</li>
+        <li>Ali riyaziyyatdan məsələlər (2-ci hissə)</li>
+        <li>Ali riyaziyyatdan məsələlər (3-cü hissə)</li>
+        <li>Ali riyaziyyatdan testlər (1-ci hissə)</li>
+        <li>Ali riyaziyyatdan testlər (2-ci hissə)</li>
+        <li>Ali riyaziyyatdan testlər (3-cü hissə)</li>
+        <li>Analitik həndəsədən mühazirələr</li>
+        <li>Analitik həndəsədən mühazirələr</li>
+        <li>Azərbaycan tanınmış riyaziyyatçıları (1-ci hissə)</li>
+        <li>Azərbaycan tanınmış riyaziyyatçıları (1-ci hissə)</li>
+        <li>Birdəyişənli funksiyaların inteqral hesabı</li>
+        <li>Birdəyişənli funksiyaların inteqral hesabı</li>
+        <li>Cəbr kursu</li>
+        <li>Cəbr kursu</li>
+        <li>Cəbr və ədədlər nəzəriyyəsi</li>
+        <li>Cəbr və ədədlər nəzəriyyəsindən məsələlər (1-ci hissə)</li>
+        <li>Differensial tənliklər</li>
+        <li>Differensial tənliklər</li>
+        <li>Diskret riyaziyyat və riyazi məntiq</li>
+        <li>Diskret riyaziyyat və riyazi məntiq</li>
+        <li>Diskret riyaziyyat və riyazi məntiq (2-ci hissə)</li>
+        <li>Ehtimal nəzəriyyəsi və riyazi statistika</li>
+        <li>Ehtimal nəzəriyyəsi və riyazi statistikanın elementləri</li>
+        <li>Elementar riyaziyyat</li>
+        <li>Funksional analiz</li>
+        <li>Hesablama riyaziyyatı</li>
+        <li>Hesablama riyaziyyatı</li>
+        <li>Həndəsə Əsasları</li>
+        <li>Həndəsi qurmalar</li>
+        <li>Xətti Cəbr (məsələ və misallar həlli ilə)</li>
+        <li>Xətti cəbr analitik həndəsə riyazi analiz</li>
+        <li>Xətti cəbr və iqtisadi modellər</li>
+        <li>Xətti proqramlaşdırma</li>
+        <li>
+          Kombinatorikanın, ehtimal nəzəriyyəsinin və riyazi statistikanın
+          əsasları
+        </li>
+        <li>Kompleks dəyişənli funksiyalar nəzəriyyəsi</li>
+        <li>Qurmalar həndəsəsinin əsasları</li>
+        <li>Qurmalar həndəsəsinin əsasları</li>
+        <li>Metrik və normalı fəzalar, xətti operatorlar</li>
+        <li>
+          Məktəbəqədər yaşlı uşaqlarda sadə riyazi təsəvvürlərin
+          formalaşdırılması nəzəriyyəsi və metodikası
+        </li>
+        <li>
+          Məktəbəqədər yaşlı uşaqlarda sadə riyazi təsəvvürlərin
+          formalaşdırılması nəzəriyyəsi və metodikası
+        </li>
+        <li>
+          Məktəbəqədər yaşlı uşaqlarda sadə riyazi təsəvvürlərin
+          formalaşdırılması nəzəriyyəsi və metodikası
+        </li>
+        <li>Məktəbin ibtidai siniflərində riyaziyyatın tədrisi metodikası</li>
+        <li>Orta məktəbdə riyaziyyatın tədrisi metodikası</li>
+        <li>Riyazi analiz</li>
+        <li>
+          Riyazi analiz -3. Həqiqi və kompleks dəyişənli funksiyalar
+          nəzəriyyəsi. Mühazirələr və çalışmalar
+        </li>
+        <li>Riyazi analiz kursundan məsələlər və misallar</li>
+        <li>Riyazi analizdən çalışma və məsələlər</li>
+        <li>Riyazi analizdən məsələ və misallar</li>
+        <li>Riyazi analizdən məsələlər</li>
+        <li>Riyazi analizdən məsələlər</li>
+        <li>Riyazi fizika tənlikləri</li>
+        <li>Riyaziyyat (Abituriyentlər üçün dərs vəsaiti)</li>
+        <li>Riyaziyyat məsələ və misallar</li>
+        <li>Riyaziyyat məsələ və misallar (I hissə)</li>
+        <li>Riyaziyyat tarixindən oçerklər (II hissə)</li>
+        <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
+        <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
+        <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
+        <li>Riyaziyyatın ibtidai kursunun nəzəri əsasları</li>
+        <li>Sıralar</li>
+        <li>
+          Ümumtəhsil məktəblərində riyaziyyatın kurikulum modelinə əsaslanan
+          tədrisi metodikası
+        </li>
+        <li>Алгебра и начала анализа (часть 1)</li>
+        <li>Аналитические функции</li>
+        <li>Елементы кобинаторики</li>
+        <li>Сборник задач по высшей алгебре</li>
+        <li>Функции нескольких вещественных переменных</li>
+        <li>
+          Avtomatik tənzinləmə nəzəriyyəsinin əsasları və istehsal
+          proseslərinin avtomatlaşdırılması
+        </li>
+        <li>Avtomatik idarəetmə</li>
+        <li>Avtomatlaşdırılmış layihələndirmə sistemlərinin əsasları</li>
+        <li>Avtomatlaşdırmanın əsasları</li>
+        <li>Hidravlik</li>
+        <li>Hidravlika və Hidraflik maşınlar</li>
+        <li>İstilik texnikası və hidravlika</li>
+        <li>Konstruksiya materiyallarını texnologiyası</li>
+        <li>Mexaniki yığma sexlərinin layihələndirilməsi</li>
+        <li>Metalkəsən dəzgahlar və sənaye robotları</li>
+        <li>Məntiqi idarəetmə sistemləri</li>
+        <li>Mühəndis Qrafikası</li>
+        <li>Plastik Kütlələrin texnologiyası</li>
+        <li>Texniki termodinamika</li>
+        <li>Texnoloji maşınlar və avadanlıqlar</li>
+        <li>Tərtibatların Layihələndirilməsi</li>
+        <li>Yol hərəkəti haqqında qanun</li>
+        <li>Aerokosmik Monitorinq</li>
+        <li>Atmosfer Fizikası</li>
+        <li>Bərk cisim fizikası</li>
+        <li>Dielektriklər Fizikası</li>
+        <li>Dinamikanın Məsələ həlli</li>
+        <li>Elektron Cihazları və Emissiya Elektronikasının əsasları</li>
+        <li>Fizika Bugünkü Həyatımızda</li>
+        <li>Fizika II hissə</li>
+        <li>Fizika məsələlərinin komputerlə həlli metodikası</li>
+        <li>
+          Fizika, Elektrik və maqnetizm bölməsi üzrə laboratoriya işlərinə
+          dair metodik göstərişlər
+        </li>
+        <li>Fizikadan Çətinliyi Artırılmış Məsələlər və onların həlli</li>
+        <li>Fizikadan Nümayiş Ekspermenti</li>
+        <li>Fizikanın Əsasları</li>
+        <li>Fiziki Ölçmələr</li>
+        <li>Xətti Elektrik Dövrləri Nəzəriyyəsi</li>
+        <li>Kinetika və Kataliz</li>
+        <li>Kvant Mexanikası</li>
+        <li>Qarşılıqlı əvəzolunmayan əsasları</li>
+        <li>Magistrlər üçün Fizikadan Laboratoriya işləri I, II hissə</li>
+        <li>Nəzəri Mexanika</li>
+        <li>Nəzəri Mexanikadan məsələ həlli statika, kinematika</li>
+        <li>Nəzəri mexanikadan mühazirələr</li>
+        <li>Ölçmə və nəzəriyyə üsul və vasitələri</li>
+        <li>Ölçmələr və Cihaz Mühəndisliyi</li>
+        <li>Polimerlər Fotokimyası və Üzvi Elektronika</li>
+        <li>Tətbiqi Fizika</li>
+        <li>Ümumi Fizika Kursu</li>
+        <li>Ümumi Fizika Kursu I, II hissə</li>
+        <li>Ümumi Fizika kursundan test bankı</li>
+        <li>Ümumi Fizika Praktikumu</li>
+        <li>Analitik Kimya Əsasları</li>
+        <li>
+          Neft emalı və neft kimyasının əsas proseslərinin və aparatlarının
+          hesablanması
+        </li>
+        <li>Ümumi Kimya</li>
+        <li>Ümumi Kimya əsasları</li>
+        <li>Antarktida İqlimi. Qlobal Təsirlər</li>
+        <li>Bioetika, tibbi hüquq və yeni texnologiyalar</li>
+        <li>Biologiyadan iqtisadi biliklərə dair (metodik vəsait)</li>
+        <li>Cənubi Amerikanın Geologiyası</li>
+        <li>Çöl geofizikasının ümumi kursu</li>
+        <li>Entomologiyanın tədqiqat metodları</li>
+        <li>Geofizika Yer Təkinin Güzgüsüdür</li>
+        <li>Hondvanın Donmuş Parçası</li>
+        <li>İnsan Ekologiyası (Antropoekologiya)</li>
+        <li>Metrologiya, Standartlaşdırma və Sertifikatlaşdırma</li>
+        <li>Məşhur Biologiya Alimləri</li>
+        <li>Neft və neft məhsullarının ardıcıl nəqli</li>
+        <li>Neft yataqlarının işlənməsi və istismarı</li>
+        <li>Plastik Kütlələrin texnologiyası</li>
+        <li>Təbiət və qanun</li>
+        <li>İngibatorla Korroziyadan Mühafizə</li>
+        <li>Konstruksiya Materiallarının Texnologiyası</li>
+        <li>Korroziya</li>
+        <li>Korroziya Prosesləri Nəzəriyyəsi və Tədqiqat Üsulları</li>
+        <li>Metrologiya</li>
+        <li>Metrologiya Standartlaşdırma Sertifikatlaşdırma</li>
+        <li>Nanotexnoloji Materialşünaslığın Əsasları</li>
+        <li>Elektrik Enerjisin Ötürülməsi və Paylanması</li>
+        <li>Elektrik Sistemləridə Keçid Prosesləri</li>
+        <li>Elektrik Sistemlərinin Etibarlığı</li>
+        <li>Elektrik Veriliş Xəttinin Mexaniki Hissəsi</li>
+        <li>Elektrotexnikanın və Elektronikanın Əsasları</li>
+        <li>Kabel Texnikası</li>
+        <li>Rele Mühafizəsi</li>
+        <li>Yüksək Gərcinliklər və Elektrik İzolyasiya Texnikası</li>
+        <li>
+          Yüksək Gərcinliklər və Elektrik İzolyasiyası Texnikasından
+          Laboratoriya işlərinə dair Metodik Vəsait
+        </li>
+        <li>
+          Bərpa olunan enerji qurğuları nəzəriyyəsindən laboratoriya
+          praktikumu
+        </li>
+        <li>Bərpa olunan enerji mənbələri və qurğuları</li>
+        <li>Buxar və qaz turbinli istilik elektrik stansiyaları I hissə</li>
+        <li>Ekoloji məsələlərin həllində MatLab sisteminin tətbiqi</li>
+        <li>Elekrotexnikadan məsələ və misallar</li>
+        <li>Elektonika II hissə</li>
+        <li>Elektrik sistemlərinin etibarlığı</li>
+        <li>Elektrik sistemlərinin inkişafının optimal modeli</li>
+        <li>Elektrik sistemlərində keçid prosesləri</li>
+        <li>
+          Elektrik stansiyalarının elektrik avadanlıqlarının istismar və
+          rejimləri
+        </li>
+        <li>Elektrik şəbəkə və sistemləri</li>
+        <li>Elektrik veriliş xəttinin mexaniki hissəsi</li>
+        <li>Elektroenergetika islahatlar və intellektual bazar</li>
+        <li>
+          Elektroenergetika sistemi elementlərinin riyazi modelləşdirilməsi
+        </li>
+        <li>Elektronika dünyasına səyahət</li>
+        <li>Elektronika I hissə</li>
+        <li>Elektronikanın əsasları</li>
+        <li>
+          Elektrotexnikanın əsasları: dövrələr, metodlar və tətbiqlər I hissə
+        </li>
+        <li>
+          Elektrotexnikanın əsasları: dövrələr, metodlar və tətbiqlər II hissə
+        </li>
+        <li>Elektrotexniki materiallar</li>
+        <li>Energetik yanacaqlar</li>
+        <li>Energetika</li>
+        <li>Energetika və Enerji Resursları</li>
+        <li>Enerji: Keçmiş və gələcək vektorların kəsişməsində</li>
+        <li>İstilik elektrik stansiyaları</li>
+        <li>İstilik elektrik stansiyalarının qazan qurğuları</li>
+        <li>
+          İstilik energetikasında su hazırlığı texnologiyaları və su təchizatı
+        </li>
+        <li>İstilik energetikasının suyu kimyəvi və fiziki üsulu və emalı</li>
+        <li>İstilik texnikası</li>
+        <li>İstilik texnikası və hidravlika</li>
+        <li>İstilik texnikasının əsasları</li>
+        <li>
+          İstilik texnikasının nəzəri əsaslarından laboratoriya işlərinə
+          rəhbərlik
+        </li>
+        <li>İstilik texnikasının nəzəri əsaslarından suallar və cavablar</li>
+        <li>İstilik texnikası və hidravlika</li>
+        <li>İstilikötürmə</li>
+        <li>Kabel texnikası</li>
+        <li>
+          Konvektiv istilik mübadiləsi və aqreqat halı dəyişdikdə istilikvermə
+        </li>
+        <li>Materiallar müqaviməti 1</li>
+        <li>Materiallar müqaviməti 2</li>
+        <li>Ölçmə texnikasının əsasları</li>
+        <li>Populyar Mexanika</li>
+        <li>Radioelektrotexikanın əsasları</li>
+        <li>Rele mühafizəsi</li>
+        <li>Sərbəst iş üçün praktiki materiallar müqaviməti kursu</li>
+        <li>Sərbəst iş üçün praktiki materiallar müqaviməti kursu</li>
+        <li>Ümumi Elektrotexnika ilə elektrotexnikanın əsasları</li>
+        <li>Yanacaqlar və yanma nəzəriyyəsi</li>
+        <li>Yüksək gərginlik texnikası</li>
+        <li>Avtomobil İstismar xüsusiyyətləri nəzəriyyəsi</li>
+        <li>Avtomobillərin texniki istismarı</li>
+        <li>Maşın istehsalı texnologiyası</li>
+        <li>Maşın detalları</li>
+        <li>Maşın detalları</li>
+        <li>Maşın detalları və konstruksiyaetmənin əsasları</li>
+        <li>Maşınqayırma texnologiyası</li>
+        <li>Maşınqayırmada texnoloji proseslərin layihələndirilməsi</li>
+        <li>Maşınqayırmanın texnologiyası</li>
+        <li>Maşınqayırmanın tarixinə dair</li>
+        <li>Устройство автомобиля</li>
+        <li>Avtomobil Məlumat Kitabı</li>
+        <li>Avtomobil Nəqliyyatı Müəssisələrinin Layihələndirilməsi</li>
+        <li>Avtomobil Yük Daşımaları</li>
+        <li>Avtomobilin Hərəkət Nəzəriyyəsi və Hesabı</li>
+        <li>Avtomobilin Konstruksiya Xüsusiyyətləri</li>
+        <li>Avtomobillərin İstehsalı və Təmiri</li>
+        <li>Avtomobillərin Nəzəriyyəsi və Hesabı</li>
+        <li>Avtotraktor Mühərriklərinin Qidalanma Sistemləri</li>
+        <li>Beynəlxalq Avtomobil Daşımaları</li>
+        <li>Hidravlika</li>
+        <li>Hidravlika və Hidravlik Maşınlar</li>
+        <li>İnşaat Maşınları və Quraşdırma Avadanlıqları</li>
+        <li>Nəqliyyat Mühərrikləri Avtomobillər və Traktorlar I Hissə</li>
+        <li>Nəzəri Mexanika</li>
+        <li>Traktor və Avtomobil Mühərrikləri</li>
+        <li>Turizmdə nəqliyyat xidmətlərinin təşkili</li>
+        <li>Vahid Nəqliyyat Sistemi</li>
+        <li>Yarımnizamlı Məlumatların Texnologiyası və Hesablanması</li>
+        <li>Yol Hərəkət Qaydaları</li>
+        <li>Yol Hərəkətinin Nizamlanma Üsulları və Alqoritmləri</li>
+        <li>Yol Hərəkətinin Təşkili və Təhlükəsizliyi</li>
+        <li>Yol Hərəkətinin Üsulları və Alqoritmləri</li>
+        <li>Avtomobilin konstruksiya xüsusiyyətləri</li>
+        <li>Avtomobillərin quruluşu, texniki xidməti və təmiri</li>
+        <li>Avtomobillərin nəzəriyyəsi</li>
+        <li>Fiziki tərbiyənin tədrisi metodikası</li>
+        <li>
+          Nəqliyyat vasitələrinin texniki istismarı və istismar materialları
+        </li>
+        <li>Yükqaldıran Maşınlar</li>
+        <li>Автозаправочные станции</li>
+        <li>Аитомобили ваз</li>
+        <li>Аитомобиль и дорога</li>
+        <li>Атлас схем</li>
+        <li>Безопасность автотранспорта</li>
+        <li>Единая транспортная система и автомобильные перевозки</li>
+        <li>Етехническая экссплувтация автомобилей</li>
+        <li>За рулем легкового автомобиля</li>
+        <li>Междугодный и Международный автомобильные перевозки</li>
+        <li>Организация технического обслуживания и ремонта автомобилей</li>
+        <li>
+          Организация транспортно-експедиционного обслуживания населения
+        </li>
+        <li>
+          Предупреждене дорожно-транспортных происшествие на автомобильном
+          транспорте
+        </li>
+        <li>Ремонт автомобил</li>
+        <li>
+          Специвлизированный подвижной состав для перевозли скоропортящихся
+          грузов автомобильным транспортом
+        </li>
+        <li>Техническая эксплуатация автомобилей</li>
+        <li>Технические средства щбучения водителей автомилей</li>
+        <li>Техническое обслуживание автомобилей лабораторный практикум</li>
+        <li>Технология техницеского обслужевания и ремонта автомобилей</li>
+        <li>
+          Управлений технической эксплуатацией автомобилей по нормативным
+          показателям
+        </li>
+        <li>Həyat Fəaliyyətinin Təhlükəsizliyi</li>
+        <li>İnsanın Anatomiyası və Fiziologiyası</li>
+        <li>Tarixə Salınmaz Tibbi Yardım</li>
+        <li>Tibb Bacısının Məlumat Kitabı</li>
+        <li>Tibbi Biliklərin Əsasları</li>
+        <li>Uşaq Anatomiyası, Fiziologiyası və gigiyenası</li>
+        <li>Uşaq Anatomiyası, Fiziologiyası və Tibbi Biliklər</li>
+        <li>Sosiologiya</li>
+        <li>XX əsr Azərbaycan Tarixi Cild I</li>
+        <li>XX əsr Azərbaycan Tarixi Cild II</li>
+        <li>Şirvanşahlar Dövləti</li>
+        <li>Albaniya Tarixi</li>
+        <li>Antropologiya</li>
+        <li>Azərbacan Tarixi Cild I</li>
+        <li>Azərbacan Tarixi II tarix</li>
+        <li>Azərbaycan arxeologiyası I cild</li>
+        <li>Azərbaycan Atabəylər dövləti</li>
+        <li>Azərbaycan Ədəbiyyatı Tarixi</li>
+        <li>Azərbaycan Fəlsəfəsi Tarixi</li>
+        <li>Azərbaycan Səfəvilər Dövləti</li>
+        <li>Azərbaycan Tarixi 4 cü cild</li>
+        <li>Azərbaycan Tarixi 4 cü cild</li>
+        <li>Azərbaycan Tarixi Cild 1</li>
+        <li>Azərbaycan Tarixi Cild 2</li>
+        <li>Azərbaycan VII - IX əsrlərdə</li>
+        <li>Azərbaycan VII - IX əsrlərdə</li>
+        <li>Bakı şəhərinin tarixi</li>
+        <li>Dinlər Təriqətlər Məsəblər</li>
+        <li>Dünya Azərbycanlilari XX əsrdə</li>
+        <li>Dünya Ədəbiyyat Tarixi II hissə</li>
+        <li>Dünya Ədəbiyyat Tarixi III hissə</li>
+        <li>İrəvan xanlığı</li>
+        <li>Qarabağnamələr</li>
+        <li>Qədim Dünya Tarixi</li>
+        <li>Qədim Dünya Tarixi</li>
+        <li>Qədim Şərq tarixi</li>
+        <li>Multikulturalizmə giriş</li>
+        <li>Multikulturalizmə giriş</li>
+        <li>Naxçıvan Xanlıqı</li>
+        <li>Orta əsirlər Şərq İntibah Ədəbiyyatı Tarixi</li>
+        <li>Osmanlı İmperiyasında "Erməni məsələsi" problemi</li>
+        <li>Osmanlı İmperiyasının tarixi</li>
+        <li>Səlcuqilərdən osmanlılara</li>
+        <li>Şirvanşahlar Dövləti</li>
+        <li>Tariximiz</li>
+        <li>Türk xalqlarının tarixi</li>
+        <li>Türk Xanlıqları tarixi</li>
+        <li>Türk Xanlıqları tarixi</li>
+        <li>Türk Xanliqlarinin tarixi</li>
+        <li>Türk Xanliqlarinin tarixi</li>
+        <li>Azərbaycanlıların II dünya müharibəsində iştirakı</li>
+        <li>Ailəyə dəstək üçün təlimat</li>
+        <li>Arif Paşayev 80 (2 hissə)</li>
+        <li>Azərbaycan XXI əsrin və üçüncü minilliyin ayrıcında</li>
+        <li>Azərbaycanda XIX əsr ictimai və fəlsəfi fikir tarixindən</li>
+        <li>Azərbaycanın dövlət və hüquq tarixi</li>
+        <li>Bəşərin faciyəsi</li>
+        <li>Dolaylardan gələn səda</li>
+        <li>Dövlət və dördüncü hakimiyyət</li>
+        <li>Əbədiləşən şəxsiyyət</li>
+        <li>Ərənlər</li>
+        <li>
+          Gənclərin vətənpərvərlik tərbiyəsində ictimai-siyasi şe'rlərin rolu
+        </li>
+        <li>Heydər Əliyev azərbaycan ədəbiyyatı</li>
+        <li>Heydər Əliyev mənəviyyat mənəvi dəyərlər mənəvi tərbiyə</li>
+        <li>Heydər Əliyev müdrik fikirlər (1 cild)</li>
+        <li>Heydər Əliyev müdrik fikirlər (2 cild)</li>
+        <li>Xalqa bağışlanan ömür</li>
+        <li>İkinci şans</li>
+        <li>İslam islamzadə</li>
+        <li>Qarabağ düyünü</li>
+        <li>Liderlik fəlsəfəsi</li>
+        <li>Maarif fədailəri</li>
+        <li>Məhkəmə etikası</li>
+        <li>Mingəçevir arxeoloji ekspedisiyası</li>
+        <li>Mingəçevir səhidləri</li>
+        <li>Mingəçevir su anbarı vətəgə balıqlarının</li>
+        <li>Mingəçevir: hidroqovşar və şəhər necə yarandı</li>
+        <li>Müdriklik zirvəsi</li>
+        <li>Onlar Mingəçeviri qurmuşlar</li>
+        <li>Özümüzü və dünyanı dərketmə yolunda</li>
+        <li>Populyar iqtisadi məlumatlar</li>
+        <li>Siyasət elminə giriş</li>
+        <li>Türk dünyası</li>
+        <li>Zəfər yolu</li>
+        <li>Zərifə Əliyeva ziyarətə çevrilmiş ünvanlar (1 hissə)</li>
+        <li>Azərbaycan Respublikasının nəqliyyat hüququ</li>
+        <li>Beynəlxalq nəqliyyat hüququ</li>
+        <li>Dövlət qulluğu</li>
+        <li>Haqları necə qorumalı</li>
+        <li>Məktəbəqədər Təhsilin Müasir Problemləri</li>
+        <li>Təhsil Sistemində Monitorinq və Qiymətləndirmə</li>
+        <li>Təhsilin İdarə Edilməsinin Bəzi problemləri</li>
+        <li>Təhsilin İdarə Olunmasının əsasları</li>
+        <li>Təhsilin Modernləşdirilməsinin Elmi-Nəzəri Problemləri</li>
+        <li>Analoq və Rəqəmsal Sistemlər</li>
+        <li>Avtomatik İdarəetmə Nəzəriyyəsi və Modelləşdirmə</li>
+        <li>Avtomatik Tənzimləmə Nəzəriyyəsi 2</li>
+        <li>Avtomatlaşdırılmış layihələndirmə sistemlərinin əsasları</li>
+        <li>Avtomatlaşdırmanın əsasları</li>
+        <li>Avtomatlaşdırmanın əsasları</li>
+        <li>Biometrik Texnologiyalar</li>
+        <li>Bunları Öyrənməyə nə var ki?</li>
+        <li>C++ proqramlaşdırma dili-I</li>
+        <li>C++ proqramlaşdırma dili-II</li>
+        <li>Corel draw</li>
+        <li>Delphi7</li>
+        <li>
+          Excel və MathCAD vasitəsi ilə tənliklər və tənliklər sisteminin
+          həlli
+        </li>
+        <li>
+          Ədəbiyyat Dərslərində informasiya və kommunikasiya
+          texnologiyalarından istifadə
+        </li>
+        <li>Ədədi Üsullar Üzrə Praktiki İş</li>
+        <li>İqtisadi informatika</li>
+        <li>İqtisadi İnformatika</li>
+        <li>İnformasiya sistemləri</li>
+        <li>İnformasiya texnologiyaları və sistemləri</li>
+        <li>İnformasiya Təhlükəsizliyi və Kompyuter Şəbəkələri</li>
+        <li>İnformasiya təhlükəsizlliyinin prinsipləri</li>
+        <li>İnformatika (12 fərqli müəllif)</li>
+        <li>İnformatika və Kompüterləşmənin əsasları</li>
+        <li>İnformatika fənnindən praktikum</li>
+        <li>İnformatika və Geoinformatika</li>
+        <li>İnformatika və hesablama texnikasının əsasları</li>
+        <li>İnformatika və komputerləşmənin əsasları</li>
+        <li>İnformatikanın praktik əsasları</li>
+        <li>
+          İnsan kompüter qarşılıqlı əlaqəsi və istifadəyə yararlılıq
+          mühəndisliyi
+        </li>
+        <li>İntellektual Robotlar</li>
+        <li>
+          İntellektual sistemlərin qurulma prinsipləri və layihələndirilməsi
+        </li>
+        <li>İnternet</li>
+        <li>İnternet Texnologiyaları</li>
+        <li>Klasterləşmə və Süni Neyron Şəbəkələri</li>
+        <li>Komputer elminin nəzəri əsasları</li>
+        <li>Komputer informasiya texnologiyalarının əsasları</li>
+        <li>Komputer Qrafikası</li>
+        <li>Kompüter</li>
+        <li>Kompüter şəbəkələri</li>
+        <li>Kompüter şəbəkələrinin əsasları və proqram təminatı</li>
+        <li>
+          Kompüter Texnikası, Sistemləri və Şəbəkələri Laboratoriya Praktikumu
+        </li>
+        <li>Kompüter texnikasının layihələndirilməsi və texnologiyası</li>
+        <li>Kompüter və hesablama sistemləri</li>
+        <li>Kompüterin Arxitekturası</li>
+        <li>Kompüterin Arxitekturası və Əməliyyat Sistemləri</li>
+        <li>Korporativ İnformasiya Sistemləri</li>
+        <li>Qeyri-müəyyənlik şəraitində qərarların qəbulu və idarəetmə</li>
+        <li>Qərar qəbuletmənin əsasları</li>
+        <li>Qərar Qəbulunu Dəstəkləyən Sistemlər</li>
+        <li>Microsoft excel xp-də iqtisadi məsələlərin həlli</li>
+        <li>Microsoft office 2007 paketi</li>
+        <li>Microsoft Word 2007</li>
+        <li>Microsoft Word 2010 mətn redaktoru</li>
+        <li>Mikrokontroller texnikası</li>
+        <li>Office 2010</li>
+        <li>Optimal və adaptiv idarəetmə</li>
+        <li>Pascaldan Delphıyə 3 Nəşr</li>
+        <li>Photoshop-da praktiki İşlərinin yerinə yetirilməsi</li>
+        <li>Proqram Mühəndisliyi</li>
+        <li>Proqramlaşdırma Dilləri</li>
+        <li>Prototiplərin hazırlanmasında additiv texnologiyanın tətbiqi</li>
+        <li>Python</li>
+        <li>Riyazi Proqramlaşdırma</li>
+        <li>Sistemlərin İdentifikasiyası</li>
+        <li>Sistemli təhlil və əməliyyatların tədqiqi</li>
+        <li>Soft Kompütinq</li>
+        <li>Şəbəkələr sistemi</li>
+        <li>Turbo Pascal 7.0</li>
+        <li>UX/UI dizayn</li>
+        <li>Verilənlər Bazası</li>
+        <li>Visual basic və microsoft excel xp-də məsələlər həlli</li>
+        <li>Word 2000</li>
+        <li>Теория интеллектуальных систем</li>
+        <li>Python</li>
+        <li>HTML, CSS</li>
+        <li>JAVA SCRİPT</li>
+        <li>UX/UI dizayn</li>
+        <li>İnformasiya təhlükəsizliyinin əsasları</li>
+        <li>Rəqəmsal idarəetmə sistemləri</li>
+        <li>Müasir idarəetmə nəzəriyyəsi</li>
+        <li>Əməliyyatların idarəedilməsi prinsipləri</li>
+        <li>Verilənlərin emalının paylanmış sistemləri</li>
+        <li>Сборник задач и упражнений по геоинформатике</li>
+        <li>Şəbəkələrin PT</li>
+        <li>Avtomatik idarəetmə Nəzəriyyəsi</li>
+        <li>MS Excel 2007-vista versiyası</li>
+        <li>Kompüter və hesablama sistemlərinin arxitekturası</li>
+        <li>
+          Sistemli analiz və kompüterdə modelləşdirmə fənni üzrə laboratoriya
+          işlərinin yerinə yetirilməsinə dair metodik vəsait
+        </li>
+        <li>İnformasiya təhlükəsizliyinin hüquqi və təşkilati təminatı</li>
+        <li>İnformatika</li>
+        <li>Rəqəmsal ödənişlər və elektron bankçılıq xidmətləri</li>
+        <li>İnformasiya texnologiyaları fənni üzrə laboratoriya işləri</li>
+        <li>Elektronika</li>
+        <li>Elektronika və elektrotexnika</li>
+        <li>Elektron cihazları və emissiya elektronikanın əsasları</li>
+        <li>Matlab tətbiqi, proqramlar paketi və simvollu riyaziyyat.</li>
+        <li>Геоинформатика</li>
+        <li>Ali Məktəb Pedaqogikası</li>
+        <li>Makarankonun pedaqoji irsi</li>
+        <li>Məktəb Pedoqagikası</li>
+        <li>Məktəbəqədər yaşlı uşaqların fiziki tərbiyəsi</li>
+        <li>Pedaqogika</li>
+        <li>Pedaqogika</li>
+        <li>Seçilmiş Pedaqoji Əsərlər</li>
+        <li>Yeni Təlim Texnologiyaları Müasir Dərs</li>
+        <li>A Course in Modern English Lexicology</li>
+        <li>A Grammar of the English Language</li>
+        <li>A Guide To English Grammar</li>
+        <li>A Practical Grammar Of Contemporary English</li>
+        <li>Acourse theoretical english grammar</li>
+        <li>Akademik Writing Style</li>
+        <li>Almanca Azərbaycanca Lüğət II nəşr</li>
+        <li>Ana Dili Tədris Metodikası</li>
+        <li>Ana Dilinin Tədris Metodikası</li>
+        <li>Azerbaycan Türkçesi Sözlüyü II</li>
+        <li>Azərbaycan Dilçiliyi Müntəxəbatı</li>
+        <li>Azərbaycan Dili və Nitq Mədəniyyəti</li>
+        <li>Azərbaycan Dilinin dialoktoloji lüğəti</li>
+        <li>Azərbaycan dilinin izahlı ayəti</li>
+        <li>Azərbaycan dilinin Orfaqrafya lüğəti</li>
+        <li>Azərbaycan Dilinin sinonimlər lüğəti</li>
+        <li>Azərbaycan Dilinin Tədrisi Metodikası</li>
+        <li>Azərbaycan ədəbi dili tarixi</li>
+        <li>Azərbaycanca Rusca lüğət</li>
+        <li>Cutting Edge</li>
+        <li>Cutting Edge (intermediate)</li>
+        <li>Exercises in English Syntax</li>
+        <li>
+          Elektronika və radiotexnika fənni üzrə laboratoriya işlərinə dair
+          metodik vəsait
+        </li>
+        <li>Engilis dilinin praktik fonetikası kitabına əlavə</li>
+        <li>Engilish</li>
+        <li>Engilish</li>
+        <li>Engilish Course</li>
+        <li>Engilish Course</li>
+        <li>Engilish for All I Hissə</li>
+        <li>Engilish for All II Hissə</li>
+        <li>Engilish for All II Hissə</li>
+        <li>Engilish for beginners</li>
+        <li>English</li>
+        <li>English</li>
+        <li>English Fonetics</li>
+        <li>English for All</li>
+        <li>English for All</li>
+        <li>English Grammar exercises</li>
+        <li>English Vacabulary in Use (Second Edition)</li>
+        <li>Essential Grammar in Use</li>
+        <li>Essential grammar in Use</li>
+        <li>Farsca Azərbaycana lüğət</li>
+        <li>Fransızca Azərbaycanca lüğət</li>
+        <li>Fundamentals of language and linguistics</li>
+        <li>Xarici Dildə Tələffüz Vərdişlərinin Formalaşdırılması</li>
+        <li>İbtidai siniflərdə Azərbaycan dilinin Tədrisi Metodikası</li>
+        <li>İngilis dilinin fonetikası</li>
+        <li>İngilis Dilinin Qrammatikası</li>
+        <li>İngilis Dilinin Praktik Kursu II Hissə</li>
+        <li>
+          İngilis dilinin tədrisində yazılı və şifahi nitqin inkişaf
+          etdirilməsi yolları
+        </li>
+        <li>
+          Klasik Azərbaycan Ədəbiyyatında işlənən Ərəb və Fars sözləri lüğəti
+        </li>
+        <li>Loqopediyanın nəzəri əsasları</li>
+        <li>Manuel de français</li>
+        <li>Müasir Azərbaycan Dili</li>
+        <li>Müasir Azərbaycan Dili</li>
+        <li>Mürəkkəb Sintaktik Vahidlərdə Konstantlıq və Variativlik</li>
+        <li>Practical course of english</li>
+        <li>Rusca Azərbaycan Lüğəti I Cild</li>
+        <li>Supplement to the Book "Pratical English Phonetics"</li>
+        <li>Teaching english as a foreign language</li>
+        <li>Texnelogiya Terminlərinin İzahlı lüğəti</li>
+        <li>The İntermediate Modern</li>
+        <li>Theatre Fifth Edition</li>
+        <li>Деловой Англиский</li>
+        <li>Практический Курс Ангилиского Языка</li>
+        <li>Практический Курс Ангилиского Языка</li>
+        <li>Практический курс английского языка</li>
+        <li>Русский Язык</li>
+        <li>Сборник Упражнений По Грамматике Англиского Яазыка</li>
+        <li>Zəlimxan Yaqub seçilmiş əsərləri II cild</li>
+        <li>Zeynal Xəlil Seçilmiş əsərlər</li>
+        <li>Vladimir Nabokov seçilmiş əsərləri</li>
+        <li>Vladimir Nabokov Seçilmiş əsərləri</li>
+        <li>Vərqa və Gülşa</li>
+        <li>Ümumi dilçilik</li>
+        <li>Ümumdünya tarixinə nəzər</li>
+        <li>Uzaq yaşıl ada</li>
+        <li>Uzaq yaşıl ada</li>
+        <li>Ucalığa gedən yollar</li>
+        <li>Türkiyə ədəbiyyatı tarixi</li>
+        <li>Türk xalqları ədəbiyyatı</li>
+        <li>Turan</li>
+        <li>Tomas Mann Seçilmiş əsərləri</li>
+        <li>Tənzimat poeziyası</li>
+        <li>Təlim Metodları</li>
+        <li>Təhsilimizin uca insanları</li>
+        <li>Təhsildə keyfiyyət aparıcı istiqamətlərdən biri kimi</li>
+        <li>Təcrübəçi tələbələrin yaddaş kitabçası</li>
+        <li>Tapmacalar</li>
+        <li>Tağı Şahbazi Simürğ seçilmiş əsərləri</li>
+        <li>Şərq xalqları ədəbiyyatı</li>
+        <li>Şeirlər</li>
+        <li>Şahzadə və dilənçi</li>
+        <li>Sirli ada</li>
+        <li>Sirli ada</li>
+        <li>Səməd Vurğun seçilmiş əsərləri</li>
+        <li>Səhənd seçilmiş əsərləri</li>
+        <li>Səcdəgahım Allahdır</li>
+        <li>Seyid Hüseyn seçilmiş əsərləri</li>
+        <li>Seçilmiş əsərləri (40 fərqli müəllifin kitabları)</li>
+        <li>Sarı sim</li>
+        <li>Sakit Don</li>
+        <li>Sabahın sorağında</li>
+        <li>Ruhum Əbədiyyətim</li>
+        <li>Rəsul Rza seçilmiş əsərləri IV cild</li>
+        <li>Rəsul Rza seçilmiş əsərləri III cild</li>
+        <li>Rəsul Rza seçilmiş əsərləri I cild</li>
+        <li>Rabindranat Taqor seçilmiş əsərləri</li>
+        <li>Prosper Merime</li>
+        <li>Pozitiv Psixologiya</li>
+        <li>Per Lagerkvist seçilmiş əsərləri</li>
+        <li>
+          Pedaqoji kadrların əlavə təhsilinin nəzəri və praktik problemləri
+        </li>
+        <li>Payız leysanı</li>
+        <li>Paris Nort-Dam kilisəsi</li>
+        <li>Ömürdən yarpaqlar</li>
+        <li>Ömrümün payız günəşi</li>
+        <li>Osman Sarıvəlli seçilmiş əsərləri</li>
+        <li>Orta məktəbdə Azərbaycan dilinin tədrisinin metodikası</li>
+        <li>Orta məktəbdə Azərbaycan dilinin tədrisi metodikası</li>
+        <li>Orta məktəbdə Azərbaycan dilinin tədrisi</li>
+        <li>Orta əsrlər şərq Ədəbiyyatı</li>
+        <li>Nikolay Qoqol seçilmiş əsərləri</li>
+        <li>Nəriman Nərimanov seçilmiş əsərləri</li>
+        <li>Nəcib Fazil Qısakürək seçilmiş əsərləri</li>
+        <li>Neft və Milyonlar Səltənətində</li>
+        <li>Nağıllar</li>
+        <li>N.Nərimanov əsərləri</li>
+        <li>Müəllimin pedaqoji ustalığı</li>
+        <li>
+          Müasir təlim metodları təlim keyfiyyətinin yüksəldilməsinin əsas
+          şərtidir
+        </li>
+        <li>Müasir Azərbaycan ədəbiyyatı</li>
+        <li>Müasir Azərbaycan dilinin leksikologiyası</li>
+        <li>Müasir Azərbaycan dilində qoşulma cümlələr</li>
+        <li>Müasir Azərbaycan dili (5 müxtəlif müəllifin kitabları)</li>
+        <li>Mövlud Süleymanlı Seçilmiş əsərləri</li>
+        <li>Molla Nəsrəddinin lətifələri</li>
+        <li>Molla Cümə Əsərləri</li>
+        <li>Mirzə Fətəli Axundzadə əsərləri</li>
+        <li>Mir Möhsün Nəvvab əsərləri</li>
+        <li>Mir Mehdi Seyidzadə seçilmiş əsərləri</li>
+        <li>Mikayıl Müsviq seçilmiş əsərləri</li>
+        <li>Mikayıl Azaquluzadə seçilmiş əsərləri</li>
+        <li>Mən tanrı yolçusuyam</li>
+        <li>Məmməd Araz seçilmiş əsərləri II cild</li>
+        <li>Məmməd Araz seçilmiş əsərləri I cild</li>
+        <li>Məhəmməd Füzuli əsərləri VI cild</li>
+        <li>Məhəbbət ölüncə var</li>
+        <li>Mehdi Hüseyin seçilmiş əsərləri</li>
+        <li>Luis Sinkler seçilmiş əsərləri</li>
+        <li>Lirika</li>
+        <li>Lamançlı Don Kixot</li>
+        <li>Qutadgu Bilgi</li>
+        <li>Qılınc və Qələm</li>
+        <li>Qəriblikdə qalan dünya</li>
+        <li>Qədim və orta əsrlər İran, Əfqanıstan, Tacikistan ədəbiyyatı</li>
+        <li>Qaradağlı Qəlbi Dağlı</li>
+        <li>Qabriel Qarsia Markes Seçilmiş əsərləri</li>
+        <li>Köhnə Bakı</li>
+        <li>Köçündən ayrılan durna</li>
+        <li>Koroğlu (Paris nüsxəsi)</li>
+        <li>Kitavi dədə qorqud Arxaik ritual semantikası</li>
+        <li>Kimə inanasan</li>
+        <li>Jorji Amadu</li>
+        <li>İsgəndərnamə</li>
+        <li>İsalam Səfərli Seçilmiş əsərləri</li>
+        <li>İnteqrativ kurrikulum mahiyyəti və nümunələr</li>
+        <li>İfadəli oxunun əsasları</li>
+        <li>İfadəli oxunun əsasları</li>
+        <li>İfadəli oxu</li>
+        <li>İbtidai siniflərdə Azərbaycan dilinin tədrisi metodikası</li>
+        <li>İbtidai siniflərdə Azərbaycan dilinin tədrisi metodikası</li>
+        <li>Xurşidbanu Natəvan seçilmiş əsərləri</li>
+        <li>XX əsr dünya ədəbiyyatı antologiyası II</li>
+        <li>XX əsr Azərbaycan ədəbiyyatı</li>
+        <li>Xaqani</li>
+        <li>Hüsnxət təliminin metodikası</li>
+        <li>Hüseyin Mehdi Seçilmiş əsərləri</li>
+        <li>Hərb və Sülh</li>
+        <li>Həbib Sahir seçilmiş əsərləri</li>
+        <li>Hardan başlanır vətən</li>
+        <li>Göyəçin lələyi</li>
+        <li>Gi de Mopassan hekayələr və novellalar</li>
+        <li>Fridrix Şiller Seçilmiş əsərləri</li>
+        <li>Fransua Moriak Seçilmiş əsərləri</li>
+        <li>Əziz Nesin seçilmiş əsərləri</li>
+        <li>Əziz Cəfərzadə Seçilmiş əsərləri 12-ci cild</li>
+        <li>Əsərləri III</li>
+        <li>Əsərləri III</li>
+        <li>Əsərləri 3cü Cild</li>
+        <li>Əsərləri 1Cİ Cild</li>
+        <li>Əsərləri 1ci Cild</li>
+        <li>Əsatirlə, rəfsanə və rəvayətlər</li>
+        <li>Ərəbcə yazılmış Azərbaycanı şair və ədiblər</li>
+        <li>Əlişir Nəvai seçilmiş əsərləri</li>
+        <li>Əxlaqi-n-Nasiri</li>
+        <li>Əxlaqi-nasiri</li>
+        <li>Ədəbiyyatın tədrisi metodikası</li>
+        <li>Ədəbiyyatın tədrisi metodikası</li>
+        <li>Eşitdiklərim oxuduqlarım gördüklərim</li>
+        <li>Eldən-elə</li>
+        <li>Dünyada təhsil sistemləri</li>
+        <li>Dodaqdan qəlbə</li>
+        <li>Divan</li>
+        <li>Dilçiliyə giriş</li>
+        <li>Dərd</li>
+        <li>Dəfinələr adası</li>
+        <li>Çingiz Aytmatov Seçilmiş əsərləri II cild</li>
+        <li>Çingiz Aytmatov Seçilmiş əsərləri</li>
+        <li>Con Milton Seçilmiş əsərləri</li>
+        <li>Cəsarətim</li>
+        <li>Cənubi Azərbaycan ədəbiyyatı tarixi</li>
+        <li>Cəlil Məmmədquluzadə əsərləri I cild</li>
+        <li>Cəlil Məmmədquluzadə Əsərləri 4-cü cild</li>
+        <li>Bualo poeziya sənəti</li>
+        <li>Böyük Demokrat</li>
+        <li>Boyundur</li>
+        <li>Bolonya Prosesi və Azərbaycan</li>
+        <li>Bolonya Prosesi</li>
+        <li>Bizim qəribə talehimiz</li>
+        <li>Bir zaman can deyib can eşiderdik</li>
+        <li>Bir bulaq çağlay</li>
+        <li>Antik Ədəbiyyat Antologiyası I Cild</li>
+        <li>Antik Ədəbiyyat Antologiyası II Cild</li>
+        <li>A.L.Barto seçilmiş əsərləri</li>
+        <li>Abdulla Şaiq seçilmiş əsərləri</li>
+        <li>Adam Mitskeviç seçilmiş əsərləri</li>
+        <li>Adi əhvalat</li>
+        <li>Aləmdə səsim var mənim</li>
+        <li>Alman Ədəbiyyatı Antologiyası</li>
+        <li>Antik Ədəbiyyat Antologiyası</li>
+        <li>Antik Ədəbiyyat Antologiyası 1ci cild</li>
+        <li>Anton Pavloviç Çexov Seçilmiş əsərləri</li>
+        <li>Arı və demokratiya</li>
+        <li>Azərbaycan dastanları</li>
+        <li>Azərbaycan dramaturgiyası antologiyası I cild</li>
+        <li>Azərbaycan dramaturgiyası antologiyası II cild</li>
+        <li>Azərbaycan dramaturgiyası antologiyası III cild</li>
+        <li>Azərbaycan dramaturgiyası antologiyası IV cild</li>
+        <li>Azərbaycan klassik ədəbiyyatından seçmələr</li>
+        <li>Azərbaycan publistikası Antologiyası</li>
+        <li>Azərbaycan şifahi xalq ədəbiyyatı</li>
+        <li>Azərbaycan usaq ədəbiyyatı</li>
+        <li>Azərbaycan usaq ədəbiyyatı</li>
+        <li>Balaş Azəroğlu seçilmiş əsərləri</li>
+        <li>Cahan Şahın həqiqi seçilmiş əsərləri</li>
+        <li>Cahan Şahın həqiqi seçilmiş əsərləri</li>
+        <li>Cəlil Məmmədquluzdənin seçilmiş əsərləri</li>
+        <li>Cəlil Məmmədquluzdənin seçilmiş əsərləri</li>
+        <li>Con Qolsuorsi seçilmiş əsərləri</li>
+        <li>Con Milton seçilmiş əsərləri</li>
+        <li>Con Milton seçilmiş əsərləri</li>
+        <li>Corc Bernard Şou seçilmiş əsərləri</li>
+        <li>Corc Qordon Bayron seçilmiş əsərləri</li>
+        <li>Dastani-Əhməd Hərami</li>
+        <li>Dəfinələr adası</li>
+        <li>Divan</li>
+        <li>Don xuanla söhbətlər</li>
+        <li>Dünya fantastika antologiyası</li>
+        <li>Əcəl Zəngi</li>
+        <li>Əhməd bəy Ağaoğlu seçilmiş əsərləri</li>
+        <li>Əli və Nino</li>
+        <li>Əli Vəliyev seçilmiş əsərləri</li>
+        <li>Ərəbcə yazılmış Azərbaycanlı şair və ədiblər</li>
+        <li>Ərəbcə yazılmış Azərbaycanlı şair və ədiblər</li>
+        <li>Əsərlər</li>
+        <li>Əsərlər</li>
+        <li>Əsərlər</li>
+        <li>Əsərlər IV cild</li>
+        <li>Frans Kafka seçilmiş əsərləri</li>
+        <li>Frans Kafka seçilmiş əsərləri</li>
+        <li>Fyodor Dostoyevski</li>
+        <li>Gedirəm üzü payıza</li>
+        <li>Heyakələr və Novellalar</li>
+        <li>Heyakələr və Novellalar</li>
+        <li>Həbibi şeirlər</li>
+        <li>Həbibi şeirlər</li>
+        <li>Həkimə Billuri seçilmiş əsərləri</li>
+        <li>Həsən Seyidbəylinin bədii nəsri</li>
+        <li>Hüseyn Arif seçilmiş əsərləri</li>
+        <li>XX Əsr Azərbaycan Antologiyası</li>
+        <li>XX Əsr Azərbaycan Antologiyası I Cild</li>
+        <li>XX Əsr Azərbaycan Antologiyası II Cild</li>
+        <li>İbrahim bəyin səyahətnaməsi</li>
+        <li>İdeal</li>
+        <li>İmadəddin Nəsimi seçilmiş əsərlər</li>
+        <li>İmadəddin Nəsimi seçilmiş əsərlər</li>
+        <li>İngilis Ədəbiyyatı Anatologiyası</li>
+        <li>İspan Ədəbiyyatı Antologiyası</li>
+        <li>Küləklə Sovrulanlar</li>
+        <li>Küləklə sovrulanlar I cild</li>
+        <li>Küləklə sovrulanlar I cild</li>
+        <li>Qabusnamə</li>
+        <li>Qanadlı günlərin gileyi</li>
+        <li>Qarqantua və pantaqruel</li>
+        <li>Qasım bəy Zakir seçilmiş əsərləri</li>
+        <li>Qasım bəy Zakir seçilmiş əsərləri</li>
+        <li>Qəribə dünya</li>
+        <li>Qılınc və qələm II hissə</li>
+        <li>Qılınc və qələm II hissə</li>
+        <li>Qisseyi-Yusif</li>
+        <li>Qulliverin Səyahəti</li>
+        <li>Qulliverin səyahəti</li>
+        <li>Latın Amerikası Ədəbiyatı Antologiyası</li>
+        <li>Lev Nikolayeviç Tolstoy seçilmiş əsərləri</li>
+        <li>Lev Nikolayeviç Tolstoy seçilmiş əsərləri</li>
+        <li>Maksim Qorki seçilmiş əsərləri II cild</li>
+        <li>Mark Tven seçilmiş əsərləri</li>
+        <li>Mark Tven seçilmiş əsərləri</li>
+        <li>Mehdi Hüseyin seçilmiş əsərləri</li>
+        <li>Mehdi Hüseyin seçilmiş əsərləri III cild</li>
+        <li>Mehdi Hüseyin seçilmiş əsərləri III cild</li>
+        <li>Mehr və Müştəri</li>
+        <li>Mixail Bulqakov seçilmiş əsərləri</li>
+        <li>Mixail Yuryeviç Lermontov seçilmiş əsərləri</li>
+        <li>Mikayıl Müsviq seçilmiş əsərləri</li>
+        <li>Min bir gecə</li>
+        <li>Mirvarid Dilbazi seçilmiş əsərləri</li>
+        <li>Müasir Azərbaycan dili</li>
+        <li>Müasir Azərbaycan dili</li>
+        <li>Müqəddəs Məşhəd yollarında</li>
+        <li>Mümkünlüyün xaricində I cild</li>
+        <li>N.V.Qoqol seçilmiş əsərləri</li>
+        <li>Nikolay Qarin-Mixayılovski seçilmiş əsərləri</li>
+        <li>Nikolay Qarin-Mixayılovski seçilmiş əsərləri</li>
+        <li>Nurlu simalar</li>
+        <li>Odisseya</li>
+        <li>Peterburqdan moskvaya səyahət</li>
+        <li>Poemalar</li>
+        <li>Poetika</li>
+        <li>Prosper Merime seçilmiş əsərləri</li>
+        <li>Prosper Merime seçilmiş əsərləri</li>
+        <li>Robinzon Kruzo</li>
+        <li>Rus Şeiri Antologiyası</li>
+        <li>Seçilmiç əsərlər, I cild (4 fərqli müəllif)</li>
+        <li>Seçilmiş əsərlər (37 fərqli müəllif)</li>
+        <li>Seçilmiş əsərlər I cild</li>
+        <li>Seçilmiş əsərlər I cild</li>
+        <li>Seçilmiş əsərlər I cild</li>
+        <li>Seçilmiş əsərləri</li>
+        <li>Seçilmiş Əsərləri</li>
+        <li>Seçilmiş pedaqoji əsərlər XXX cild, XXIX</li>
+        <li>Sergey Vladimiroviç Mixalkov seçilmiş əsərlər</li>
+        <li>Səfillər</li>
+        <li>Sirli ada</li>
+        <li>Spartak</li>
+        <li>Stanislav Len seçilmiş əsərləri</li>
+        <li>Şahzadə və Dilənçi, Xoşbəxt Şahzadə</li>
+        <li>Şeirlər</li>
+        <li>Şekspirin seçilmiş əsrərləri</li>
+        <li>Şəhriyar</li>
+        <li>Şəhzadə və Dilənçi</li>
+        <li>Tofiq Bayram seçilmiş əsərləri</li>
+        <li>Tomas Eliot seçilmiş əsərləri</li>
+        <li>Toni Morison seçilmiş əsərləri</li>
+        <li>Türk Xalqları Ədəbiyyatı Antologiaysı Cild I</li>
+        <li>Türk Xalqları Ədəbiyyatı Antologiaysı Cild II</li>
+        <li>Türk Xalqları Ədəbiyyatı Antologiaysı Cild III</li>
+        <li>Viktor Hüqo Paris Notr-Dam Kilsəsi</li>
+        <li>Viktor Hüqo Paris Notr-Dam Kilsəsi</li>
+        <li>Viktor Hüqo seçilmiş əsərləri</li>
+        <li>Y.K.Oleşa seçilmiş əsərləri</li>
+        <li>41 Stories</li>
+        <li>A Christmas Carol</li>
+        <li>A State of Blood</li>
+        <li>Acting One Fourth Edition</li>
+        <li>Agnes Grey</li>
+        <li>Airport/Facility Directory</li>
+        <li>Alien Heat</li>
+        <li>Along The Path of The People's Happiness</li>
+        <li>Amelia Bedelia Helps Out</li>
+        <li>American Political Science December 1987 Volume 81 Number 3</li>
+        <li>American Political Science December 1988 Volume 82 Number 4</li>
+        <li>And Then There Were None</li>
+        <li>Animal Farm</li>
+        <li>Aristoi</li>
+        <li>Aristoi</li>
+        <li>As You Like It</li>
+        <li>Barnaby Rudge</li>
+        <li>Barnaby Rudge</li>
+        <li>Barnaby Rudge</li>
+        <li>Beverly Cleary</li>
+        <li>Beverly Cleary</li>
+        <li>Beyond The Western Sea</li>
+        <li>Bleak House</li>
+        <li>Bleak House</li>
+        <li>Bleak House</li>
+        <li>Candide and Other Works</li>
+        <li>Cavett Manor</li>
+        <li>Century</li>
+        <li>Charlie and the Great Glass Elevator</li>
+        <li>Cleopatra Gold</li>
+        <li>Compelling Evidence</li>
+        <li>Compelling Evidence</li>
+        <li>Connections. A Multicultural Reader for Writers</li>
+        <li>Crime Story Collection</li>
+        <li>Crossing Cultures</li>
+        <li>Crossing Cultures</li>
+        <li>Crossing Cultures</li>
+        <li>Crossing Delancey</li>
+        <li>Crossing Delancey</li>
+        <li>Cultures of the World</li>
+        <li>Current Index to Journals in Education</li>
+        <li>De Profundis The Ballad of Reading Gaol & Other Writings</li>
+        <li>Dead Man's Island</li>
+        <li>DECarray Installation Guide</li>
+        <li>Design It Build It</li>
+        <li>Design It Build It</li>
+        <li>Designs in Poetry</li>
+        <li>Designs in Poetry</li>
+        <li>Dibs in search of self</li>
+        <li>Disgrace</li>
+        <li>Disgrace</li>
+        <li>Disgrace</li>
+        <li>Down and Out in Paris and London</li>
+        <li>Down and Out in Paris and London</li>
+        <li>Dubliners</li>
+        <li>English</li>
+        <li>Environmental Impact Assessment</li>
+        <li>Feeling sorry for celia</li>
+        <li>Feeling sorry for celia</li>
+        <li>Finnegans Wake</li>
+        <li>Foreign Devils On The Silk Road</li>
+        <li>From the Earth to the Moon & Around the Moon</li>
+        <li>Gestures of Healing</li>
+        <li>Gestures of Healing</li>
+        <li>Get Shorty</li>
+        <li>Get Shorty</li>
+        <li>Girl in Hyacinth Blue</li>
+        <li>Girl in Hyacinth Blue</li>
+        <li>Girl in Hyacinth Blue</li>
+        <li>Goodnight Mister Tom</li>
+        <li>Goodnight Mister Tom</li>
+        <li>Great Expectations</li>
+        <li>Great Crimes</li>
+        <li>Great Crimes</li>
+        <li>Great Crimes</li>
+        <li>Gulliver's Travels</li>
+        <li>Hedda Gabler</li>
+        <li>Henry V</li>
+        <li>House of Heroes and other stories</li>
+        <li>House of Stone</li>
+        <li>House of Stone</li>
+        <li>In A New Land</li>
+        <li>In My Mother's House</li>
+        <li>Interpreter of Maladies</li>
+        <li>Irish Fairy Tales</li>
+        <li>Is There Life In Outer Space</li>
+        <li>Is There Life In Outer Space</li>
+        <li>Ivanhoe</li>
+        <li>Ivanhoe</li>
+        <li>Journey to the Centre of the Earth</li>
+        <li>Julie of the Wolves</li>
+        <li>Kim</li>
+        <li>Lady Boss</li>
+        <li>Learn to read papers</li>
+        <li>Macbeth</li>
+        <li>Mama Makes Up Her Mind and Other Dangers of Southern Living</li>
+        <li>Mrs Dalloway</li>
+        <li>Myth America 2001</li>
+        <li>North Point North</li>
+        <li>Oliver Twist</li>
+        <li>Once Upon a Time</li>
+        <li>Orlando</li>
+        <li>Orlando</li>
+        <li>Oscar Wilde Complete Short Fiction</li>
+        <li>Outline of U.S. Government</li>
+        <li>Outline of U.S. Government</li>
+        <li>Pippi Longstocking</li>
+        <li>Political Science & Politics Volume XXI Number 4 Fall 1988</li>
+        <li>Political Science & Politics Volume XXII Number 1 March 1989</li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. X, No.1, Fall 1977
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XXX, Number 1, Fall 1997
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XXX, Number 2, Winter 1997
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XXXI, Number 3, Spring 1999
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XXIX, Number 2, Winter 1996
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XXIX, Number 4, Summer 1997
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XIII, No.2, Winter 1980
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. XIV, No. 4, Summer 1982
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. IX, No.4, Summer 1977
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. V, No.2, Winter 1972
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. VI, No.1, Fall 1973
+        </li>
+        <li>
+          Polity. The journal of the northeastern political science
+          association. Vol. VII, No. 3, Spring 1975
+        </li>
+        <li>Public Affairs. Private Relations</li>
+        <li>Reader's Digest Condensed Books</li>
+        <li>Reader's Digest Select Editions</li>
+        <li>Redwall</li>
+        <li>Robin Hood</li>
+        <li>Robinson Crusoe</li>
+        <li>Robinson Crusoe</li>
+        <li>Romeo and Juliet</li>
+        <li>Rules of the Road</li>
+        <li>Sammy Keyes and the Hollywood Mummy</li>
+        <li>Sarab, Plain and Tall</li>
+        <li>School and Beyond</li>
+        <li>School and Beyond</li>
+        <li>Search for the Flaming Chalice</li>
+        <li>Selected Poems of Lord Byron</li>
+        <li>Selected Poems of Lord Byron</li>
+        <li>She's Come Undone</li>
+        <li>Smoking, Tobacco, and Cancer Program</li>
+        <li>Social Research. Strategy and Tactics</li>
+        <li>Social Studies</li>
+        <li>Stonecutter</li>
+        <li>Storm Warning</li>
+        <li>Switzerland</li>
+        <li>Tender is the Night & The Last Tycoon</li>
+        <li>Tess of the D'Urbervilles</li>
+        <li>The Adventure of Huckleberry Finn</li>
+        <li>The Boxcar Children</li>
+        <li>The Choice</li>
+        <li>The Coldest Place on Earth</li>
+        <li>The Corn King and The Spring Queen</li>
+        <li>The Democratic Way of Life</li>
+        <li>The Dungeon</li>
+        <li>The Egypt Game</li>
+        <li>The Fifth French Republic</li>
+        <li>The Golden Ball and Other Stories</li>
+        <li>The Golden Ball and Other Stories</li>
+        <li>The Governance of Curriculum</li>
+        <li>The Green-Eyed Hurricane</li>
+        <li>The House of Dies Drear</li>
+        <li>The House of Dies Drear</li>
+        <li>The Invisible Man & The Food of the Gods</li>
+        <li>The Jungle Book</li>
+        <li>The Last of the Mohicans</li>
+        <li>The Late Great Planet Earth</li>
+        <li>The Lottery</li>
+        <li>The Lottery</li>
+        <li>The Mark of Zorro</li>
+        <li>The Medal of Brigadier Gerard</li>
+        <li>The Mendozas of Mexico</li>
+        <li>The Mendozas of Mexico</li>
+        <li>The Merchant of Venice</li>
+        <li>The Mysterious Island</li>
+        <li>The New Science of Economics</li>
+        <li>The New Science of Economics</li>
+        <li>The Outcasts of Poker Flat</li>
+        <li>The Pediatric Clinics of North America</li>
+        <li>The Perils of Poirot by Agatha Christie</li>
+        <li>The Perils of Poirot by Agatha Christie</li>
+        <li>The Perils of Poirot by Agatha Christie</li>
+        <li>The Phantom</li>
+        <li>Azərbaycan Xalq Cümhuriyyəti Ensiklopediyası</li>
+        <li>Biblioqrafik göstərici</li>
+        <li>Böyük İktisadi Ensiklopediysi</li>
+        <li>
+          Klassik Azərbaycan ədəbiyyatında işlənən ərəb və fars sözləri lüğəti
+        </li>
+        <li>Məhəmməd Füzulinin poetik əsərlərinin izahlı lüğəti</li>
+        <li>Neft Dünyamızın Şah Damarı</li>
+        <li>Novruz Bayramı Ensiklopediysi</li>
+        <li>Texnologiya terminlərinin izahlı lüğəti</li>
+        <li>Ulduzlar Elm və Əfsanələri</li>
+      </ol>
+    </div>
+  </main>
+  <!--? footer -->
+
+  <footer>
+    <div class="footer-container container">
+      <div class="footer-main">
+        <div class="footer-logo">
+          <div class="footer-logo__img">
+            <img src="./assets/img/mdu-footer-logo3.png" alt="" />
+          </div>
+          <p class="footer-logo__title">MİNGƏÇEVİR DÖVLƏT UNİVERSİTETİ</p>
+        </div>
+        <div class="footer-main__container">
+          <div class="footer-main__block">
+            <h3 class="footer-main__block-title mdu-library__title">
+              BİZİMLƏ ƏLAQƏ
+            </h3>
+            <div class="footer-main__block-list">
+              <p class="footer-main__block-item">
+                <i class="icon-location"></i> D.Əliyeva küçəsi, 21 Mingəçevir
+                AZ4500 Azərbaycan
+              </p>
+              <p class="footer-main__block-item">
+                <i class="icon-email-personal-info"></i> kitabxana@mdu.edu.az
+              </p>
+              <p class="footer-main__block-item">
+                <i class="icon-phone"></i> (+99424) 275-32-72
+              </p>
             </div>
-            <div class="footer-main__block">
-              <h3 class="footer-main__block-title mdu-library__title">
-                FAYDALI LİNKLƏR
-              </h3>
-              <div class="footer-main__block-list">
-                <a
-                  href="https://www.preslib.az/"
-                  class="footer-main__block-link"
-                >
-                  <i class="icon-arrow-right"></i> Prezident Kitabxanası
-                </a>
-                <a
-                  href="https://www.millikitabxana.az/"
-                  class="footer-main__block-link"
-                >
-                  <i class="icon-arrow-right"></i> M.F.Axundov adına Azərbaycan
-                  Milli Kitabxanası
-                </a>
-                <a href="https://mek.az/" class="footer-main__block-link">
-                  <i class="icon-arrow-right"></i> AMEA Mərkəzi Elmi Kitabxanası
-                </a>
-                <a
-                  href="https://www.millikutuphane.gov.tr/"
-                  class="footer-main__block-link"
-                >
-                  <i class="icon-arrow-right"></i> Türkiyə Milli Kitabxanası
-                </a>
-                <a href="https://www.loc.gov/" class="footer-main__block-link">
-                  <i class="icon-arrow-right"></i> ABŞ Konqres Kitabxanası
-                </a>
-                <a href="https://www.rsl.ru/" class="footer-main__block-link">
-                  <i class="icon-arrow-right"></i> Rusiya Dövlət Kitabxanası
-                </a>
-              </div>
+          </div>
+          <div class="footer-main__block">
+            <h3 class="footer-main__block-title mdu-library__title">
+              FAYDALI LİNKLƏR
+            </h3>
+            <div class="footer-main__block-list">
+              <a href="https://www.preslib.az/" class="footer-main__block-link">
+                <i class="icon-arrow-right"></i> Prezident Kitabxanası
+              </a>
+              <a href="https://www.millikitabxana.az/" class="footer-main__block-link">
+                <i class="icon-arrow-right"></i> M.F.Axundov adına Azərbaycan
+                Milli Kitabxanası
+              </a>
+              <a href="https://mek.az/" class="footer-main__block-link">
+                <i class="icon-arrow-right"></i> AMEA Mərkəzi Elmi Kitabxanası
+              </a>
+              <a href="https://www.millikutuphane.gov.tr/" class="footer-main__block-link">
+                <i class="icon-arrow-right"></i> Türkiyə Milli Kitabxanası
+              </a>
+              <a href="https://www.loc.gov/" class="footer-main__block-link">
+                <i class="icon-arrow-right"></i> ABŞ Konqres Kitabxanası
+              </a>
+              <a href="https://www.rsl.ru/" class="footer-main__block-link">
+                <i class="icon-arrow-right"></i> Rusiya Dövlət Kitabxanası
+              </a>
             </div>
-            <div class="footer-main__block">
+          </div>
+          <!-- <div class="footer-main__block">
               <h3 class="footer-main__block-title mdu-library__title">
                 XİDMƏTLƏR
               </h3>
@@ -1746,56 +1711,36 @@
                   <i class="icon-arrow-right"></i> MDU.EDU.AZ
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom__bar">
-          <div class="footer-bottom__left-side">
-            <a href="./libraryAbout.html">Haqqımızda</a>
-            <a href="./contact.html">Təklifim var</a>
-          </div>
-          <div class="footer-bottom__right-side page__social-media">
-            <a
-              href="https://www.facebook.com/mdueduaz"
-              class="icon-facebook"
-            ></a>
-            <a
-              href="https://www.instagram.com/mdueduaz/"
-              class="icon-instagram-solid"
-            ></a>
-            <a
-              href="https://www.linkedin.com/company/mdueduaz/"
-              class="icon-linkedin-solid"
-            ></a>
-            <a href="https://x.com/mdueduaz" class="icon-twitter"></a>
-            <a
-              href="https://www.youtube.com/channel/UCE4bBWIj3PyHvXRwDuGFJvQ"
-              class="icon-youtube-solid"
-            ></a>
-            <a
-              href="https://www.tiktok.com/@mdueduaz?"
-              class="icon-tiktok-solid"
-            ></a>
-            <a href="https://t.me/MDUeduaz" class="icon-telegram-solid"></a>
-          </div>
+            </div> -->
         </div>
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./assets/script/main.js"></script>
-    <script src="./assets/script/slider.js"></script>
-  </body>
+      <div class="footer-bottom__bar">
+        <div class="footer-bottom__left-side">
+          <a href="./libraryAbout.html">Haqqımızda</a>
+          <a href="./contact.html">Təklifim var</a>
+        </div>
+        <div class="footer-bottom__right-side page__social-media">
+          <a href="https://www.facebook.com/mdueduaz" class="icon-facebook"></a>
+          <a href="https://www.instagram.com/mdueduaz/" class="icon-instagram-solid"></a>
+          <a href="https://www.linkedin.com/company/mdueduaz/" class="icon-linkedin-solid"></a>
+          <a href="https://x.com/mdueduaz" class="icon-twitter"></a>
+          <a href="https://www.youtube.com/channel/UCE4bBWIj3PyHvXRwDuGFJvQ" class="icon-youtube-solid"></a>
+          <a href="https://www.tiktok.com/@mdueduaz?" class="icon-tiktok-solid"></a>
+          <a href="https://t.me/MDUeduaz" class="icon-telegram-solid"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/script/main.js"></script>
+  <script src="./assets/script/slider.js"></script>
+</body>
+
 </html>
